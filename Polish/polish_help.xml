@@ -1,0 +1,42 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>PL</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabrykatory</Title>
+      <Text>Są to zasilane struktury które mogą zostać użyte do wytwarzania rzeczy których potrzebujesz w trakcie rozgrywki. Zazwyczaj potrzebują {LINK:IngotPage;sztabek} aby móc dostarczyć {LINK:ReagentPage;reagenty} potrzebne do tworzenia przedmiotów.
+
+      
+{HEADER:List of Fabricators}
+{LIST_OF_FABRICATORS}
+
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Urządzenia</Title>
+      <Text>Są to struktury, zwykle zasilone, które mają wyspecjalizowane funkcje takie jak logiczne, atmosferyczne, i inne. Są konstruowane w ten sam sposób jak inne struktury.
+      
+{HEADER:List of Devices}
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Górnictwo</Title>
+      <Text>Możesz wykopać {LINK:OrePage;rudę} używając {THING:ItemMiningDrill}. Jeśli nosisz {THING:ItemMiningBelt}, {LINK:OrePage;ruda} automatycznie trafi do niego.
+      </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+  </HelpPage>
+</Language>

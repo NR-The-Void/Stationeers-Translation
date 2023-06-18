@@ -1,0 +1,137 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>PT</Code>
+  <ScreenSpaceToolTips>
+    <Record>
+      <Key>StatusIconToxinName</Key>
+      <Value>Toxinas</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinDesc</Key>
+      <Value>Nível de toxicidade atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinWarning</Key>
+      <Value>Necessita atenção</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinCritical</Key>
+      <Value>Em estado crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenName</Key>
+      <Value>Fornecimento Oxigénio</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenWarning</Key>
+      <Value>O tanque do fato está baixo e precisa atenção</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxyegnCritical</Key>
+      <Value>O tanque do fato está crítico, troca o tanque de oxigénio</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureName</Key>
+      <Value>Pressão Interna</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureDesc</Key>
+      <Value>Nível de pressão atual, verifica a pressão do fato</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureWarning</Key>
+      <Value>Pressão do fato está baixa</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureCritical</Key>
+      <Value>Pressão do fato criticamente baixa</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureName</Key>
+      <Value>Temperatura Interna</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureDesc</Key>
+      <Value>Temperatura atual dentro do teu fato</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureWarning</Key>
+      <Value>Mostra o nível de toxicidade atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureCritical</Key>
+      <Value>Mostra o nível de toxicidade atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeakingName</Key>
+      <Value>Fato está vazando</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerName</Key>
+      <Value>Alimentação do fato</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityName</Key>
+      <Value>Gravidade zero</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackName</Key>
+      <Value>Propulsor ativado</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconClimbingName</Key>
+      <Value>Escalando</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLightName</Key>
+      <Value>Alternar lanterna</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInternalsName</Key>
+      <Value>Abrir/Fechar capacete</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHandPowerName</Key>
+      <Value>Ligar/Desligar item na mão</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInSlotName</Key>
+      <Value>No compartimento</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerName</Key>
+      <Value>Fome atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunName</Key>
+      <Value>Percentagem atordoamento</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTankName</Key>
+      <Value>Capacidade atual do tanque de ar</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningName</Key>
+      <Value>Capacidade de Propolente</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconFilterName</Key>
+      <Value>Capacidade do filtro</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteName</Key>
+      <Value>Capacidade de resíduos</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthName</Key>
+      <Value>Vida atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationName</Key>
+      <Value>Hidratação atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>Inconsciente</Value>
+    </Record>
+  </ScreenSpaceToolTips>
+</Language>

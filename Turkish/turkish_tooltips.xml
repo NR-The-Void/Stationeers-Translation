@@ -1,0 +1,141 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>TR</Code>
+  <ScreenSpaceToolTips>
+    <Record>
+      <Key>StatusIconToxinName</Key>
+      <Value>Zehirli Maddeler</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinDesc</Key>
+      <Value>Mevcut zehir seviyesi</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinWarning</Key>
+      <Value>İlgiye ihtiyacı var</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinCritical</Key>
+      <Value>Kritik bir durumda</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenName</Key>
+      <Value>Oksijen Kaynağı</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenDesc</Key>
+      <Value>Şu an soluduğun hava ciğerlerine zarar veriyor.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenWarning</Key>
+      <Value>Giysinin tankı azalıyor ve dikkat gerektiriyor</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxyegnCritical</Key>
+      <Value>Giysinin tankı kritik seviyede; oksijen tankını değiştir</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureName</Key>
+      <Value>İç Basınç</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureDesc</Key>
+      <Value>Mevcut basınç seviyesi; giysi basıncını kontrol et</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureWarning</Key>
+      <Value>Giysi basıncın düşük</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureCritical</Key>
+      <Value>Giysi basıncın kritik derecede düşük</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureName</Key>
+      <Value>İç Sıcaklığı</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureDesc</Key>
+      <Value>Giysinin içindeki mevcut sıcaklık</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureWarning</Key>
+      <Value>Mevcut Zehir Seviyesini Görüntüler</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureCritical</Key>
+      <Value>Mevcut Zehir Seviyesini Görüntüler</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeakingName</Key>
+      <Value>Giysi Sızdırıyor</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerName</Key>
+      <Value>Giysi&apos;nin Güç Kaynağı</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityName</Key>
+      <Value>Sıfır Yerçekimi</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackName</Key>
+      <Value>Sırt Roketi Etkin</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconClimbingName</Key>
+      <Value>Tırmanış</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLightName</Key>
+      <Value>Feneri Aç/Kapa</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInternalsName</Key>
+      <Value>Kaskı Aç/Kapat</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHandPowerName</Key>
+      <Value>Elindeki Öğeyi Aç/Kapat</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInSlotName</Key>
+      <Value>Bir yuvanın içindesin</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerName</Key>
+      <Value>Mevcut Açlık</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunName</Key>
+      <Value>Sersemleme Oranı</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTankName</Key>
+      <Value>Mevcut AirTank Kapasitesi</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningName</Key>
+      <Value>İtici Yakıt Kapasitesi</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconFilterName</Key>
+      <Value>Filtre Kapasitesi</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteName</Key>
+      <Value>Atık Kapasitesi</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthName</Key>
+      <Value>Güncel Sağlık</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationName</Key>
+      <Value>Güncel Susuzluk</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>Bilinçsiz</Value>
+    </Record>
+  </ScreenSpaceToolTips>
+</Language>

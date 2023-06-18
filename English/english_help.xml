@@ -1,0 +1,788 @@
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>EN</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->  
+
+    <StationpediaPage>
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+      <Key>Home</Key>
+      <Title>Home</Title>
+      <Text>
+      </Text>
+    </StationpediaPage>
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>Search</Key>
+      <Title>Search</Title>
+      <Text>
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Airlock Devices</Title>
+      <Text>{LIST_OF_AIRLOCK_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Logic Units</Title>
+      <Text>{LIST_OF_LOGIC_UNITS}{LIST_OF_MOTHERBOARD}</Text>
+    </StationpediaPage>
+        <StationpediaPage>
+      <Key>CartridgePage</Key>
+      <Title>Cartridges</Title>
+      <Text>These can be added to {THING:ItemTablet} or {THING:ItemAdvancedTablet} to perform different diagnostic functions.
+{LIST_OF_CARTRIDGES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>StructurePage</Key>
+      <Title>Structures</Title>
+      <Text>{LIST_OF_STRUCTURES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ElectronicPage</Key>
+      <Title>Electronics</Title>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>Organics</Title>
+      <Text>{LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+        <StationpediaPage>
+      <Key>AtmosphericPage</Key>
+      <Title>Atmospherics</Title>
+      <Text>{LIST_OF_ATMOSPHERICS}</Text>
+    </StationpediaPage>
+     <StationpediaPage>
+      <Key>RubbishPage</Key>
+      <Title>Rubbish</Title>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
+    </StationpediaPage> 
+    <StationpediaPage>
+      <Key>FurniturePage</Key>
+      <Title>Furniture</Title>
+      <Text>{LIST_OF_FURNITURES}</Text>
+    </StationpediaPage> 
+        <StationpediaPage>
+      <Key>LorePage</Key>
+      <DisplayFilter>Lore</DisplayFilter>
+      <Title>Factions</Title>
+      <Text>{LIST_OF_FACTIONS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabricators</Title>
+      <Text>These are powered Structures that can be used to Manufacture things you need in the game. They usually take {LINK:IngotPage;Ingots} to provide the {LINK:ReagentPage;Reagents} they need to make things.
+        {LIST_OF_FABRICATORS}
+      </Text>
+
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Devices</Title>
+      <Text>These are Structures, typically powered, that have specialist functions including Logic, Atmospherics, and more. They are constructed in the same way as other structures.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Import/Export and Chutes</Title>
+      <Text>These are structures, typically powered, that are able to receive and output other items, or assist this. Most have specialist functions including {LINK:LogicUnitPage;logic}, {LINK:AtmosphericPage;atmospherics}, and more. They are constructed in the same way as other structures.
+        {LIST_OF_IMPORTEXPORT}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Smelting</Title>
+      <Text>Once you have {LINK:OrePage;ore}, you need to turn it into {LINK:IngotPage;ingots} so you can use their {LINK:ReagentPage;reagents}. Smelting will often produce {LINK:GasPage;gases}. This occurs in either the {THING:StructureArcFurnace} (for simple recipes) and the {THING:StructureFurnace} for more complicated {LINK:AlloyPage;Alloys}, and finally the {THING:StructureAdvancedFurnace} for very complicated {LINK:SuperAlloyPage;Superalloys}. For the complex alloys, you will need to achieve mixtures at perfect ratios, {LINK:TemperaturePage;Temperature}, and {LINK:PressurePage;Pressure}. 
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Mining</Title>
+      <Text>You can mine {LINK:OrePage;ore} using a {THING:ItemMiningDrill}. If you wear a {THING:ItemMiningBelt} the {LINK:OrePage;ore} will automatically be placed within it.
+      </Text>
+    </StationpediaPage>
+<StationpediaPage>
+      <Key>TradingPage</Key>
+      <Title>Trading</Title>
+      <Text>Trading is an essential part of a {LINK:Stationeers;Stationeers} existence, especially on more extreme worlds, where new cadets may be challenged at first to survive without assistance.
+
+There are three separate tiers of contacts. These contacts have increasing difficulties to contact, and hang around for about 20 minutes before they leave and another one takes their place, so you’ll have to find the harder contacts if you want to check out many traders.
+
+Contacts must be resolved by the dish before it can determine how accurately it is pointed at the contact.  The time to resolve is determined by the dish's power output multiplied by the dish alignment,  over the contact’s expected resolve wattage. If the contact is resolving too slowly, it likely indicates you are not close to the target at all, and you should try a very different angle. Alternately, the contact might have a very high expected wattage, and your current dish just isnt big enough to resolve it in a reasonable time. The resolving process only uses 10% of the actual power your dish is set to.
+
+Once you have resolved the contacts position, you’ll be able to press the interrogate button.  Similar to resolving, you’ll need to land enough wattage on the contact. The interrogation dialog will inform you of the current calculations. Interrogation does have a hard minimum, and if the dish is not pointed well enough, or the power is too low, you won't be able to start the process. Interrogation also has a time requirement, with harder contacts taking significantly longer, so you’ll want to use high wattages to ensure you finish before the trader moves on.  Once interrogation is complete, you can land the trader just as before.
+
+{LIST_OF_TRADING_DEVICES}
+      </Text>
+</StationpediaPage>
+<StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Construction</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER:Getting Started}
+Typically you will use {LINK:KitPage;kits} to initiate construction and then a variety of {LINK:ToolPage;tools} and {LINK:ResourcePage;resources} to complete. Pay close attention to how many of your kit are required to construct what you have selected, as some structures require more than one of the stack to be consumed. For some kits you will have multiple options, use the {COLORRED:Scroll Wheel} to change the current option you are looking to build.
+
+{HEADER:Build States}
+Some structures will have multiple build states that require different combinations to complete. Your tooltip will advise you of what combination you need to complete the structure. Sometimes you will need to have two objects, one in each hand, to complete a build state. Some tools will need to be turned on first, which can done by pressing {KEY:ToggleHandPower} while it's in your active hand.
+
+{HEADER:Tooltips}
+If you look directly at a structure that is incomplete you will get information about what you need to do to complete it. If you have a {LINK:ToolPage;tool} in your hand and its not the right {LINK:ToolPage;tool}, a tooltip will appear telling you what you would need to use to deconstruct it.
+
+{HEADER:Pressure}
+When building, it's important to note that pressure is measured as a differential. Most structures have a 200kPa pressure limit: if the difference between inside and outside is greater than that, you've got problems.
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagents</Title>
+      <Text>These are chemical quantities of certain types. 
+      {LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+
+<StationpediaPage>
+      <Key>MusicPage</Key>
+      <Title>Making Music</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.
+As such, {LINK:Stationeers;Stationeers} have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
+Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
+
+{HEADER:DIY MUSIC - GETTING STARTED}
+
+1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.
+
+2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdiver.
+
+3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
+
+4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
+
+5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. 
+
+6: Insert a sound cartridge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
+
+7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
+
+8: Get freaky with the {THING:DeviceLfoVolume}.
+
+9: Finally, activate the sequencer, Vibeoneer.
+      </Text>
+    </StationpediaPage>
+
+
+    <StationpediaPage>
+      <Key>TemperatureControlPage</Key>
+      <Title>Temperature Control</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+<Text>In order to control the temperature of a system, we have to either add heat to it thus increasing its temperature or remove heat from it thus cooling it down, that's the basic idea of temperature control. Devices that achieve this goal for you are {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator}, and {THING:StructureAirConditioner}.
+
+NOTE: There are many methods of temperature control. Some involve none of the devices mentioned. Here, we are covering the basics.
+
+It is important to understand your environment before you install any type of temperature control. The gas or liquid volume is an important factor to when choosing your method of temperature control. A {THING:StructureTankSmall} can hold up to 6000L, while a {THING:StructureTankBig} can hold up to 50,000L, which means that if both are full, the small tank will react faster to temperature changes. A room is a space that can hold a certain amount of gas. The bigger it is the more volume it will be able to hold, so the same rules generally apply to tanks and rooms.
+
+{HEADER:PIPE NETWORKS}
+A pipe network is one or more pipe segments connected to each other with no separation at any point. A pipe network shares the same atmosphere everywhere along the pipe, no matter how large it is. If you change the temperature or pressure at one end of the network, the furthest end will experience the same change immediately with no delay.
+
+Adding devices to a network may split it into two different networks. For instance, adding a {THING:StructureVolumePump} to a pipe network will split the network into two networks: one before the pump, and one after it.
+
+Use the {THING:ItemTablet} with the {THING:CartridgeAtmosAnalyser} installed to see information about the contents of any pipe network.
+
+{HEADER:RADIATORS}
+Manufactured in the pipe bender, a {THING:StructurePipeRadiator} will help you exchange heat between pipes and their surrounding environment. They work on both insulated pipes and pipes, as well as having liquid variants. 
+
+In normal conditions a pipe segment will exchange heat with its surrounding environment, but adding a radiator to that pipe segment will speed up the process greatly. A pipe segment will keep exchanging heat with the surrounding atmosphere until both equalize in temperature.
+
+{HEADER:PASSIVE COOLING}
+You can cool or heat any environment by using a {THING:StructurePipeRadiator} to exchange heat between two atmospheres. An example of this would be to place a pipe on the wall, fill it with gas, and place radiators on the pipe. Now the two atmospheres of the pipe and the room will exchange temperature until their environments equalize.
+
+{HEADER:WALL HEATER}
+The {THING:ItemWallHeater} is a simple device that can be installed on a wall or a frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.
+
+{HEADER:WALL COOLER}
+The {THING:ItemWallCooler} complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network. In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes. 
+
+The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
+
+The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
+
+If the wall cooler is flashing an error then it is missing one of the following:
+- Pipe connection to the wall cooler.
+- Gas in the connected pipes, or pressure is too low.
+- Atmosphere in the surrounding environment or pressure is too low.
+
+{HEADER:AIR CONDITIONER}
+The {THING:StructureAirConditioner} in its basic form works just like the wall cooler and can benefit from the same designs. However it is more powerful. It cools faster and uses considerably more power depending on the situation, thus making it more suitable to deal with large volumes and large areas. It can heat or cool depending on the setting.
+
+AIR CONDITIONER: HOW IT WORKS
+The air conditioner has 3 pipe connections (Input, Output, Waste). Gas goes in through the input side, then, depending on the setting, heat is added or removed from the incoming gas, and added to the waste pipe. The output gas will then exit through the output connection, cooler or hotter depending on the setting.
+You can connect the input pipe to the output pipes (you can see if they are connected if they both have the same network number): this will give you more control over the temperature, since the gas won't reach the target temperature after the first pass. It will take time and energy to remove or add heat from any gas.
+
+The way you install and set up your air conditioner depends on what you are trying to cool or heat up. For a room, you will need a passive vent inside the room connected to the air conditioner's input and output, while the waste pipe has to be filled with a coolant gas. 
+
+The air conditioner does not have to be inside the room. The only part of this setup that has to be in the room is the passive vent which will circle the room's atmosphere through to the air conditioner to be cooled or heated. 
+
+You can use a single air conditioner to do both heating and cooling. You just need to change the target temperature setting on the panel. However, if you want to automate cooling and heating at the same time you will need one air conditioner for cooling and another one for heating, because the setting on the panel can only be changed manually.
+
+Setting up more than one air conditioner on the same pipe network can be useful if you need things to go faster or if you need to use some for heating and others for cooling. Do this by connecting the inputs and the outputs of the air conditioners together and having them all share the same pipe network for their inputs and outputs. The waste pipe network can also be shared between them, but it has to be separate from the input/output pipe network. The same idea applies when using the air conditioner to control the temperature of tanks. However, instead of using a passive vent, you will need to connect the tank to the air conditioner directly.
+
+AIR CONDITIONER: KEEP IN MIND
+- The greater the difference in temperature between the input pipe and the waste pipe, the more power the air conditioner will use
+- The power consumed by the air conditioner can exceed 5kW, therefore using heavy cables to power up air conditioners is recommended.
+- Running the waste pipe outside and equalizing it with the outside atmosphere isn't always the best option: the gas you put inside of it can be applied somewhere else in your base.
+
+AIR CONDITIONER: BASE TEMPERATURE CONTROL
+There are many ways to control the temperature of your base using air conditioners - this is one way of achieving this goal:
+Step 1: Run a single pipe network around your base, and install passive vents connected to this pipe in every room you wish to be controlled by this setup. This is 'Network A'
+Step 2: Connect 'Network A' to an air conditioner's input and output.
+Step 3: Connect the waste pipe to a different network, and run it to the outside. Install radiators on this network.
+This is the basic setup. To automate it you will need a pipe analyzer on Network A, then read the temperature and run your air conditioner(s) accordingly.
+Good luck, Cadet!
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gases</Title>
+      <Text>These are chemical gases of certain types.{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>OrePage</Key>
+      <Title>Ores</Title>
+      <Text>These are items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.
+        There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.{LIST_OF_ORES}
+      </Text>
+    </StationpediaPage>
+
+      <StationpediaPage>
+          <Key>GeneticsPage</Key>
+          <Title>Genetics</Title>
+          <Text>Plants have a set of Genes that modifies its behavior. A plant's genes will be manipulated in a number of ways, both naturally as well as artificially. When a plant produces fruit or seeds it will pass on its genetics with a small random mutation.
+
+On top of random mutations, a plant's condition over its life can also affect its genes - for example if a plant is starved of water, while it may affect the plants growth speed and yield, the offspring will receive genes that make it require less water. In this way you can manipulate your crop's ideal conditions.
+
+There are a number of tools you will need to manage your crops effectively: {THING:ItemPlantSampler} and {THING:AppliancePlantGeneticAnalyzer}. These tools allow you to sample a growing plant and see the state of its genes.
+
+Plant genetics is not an exact science and will require trial and error and repeated attempts before you are able to reach your targets. {LIST_OF_GENES} {LIST_OF_GENETIC_DEVICES}
+          </Text>
+      </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Ingots</Title>
+      <Text>These are items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores} for use in {LINK:FabricatorPage;fabricators}.
+
+{LIST_OF_INGOTS}
+      </Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Tools</Title>
+      <Text>These are items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.
+
+{LIST_OF_TOOLS}
+      </Text>
+    </StationpediaPage>
+        
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Resources</Title>
+      <Text>These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+        
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Kits</Title>
+      <Text>These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>AutomatedRocketPage</Key>
+      <Title>Automated Rocket Modules (A.R.M.)</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Automated rockets are uncrewed vehicles that can be dispatched offworld to retrieve a range of resources. The rocket can be controlled by {LINK:LogicUnitPage;logic} or {LINK:LogicUnitPage;IC} or a mixture of these systems.
+      
+Once launched, automated rockets seek out planets or asteroids with mineable resources, depending on which MODULES they have been constructed with. Rockets can be programmed to mine all available resources, then move to another planet, or return home. Their range - and therefore the amount of resources they can collect - is determined by their available fuel. If they run out of fuel, they are lost to the void forever.
+      
+
+{HEADER:MODULES}
+Automated rocket system is composed of four fundamental modules, plus an engine and fuel tank(s):
+
+* AUTOMATION MODULE - the {THING:StructureModularRocketAutomation} is the control system, passing data to the various modules.
+
+* MINING MODULE - this performs the mining operation. Currently these are {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} and {THING:StructureModularRocketGasMining}.
+
+* COUPLER - this connects mining modules to storage modules, by passing material from one to the other. Specifically, the {THING:StructureModularRocketCouplingDown} passes resources to a storage module BENEATH it. The {THING:StructureModularRocketCouplingUp} passes resources to a storage module ABOVE it. The rocket will not collect resources without this element.
+
+* STORAGE MODULE - this module receives resources from a mining module via a coupler and stores them until the rocket returns. This currently includes {THING:StructureRocketModuleSilo} for ores and {THING:StructureModularRocketFueltank01} for gas. Storage modules can be connected to an {LINK:ImportExportPage;chute network}, but are closed by default. Use {LINK:LogicUnitPage;logic} to set it to 'open'.
+
+
+{HEADER:LAUNCH CONDITIONS}
+* POWER - all modules of the rocket must be powered. Note that modules are created ‘On’ by default, but can be turned off and on using {LINK:LogicUnitPage;logic} connections.
+
+* FUEL - the rocket must have at least one fuel tank and sufficient fuel for takeoff (at least 500 mols). Note that the rocket also requires 500mols to land AND consumes 5 mols per tick during travel phase of operation.
+
+* CONSTRUCTION - The rocket must be correctly assembled (see MODULES above)
+
+* PROGRAMMING - The rocket is controlled by the {LINK:LogicUnitPage;IC system} (see below)
+
+
+{HEADER:ROCKET MODES}
+The rocket's mode is set via the device's 'activate' value. The mode determines the current behaviour:
+
+0: Idle (at base)
+1: Launching
+2: Traveling
+3: Arrived
+4: Idle at destination (ready to activate mining modules).
+5: Returning home
+6: Returned
+7: Lost
+
+
+{HEADER:UNIQUE ROCKET COMMANDS}
+* FUEL IN TANK REMAINING - Gets the fuel remaining in your rocket's fuel tank.
+* FUEL RETURN COST - Gets the cost of fuel to return the rocket to your current world.
+* ROCKET MODE - Gets the current RocketMode value (0-7).
+* COLLECTABLE GOODS - Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.
+
+
+      </Text>
+    </StationpediaPage>
+
+
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Food</Title>
+      <Text>These are Items that are consumed to provide nutrition.
+        {LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+        
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Clothing</Title>
+      <Text>These are Items that can be worn by entities in slots.
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+        
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Appliances</Title>
+      <Text>These are Items that can be placed on Benches. You have to place them on a Bench by sitting them on a Bench and using a Wrench.
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+
+ <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Travelling to Other Planets</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Wait! Don't close me yet! The following conditions must be met for launch:
+
+- Fully built rocket: at least 3 core modules
+- Fully fueled {THING:StructureModularRocketFueltank01}
+- Fuel mix ratio correct - a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}.
+- Power supplied to the {THING:StructureLaunchPad}
+- All players seated in {THING:StructureModularRocketCommand01}
+
+Below are the WORLD TRAVEL IDs. You can use them to travel to specific planets, when combined with a completed {LINK:RocketShuttlePage;Rocket Shuttle} and {LINK:LogicUnitPage;Logic Units}.
+       
+Simply write the hash to the setting variable on {THING:StructureLaunchPad} with a {THING:StructureLogicWriter} and a {THING:StructureLogicMemory}. Note: You can click on a hash to copy it to the clipboard.
+{LIST}{WORLD_HASHES}{/LIST}
+      </Text>
+    </StationpediaPage>
+<StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <DisplayFilter>Guides</DisplayFilter>
+          <Text>{HEADER:Modular Rocket Cargo}
+
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
+
+{HEADER:Modular Rocket Command}
+
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
+
+The following conditions must be met for launch:
+
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+
+{HEADER:Modular Rocket Engine}
+
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+
+          </Text>
+        </StationpediaPage>
+        <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Rocket Shuttle</Title>
+      <Text>These are the Rocket Shuttle Modules, used to travel between worlds. {THING:StructureLaunchPad} is required.
+{HEADER:List of Rocket Shuttle Modules}
+{LIST_OF_ROCKET_SHUTTLE}
+      </Text>
+   </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>Weather</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>The Solar System's planets are not as calm as they may seem. After seven days on any world with an atmosphere, the inscrutable forces of nature swing into action – hitting unwary Stationeers with blizzards, dust storms and volcanic events.
+As such, the {LINK:ODA;ODA} recommends that freshly deployed Stationeers create an airtight base within 7 days of landing.
+Any dynamic objects left outside in a storm – on Mars, Loulan, Vulcan or Europa – risks being blown far, far away, including your lander.
+Likewise, be aware that solar panels are fragile and may have their glass shattered, or occasionally even be destroyed by a sufficiently ferocious storm. During storms, their output is also drastically reduced.
+      </Text>
+   </StationpediaPage>
+    
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+Paintable {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Thermal Limits}
+{LIST}Shatter {POS:300}{0}
+Flashpoint{POS:300}{1}
+Autoignition{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    
+    
+    
+    <StationpediaPage>
+      <Key>LogicTypePageTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Type {2}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Connects to {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Melt Temperature {1}
+Melt Pressure {0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>DeviceTemplate</Key>
+      <Text>{0}W</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>GasCanisterTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>AtmosphericsTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>NutritionPageTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        
+        {LIST}{0}{/LIST}
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>TierListHeaderTemplate</Key>
+      <Text>
+        
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>LogicTypeTemplate</Key>
+      <Text>{0}{POS:300}{1} {2}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+        
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>Lore</Key>
+      <Text></Text>
+    </StationpediaPage>
+
+        <StationpediaPage>
+      <Key>Guides</Key>
+      <Text></Text>
+    </StationpediaPage>
+
+        <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{1}</Text>
+    </StationpediaPage>
+    
+    
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.
+
+
+{LIST}Unit {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.
+
+
+{LIST}Specific Heat {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>    
+    
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Flamable Limit {0} to {1}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Hunger and nutrition</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER:HUNGER}
+
+Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%.
+
+Stationeers receive supplies of food such as {LINK:Agrizero;Agrizero} {THING:ItemCerealBar} in their lander upon arriving on a new world. When these are exhausted, you must find new sources of sustenance - such as growing your own, from the seeds supplied, or contacting a {LINK:TradingPage;Trader}. 
+
+{HEADER:NUTRITION}
+
+Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using {LINK:OrganicPage;hydroponics} systems. These can be processed into recipe ingredients using the {THING:ApplianceReagentProcessor}, then turned into meals using a {THING:ApplianceMicrowave} or {THING:StructureAutomatedOven}.
+
+Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your {LINK:HydrationPage;Thirst}.
+</Text>
+    </StationpediaPage>
+
+<StationpediaPage>
+      <Key>FarmingPage</Key>
+      <Title>Growing Food</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>To survive on alien worlds, the {LINK:ODA;ODA} expects all {LINK:Stationeers;Stationeers} to set up viable {LINK:OrganicPage;hydroponic} systems, or contact registered local resource {LINK:TradingPage;traders}.
+
+{HEADER:SETTING UP}
+
+When setting up your hydroponic system, you will need {LINK:OrganicPage;seeds}. Alternatively, you can plant the food itself.
+
+Common Stationeer hydroponic equipment includes:
+
+- {THING:DynamicHydroponics}
+- {THING:ItemHydroponicTray}
+- {THING:ItemKitHydroponicStation}
+- {THING:StructureHarvie}
+
+All hydroponics systems require water, sunlight and the correct gas mixture - plants require {GAS:CarbonDioxide} and produce oxygen (except for {THING:ItemAlienMushroom}). PLants will not grow in the wrong atmosphere. If plants do not have enough light, you will need to build a {THING:StructureGrowLight}.
+
+Your system will depend on available resources and time, but a well-designed farming system can be almost fully automated given sufficient time and resources.
+
+{HEADER:HARVESTING}
+
+Most plants have several growth stages. The first stages are the plant growing through its lifecycle. During the third phase, seeds may be harvested from the plant. In the fourth phase, the plant will yield fruit. After that, unless cleared, the plant will die.
+
+{HEADER:FERTILIZER}
+
+Fertilizer alters plant growth processes, and is created by the {THING:PortableComposter} and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.
+
+Fertilizer's affects depend on its ingredients:
+
+- {LINK:OrganicPage;Food} increases individual PLANT YIELD by up to 3 items
+- {THING:DecayedFood} increases plant GROWTH SPEED up to 3 times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for to a maximum of 5
+
+The effect of these ingredients depends on their respective proportions in the composter when processing is activated. Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. When processing, {GAS:Nitrogen} and {GAS:Volatiles} is released, as well a small amount of heat.
+</Text>
+    </StationpediaPage>
+
+ <StationpediaPage>
+      <Key>DecayPage</Key>
+      <Title>Food Decay</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Food decays over time into {THING:DecayedFood}, unless refrigerated in a sutable atmosphere. The exact speed of decay varies individually by:
+
+- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
+
+- FOOD TYPE - Each {LINK:OrganicPage;food} type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
+
+- PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
+
+- ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
+
+> {GAS:Oxygen} x 1.3
+> {GAS:Nitrogen} x 0.6
+> {GAS:CarbonDioxide} x 0.8
+> {GAS:Volatiles} x 1
+> {GAS:Pollutant} x 3
+> {GAS:NitrousOxide} x 1.5
+> {GAS:Water} x 2
+> Vacuum - see PRESSURE (above).
+</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>HydrationPage</Key>
+      <Title>Thirst + hydration</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Your average Stationeer needs to drink water regularly. However, arcane and possibly misguided {LINK:ODA;ODA} health and safety regulations have long denied Stationeers the right to in-suit hydration mechanisms. Instead, they must take regular drink breaks to open their helmet, and imbibe water. Doing so in an unpressurized environment is unadvised.
+
+How often to drink? This is determined by your difficulty level, the heat of the planet and how much you like to move your body.
+
+Water comes in many forms. At least one {THING:ItemWaterBottle} is supplied to Stationeers as part of their rations when landing on new planets, with more in your lander crates. These can be refilled using a {THING:ItemWaterBottleFiller}, which must itself be connected to a liquid pipe network. The network itself can be filled using a {THING:StructureIceCrusher} with a suitable supply of ice.
+
+Your thirst rate can be adjusted set on the main settings menu by adjusting your Hunger/Hydration rate slider.
+</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>EVA Suits</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Your spacesuit provides you with a portable atmosphere, with adjustable pressure and air conditioning (temperature) settings, as well as an warning system that will alert you should the atmosphere inside the suit become hazardous. It functions in conjunction with a suitable helmet to function properly, as well as suitable gas canisters and filters in the suit's various slots. These will need to be changed regularly, and can also be recharged (or drained) using a {THING:StructureSuitStorage}.
+
+There are several suits, including the {THING:ItemEvaSuit} and the more pressure- and temperature-resistant {THING:ItemHardSuit}.
+
+Your suit various readouts are at the bottom-right of the screen. Pressing the appropriate numeric key (2will bring up a panel showing its slots and settings. These include:
+
+- A/C On / Off (i.e. Temperature control on/off)
+- Filters On / Off
+- Air On / Off
+- Pressure Up / Down (with a range of 0kPA to 202kPa, or 0-2 Earth atmospheres)
+- Temperature Up / Down (with a range of 0°C to 60°C)
+
+Suits contains 6-8 slots:
+- Air tank (x1) - insert a canister or smart canister containing a breathable gas mix, eg {GAS:Oxygen} or {GAS:Nitrogen}/{GAS:Oxygen} 35/65.
+- Waste tank (x1) - collects gases removed by the filters
+- Life support (x1) - holds one battery, which powers your A/C, lights, etc.
+- {SLOT:GasFilter} (x3) - requires at least one {SLOT:ItemGasFilterCarbonDioxide} (if human), depending on your breathable gas mix. Note that a {THING:ItemHardSuit} has 4 filter slots.
+- IC - {THING:ItemHardSuit} only.
+
+Pressure: should be set to 50-100 KPa (0.5 to 1 Earth atmospheres). Humans in-game tolerate up to ~250kPa and can survive up to ~300kPA.
+
+Temperature: normally set to 18-21°C, with humans in-game preferring 10-29°C, tolerating 0-39°C and surviving around up to 49°C. In higher temperatures, your A/C will consume more battery power to maintain internal temperature.
+
+Filters: the default filter is the {GAS:CarbonDioxide} filter, which captures the gas generated by humans when breathing out. If you are not using 100% {GAS:Oxygen} in your breathing gas, add additional filters, eg if you mix 25% {GAS:Oxygen} + 75% {GAS:Nitrogen}, the nitrogen will accumulate in your suit over time and suffocate you, unless you have a nitrogen filter. If you have the correct filters and breathable gas, but are still experiencing problems, use the 'Flush' function on your Space Helmet. Low/critical oxygen warnings will sound as your filters cease to function.
+
+If damaged, your suit can be patched by holding duct tape in your hand and using 'activate' button.
+</Text>
+    </StationpediaPage>
+
+
+  </HelpPage>
+</Language>

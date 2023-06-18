@@ -1,0 +1,208 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>TR</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>Organikler</Title>
+      <Text>{LIST_OF_FOOD}{LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>İmalatçı</Title>
+      <Text>Bu makineler, oyunda ihtiyacın olan şeyleri Üretmek için kullanılan elektrikli Yapılardır. Birşeyleri yapmaları için ihtiyaç duydukları {LINK:ReagentPage;Reaktifler}i sağlamak için, genellikle {LINK:IngotPage;Külçeler} alırlar.
+      
+{HEADER:İmalatçıların Listesi}
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Cihazlar</Title>
+      <Text>Bu cihazlar Mantık, Atmosferikler ve daha fazla özelleştirilmiş fonksiyonlara sahip, tipik olarak elektrikli yapılardır. Diğer yapılar ile aynı yolla inşa edilirler.
+      
+{HEADER:Cihazların Listesi}
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Madencilik</Title>
+      <Text>Bir {THING:ItemMiningDrill} kullanarak {LINK:OrePage;cevher} kazabilirsin. Eğer bir {THING:ItemMiningBelt} giyersen, {LINK:OrePage;cevher} otomatik olarak içine yerleşecektir.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reaktifler</Title>
+      <Text>Bu reaktifler, belli türlerdeki kimyasal miktarlardır.
+      
+{HEADER:Reaktiflerin Listesi}
+{LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gazlar</Title>
+      <Text>Bunlar, belli türlerdeki kimyasal gazlardır.
+      
+{HEADER:Gazların Listesi}
+{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Kaynaklar</Title>
+      <Text>Bunlar, {LINK:ConstructionPage;İnşaat} ve diğer görevler sırasında tüketilen Öğelerdir.
+      
+{HEADER:Kaynakların Listesi}
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Donanımlar</Title>
+      <Text>Bunlar, {LINK:ConstructionPage;İnşaat} ve diğer görevler sırasında tüketilen Öğelerdir.
+      
+{HEADER:Donanımların Listesi}
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Gıda</Title>
+      <Text>Bunlar, beslenmeyi sağlamak için tüketilen Öğelerdir.
+      
+{HEADER:Gıdaların Listesi}
+{LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Giyim</Title>
+      <Text>Bunlar, yuvalar aracılığı ile giyilebilir Öğelerdir.
+      
+{HEADER:Giysi Listesi}
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Araçlar</Title>
+      <Text>Bunlar, Tezgâhların üstüne yerleştirilebilir Öğelerdir. Bir Tezhâhın üstüne koyarak ve bir İngiliz Anahtarı kullanarak yerleştirmelisin.
+      
+{HEADER:Araçların Listesi}
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefabrik Hash&apos;i {POS:300}{1}
+Boyanabilir {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Sıcaklık Sınırları}
+{LIST}Bozulma{POS:300}{0}
+Tutuşma{POS:300}{1}
+Yanma{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Yuvalar}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Tip {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>{POS:300}{THING:StructureLogicTransmitter} bağlar</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Erime Sıcaklığı {1}
+Erime Basıncı {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Üretimi Yapanlar}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Üretimin İçeriği}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Üretilebilenler}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Üretilebilenler}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:Bağlanabilenler}
+        {LIST}{0}{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Mantık}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modlar}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gazlar}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reaktifler}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Bir {LINK:ReagentPage;reaktif}, çoğu zaman {LINK:IngotPage;Külçeler} biçiminde kullanılır.
+
+{HEADER:Genel}
+{LIST}Birim {1}{/LIST}
+
+{HEADER:İçinde Bulunan}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:SmeltingPage;Eritme} işleminde, çoğunlukla bir {LINK:GasPage;gaz} açığa çıkar.
+
+{HEADER:Genel}
+{LIST}Özısı {1}{2}{/LIST}
+
+{HEADER:İçinde Bulunan}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Alevlenme Sınırı {0} ile {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

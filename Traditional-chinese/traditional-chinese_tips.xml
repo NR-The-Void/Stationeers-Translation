@@ -1,0 +1,44 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>TW</Code>
+  <GameTip>
+    <String>按下 {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, 或 {KEY:ToolBeltSlot} 可以切換裝備的 欄位格 及 功能選項. 長按熱鍵的話,則可以與目前當前手持裝備切換,如空手狀態則會脫下裝備.</String>
+    <String>按下 {KEY:ToggleLight} 可以快速開關你 {THING:ItemSpaceHelmet} 的電燈.</String>
+    <String>按下 {KEY:EmoteWave} 使你的腳色向其他工程師揮手.</String>
+    <String>按下 {KEY:ToggleUI} 可以關閉使用者介面,讓您可以擷取更乾淨漂亮的截圖或影片.</String>
+    <String>按下 {KEY:SwapHands} 來切換目前的主手欄位. 重複按下 {KEY:ActiveHandSlot} 將會切換目前主手物品的功能選項與欄位格(如果物品有的話).</String>
+    <String>按下 {KEY:Internals} 可以快速開關您的 {THING:ItemSpaceHelmet}.</String>
+    <String>當主手持 {THING:ItemWeldingTorch} 並切已經啟動時, 必須另一隻手也同時握有 {THING:ItemIronSheets},才能進一步升級 {THING:StructureFrameIron} 的結構.</String>
+    <String>將一疊 {THING:ItemIronOre} 放入已接上電源的 {THING:StructureArcFurnace} ,並按下啟動鍵來燒製 {THING:ItemIronIngot}.</String>
+    <String>當想把物品數量切分的時候, 按下 {KEY:QuantityModifier} 鍵 將可以把物品切分成較小的數量.</String>
+    <String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicReader} 或者 {THING:StructureLogicWriter}. {THING:StructureLogicReader} 允許您可以讀取某個裝置的數值, {THING:StructureLogicWriter} 則允許您改變某個裝置的參數. 再結合邏輯運算單元的時候,將可以創造出非常複雜的邏輯電路!.</String>
+    <String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicBatchReader} 或者 {THING:StructureLogicBatchWriter}。 批次讀取器允許您讀取迴路中某種設備的數值，批次寫入器則允許您變更迴路中某種設備的參數。</String>
+    <String>使用 {THING:StructureRecycler} 將可以回收您不要的物品,並將其變回{THING:ItemReagentMix}. 再將 {THING:ItemReagentMix} 投入 {THING:StructureCentrifuge} 中處理就能變回原本的礦石了.</String>
+    <String>使用 {THING:StructureHydraulicPipeBender} 來製造相關的物品, 像是 {THING:ItemKitAtmospherics} 可以讓您建造像是 {THING:StructureAirConditioner} 或 {THING:StructureFiltration} 這一類的設備.</String>
+    <String>太空裝受損程度越大，其工作效率就越低。膠帶可以解決這個問題。</String>
+    <String>太空裝受損程度越大，其工作效率就越低。</String>
+    <String>按 {KEY:Help} 將其打開 百科手冊，查閱並獲得遊戲中更多指導與知識。</String>
+    <String>您早期配備的 {THING:ItemEvaSuit} 和{THING:ItemSpaceHelmet} 會在高溫下著火。在危險環境中請裝備 {THING:ItemHardSuit}。</String>
+    <String>Stationeers計劃由Offworld Development Agency (ODA)建立，以支持對太陽系及其他地區的探索。</String>
+    <String>{THING:ItemHardBackpack}可以攜帶更多物品！</String>
+    <String>太空裝受損程度越大，其工作效率就越低。</String>
+    <String>{THING:StructureHarvie} 使您可以完全自動化植物的種植，生長和收穫。</String>
+    <String>可以在 設置選單 中打 開/關 額外工具提示。</String>
+    <String>您可以通過按{KEY:HideAllWindows} 一次清除螢幕上所有打開的視窗。
+</String>
+    <String>{THING:ItemCrowbar} 可用於打開無動力的門和 區域電力控制器。
+</String>
+    <String>您可以將{THING:ItemMiningDrill}更改為「平坦」模式，以幫助您在採礦時創建平坦地面。
+</String>
+    <String>{THING:ItemWearLamp} 無需戴頭盔即可用於照明。
+</String>
+    <String>通過按住{KEY:MouseControl}，您可以啟用鼠標 並將項目拖入或拖出庫存或在插槽之間拖移。
+</String>
+    <String>基本的太空頭盔使Stationeers免受從真空到奇怪的烹飪氣味的一切侵害。
+</String>
+    <String>物理是你的好朋友。</String>
+    <String>許多邏輯晶片上的功能、數值調整可透過使用 {THING:ItemScrewdriver} 調整晶片面板上的一字凹槽的圓鈕來完成。</String>
+    <String>飢餓？{THING:ItemCerealBar}是一款方便，營養豐富，並且輻射低的好食品
+</String>
+    <String>厭倦了更換初階過濾器？中階和高階過濾器的使用壽命是初階過濾器的5倍和20倍，但價格更高。</String>
+  </GameTip>
+</Language>

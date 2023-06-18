@@ -1,0 +1,32 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>TR</Code>
+  <GameTip>
+    <String>Giydiğin giysinin herhangi bir yuva öğesinin etkileşimlerine ve yuvalarına geçiş yapmak için {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} veya {KEY:ToolBeltSlot} tuşlarına bas. Yuva ile aktif elin arasında yer değiştirmek için basılı tut.</String>
+    <String>{THING:ItemSpaceHelmet}&apos;nın ışığını hızlıca açmak veya kapatmak için {KEY:ToggleLight} tuşuna bas.</String>
+    <String>Karakterinin, diğer stationeer&apos;lara el sallaması için {KEY:EmoteWave} tuşuna bas.</String>
+    <String>İnanılmaz ekran görüntüleri almak veya video çekmek için, Kullanıcı Arayüzünü {KEY:ToggleUI} tuşuna basarak aç.</String>
+    <String>{KEY:SwapHands} tuşuna basmak etkin elini değiştirir. {KEY:ActiveHandSlot} tuşuna basmak, etkin elinde her ne var ise, etkileşim seçenekleri arasında geçiş yapar.</String>
+    <String>{THING:ItemSpaceHelmet}&apos;nı hızlıca açmak veya kapatmak için {KEY:Internals} tuşuna bas.</String>
+    <String>{THING:StructureFrameIron}&apos;nin inşa durumunu yükseltmek için, bir elinde açmış olduğun bir {THING:ItemWeldingTorch}&apos;ni ve diğer elinde de bir {THING:ItemIronSheets} yığınını tut.</String>
+    <String>Bir {THING:ItemIronOre} yığınını, eritip bir {THING:ItemIronIngot} elde etmek için çalışan bir {THING:StructureArcFurnace}&apos;na yerleştir.</String>
+    <String>Mantık kontrolünü etkinleştirmek için bir {THING:StructureComputer}&apos;ın içine bir {THING:MotherboardLogic} yerleştir. Aynı veri ağındaki cihazların durumlarını kontrol eden koşullar ve eylemler ekleyebileceksin.</String>
+    <String>Dünyada, bir tuş ile herhangi bir şeyin miktarını değiştirirken, daha küçük artışlar kullanmak için tıklayacağın zaman {KEY:QuantityModifier} tuşuna basılı tut.</String>
+    <String>{THING:StructureLogicReader} veya {THING:StructureLogicWriter} oluşturmak için bir {THING:ItemKitLogicInputOutput} kullan. Okuyucular, diğer cihazlardan veriler okumanı sağlar; yazıcılar ise, diğer cihazların verilerini değiştirmeni sağlar. Matematik Birimleri ile beraber, son derece karmaşık otomatik sistemler yapabilirsin.</String>
+    <String>{THING:StructureLogicBatchReader} veya {THING:StructureLogicBatchWriter} oluşturmak için bir {THING:ItemKitLogicInputOutput} kullan. Okuyucular, diğer cihaz grubunun tamamındaki verileri okumanı sağlar, yazıcılar ise, diğer cihaz grubunun tamamındaki verileri değiştirmeni sağlar.</String>
+    <String>İstemediğin şeyleri, kullanılabilir reaktiflere dönüştüren bir {THING:StructureRecycler} kullan. Çıkan {THING:ItemReagentMix}&apos;nı, tekrar cevhere dönüştürmek için bir {THING:StructureCentrifuge}&apos;e koy; cevherler {THING:StructureFurnace} için hazır.</String>
+    <String>{THING:StructureAirConditioner} veya {THING:StructureFiltration} gibi kullanışlı makineler inşa etmeni sağlayan, {THING:ItemKitAtmospherics} gibi atmosferik öğeleri üretmek için {THING:StructureHydraulicPipeBender} kullan.</String>
+    <String>Giysinin daha fazla hasar alması, daha az etkin çalışmasına neden olur. Selo bant giysini onarabilir.</String>
+    <String>Giysinin daha fazla hasar alması, daha az etkin çalışmasına neden olur.</String>
+    <String>Başlangıç {THING:ItemEvaSuit} ve {THING:ItemSpaceHelmet}&apos;n sıcak havalarda yanacaktır. Tehlikeli ortamlarda {THING:ItemHardSuit} kullan.</String>
+    <String>{THING:ItemHardBackpack} daha fazla öğe taşıyabilir fakat seni taşıyamaz!</String>
+    <String>Giysinin daha fazla hasar alması, daha az etkin çalışmasına neden olur.</String>
+    <String>{THING:StructureHarvie}, bitkileri tamamen otomatik bir şekilde dikmeni, yetiştirmeni ve toplamanı sağlar.</String>
+    <String>Genişletilmiş Araç İpuçları, Ayarlar menüsünden açılıp kapatılabilir.</String>
+    <String>{KEY:HideAllWindows} tuşuna basarak, ekranındaki bütün açık pencereleri bir kerede temizleyebilirsin.</String>
+    <String>{THING:ItemCrowbar}, gücü olmayan kapıları ve güç denetleyicilerini açmak için kullanılabilir.</String>
+    <String>{THING:ItemMiningDrill}, kazım yaparken düz zeminler oluşturmana yardımcı olması için &quot;Düzleştirme&quot; moduna ayarlanabilir.</String>
+    <String>{THING:ItemWearLamp}, bir başlık giymeden aydınlatma için kullanılabilir.</String>
+    <String>{KEY:MouseControl} tuşuna basılı tutarak fare imlecini etkinleştirebilir, envanterinden öğeleri içeri ve dışarı doğru veya yuvalar arasında sürükleyebilirsin.</String>
+    <String>Normal filtreleri değiştirmekten bıktın mı? Orta ve Ağır filtreler, 5 kat ve 20 kat daha uzun dayanırlar fakat daha pahalıdırlar.</String>
+  </GameTip>
+</Language>

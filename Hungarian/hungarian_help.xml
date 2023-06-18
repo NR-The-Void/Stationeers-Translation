@@ -1,0 +1,190 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>HU</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Gyártógépek</Title>
+      <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetben {LINK:IngotPage;öntött fémrudak} kellenek, hogy a gépeket a gyártáshoz elegendő {LINK:ReagentPage;reagenssel}  lásd el.
+        {LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Berendezések</Title>
+      <Text>Olyan árammal ellátott szerkezetek, melyek speciális funkciókkal rendelkeznek, mint például logika, atmoszferika kezelése stb. Ugyanúgy kell építeni őket, mint a többi építhető tárgyat.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Kohászat</Title>
+      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;reagensként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z) {THING:StructureArcFurnace}ra (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace}ra bonyolultabb {LINK:AlloyPage;ötvözetekhez}, vagy használhatod a {THING:StructureAdvancedFurnace}t {LINK:SuperAlloyPage;szuperötvözetek} készítéséhez. A ötvözetek készítésekor figyelni kell a tökéletes keverési arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és {LINK:PressurePage;nyomásra}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Bányászat</Title>
+      <Text>{THING:ItemMiningDrill} használatával {LINK:OrePage;érceket} szerezhetsz. A {THING:ItemMiningBelt} viselésénél az {LINK:OrePage;ércek} atomatikusan abba helyeződnek át.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagensek</Title>
+      <Text>Ezek bizonyos típusú kémiai mennyiségek
+      {LIST_OF_REAGENTS}
+      
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gázok</Title>
+      <Text>Ezek bizonyos típusú kémiai gázok.{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Nyersanyagok</Title>
+      <Text>Ezeket {LINK:ConstructionPage;építkezés} és egyéb feladatokhoz tudod felhasználni.
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Készletek</Title>
+      <Text>Ezeket {LINK:ConstructionPage;építkezés} és egyéb feladatokhoz tudod használni.
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Élelmiszer</Title>
+      <Text>A következők használhatók a tápláltság növeléséhez.
+        {LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Öltözködés</Title>
+      <Text>Ezek a tárgyak entitások által hordhatók (slotokban).
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Készülékek</Title>
+      <Text>Olyan tárgyak, amik pultokra helyezhetőek le. A lehelyezéshez rakd a pultra az eszközt, majd rögzítsd a franciakulccsal.
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Űrsikló modulok</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER:Moduláris rakéta tehermodul}
+
+A {THING:StructureModularRocketCargo01} két láda tárolására képes. Egyszerre több modul is lehet a rakétán. A rakétához összesen hét modul köthető.
+
+{HEADER:Moduláris rakétavezérlő}
+
+A {THING:StructureModularRocketCommand01} a rakéta tetejére helyezendő. Ez a modul kiértékeli az összeszerelt rakétát. Abban az esetben, ha minden feltétel megvan az induláshoz, és minden játékos a rakétában ül, a kilövés az &quot;IGNITION&quot; gomb megnyomásával kezdhető meg.
+
+Ezek az indítás feltételei:
+
+Teli üzemanyagtartály
+Helyes üzemanyag-keverési arány
+Minden játékos becsatolva
+Hálózatba kötött indítási platform
+Teljesen megépített rakéta
+
+A {THING:StructureModularRocketCommand01} konzolja listázza az adott feltételek állapotát. Nem feltétlenül szükséges a kabin levegővel való ellátása, az űrruhád is megteszi.
+
+{HEADER:Moduláris rakéta hajtómű}
+
+A {THING:StructureModularRocketEngine01} (magával együtt) hét modult képes felemelni.
+
+{HEADER:Moduláris rakéta üzemanyagtartály}
+
+A {THING:StructureModularRocketFueltank01} egy 2 az 1-hez {GAS:Volatiles}-{GAS:Oxygen} keveréket követel meg. Ha az adott arányok nem megfelelőek, vagy más gázokat használtál, a {THING:StructureModularRocketCommand01} konzolja &quot;Érvénytelen&quot; hibát fog kidobni.
+
+          </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Űrsikló</Title>
+      <Text>Ezek itt az űrsikló-modulok bolygóközi utakra. {THING:StructureLaunchPad} szükséges.
+{HEADER:Űrsikló-modulok}
+{LIST_OF_ROCKET_SHUTTLE}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>Időjárás</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>A Naprendszer bolygói nem olyan nyugisak, mint amilyennek tűnhetnek. Bármely, atmoszférával rendelkező bolygón az első hét nap után lecsapnak a természet erői - megkeserítve a stationeerek életét hó- és porviharokkal, valamint egyéb vulkanikus eseményekkel.
+Ezek miatt is ajánlja az FFÜ a frissen bevetett stationeereknek egy légmentes bázis építésének kivitelezését a landolás utáni első hét napban. Bármilyen mozgatható tárgy a viharban való kintfelejtésével - a Marson, Loulanon, Vulcanon vagy Europan - felmerülhet a kockázata annak, hogy azok nagyon, nagyon messze kavarodnak el - beleértve a leszállóegységed.
+Emellett ügyelj arra, hogy a napelemek törékenyek, az üveglap bennük eltörhet, vagy akár el is pusztulhatnak egy erősebb viharban. Viharos időben a tejesítményük is jelentősen lecsökken.
+      </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Általános}
+{LIST}Prefab Hash {POS:300}{1}
+Festhető{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Termikus korlátok}
+{LIST}Töréspont {POS:300}{0}
+Gyulladáspont{POS:300}{1}
+Öngyulladás{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Típus {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Kapcsolódik ehhez: {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Olvadási hőmérséklet {1}
+Olvadási nyomás {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Egy {LINK:ReagentPage;reagens} leggyakrabban {LINK:IngotPage;öntött rúd} formában használható.
+
+
+{LIST}Mértékegység: {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>A {LINK:GasPage;gázok} gyakran {LINK:SmeltingPage;ércek beolvasztásánál} szabadulnak fel.
+
+
+{LIST}Jellemző hőmérséklet {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Lobbanási határ {0} és egy {1} között</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

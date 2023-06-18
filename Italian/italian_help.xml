@@ -1,0 +1,217 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>IT</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabbricatori</Title>
+      <Text>Queste sono strutture alimentate che puoi usare per produrre oggetti che ti serviranno nel gioco. Solitamente necessitano di {LINK:IngotPage;lingotti} che facciano da {LINK:ReagentPage;Reagenti} di cui hanno bisogno per produrre cose.
+      
+{HEADER:Lista di Fabbricatori}
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Dispositivi</Title>
+      <Text>Queste sono strutture, tipicamente alimentate, che hanno funzioni specialistiche che includono controllo logici, atmosferici ed altro. Sono costruiti nello stesso modo delle altre strutture. 
+      
+{HEADER:Lista dei dispositivi}
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Fondere</Title>
+      <Text>Una volta che hai {LINK:OrePage;minerali}, puoi fonderli in {LINK:IngotPage;lingotti} così che tu possa usarli come {LINK:ReagentPage;reagenti}. La fusione spesso produrrà {LINK:GasPage;gas}. Questo succede sia nella {THING:StructureArcFurnace} che nella {THING:StructureFurnace} nel creare {LINK:AlloyPage;leghe}. Per le leghe complesse dovrai ottenere una mescola con un rapporto perfetto di minerali, {LINK:TemperaturePage;temperatura}, e {LINK:PressurePage;pressione}. </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Minare</Title>
+      <Text>Puoi minare {LINK:OrePage;minerali} usando un {THING:ItemMiningDrill}. Se indossi una {THING:ItemMiningBelt} i {LINK:OrePage;minerali} verranno automaticamente piazzati al suo interno.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagenti</Title>
+      <Text>Queste sono le quantità chimiche di determinati tipi.
+
+{HEADER:Lista dei reagenti}
+{LIST_OF_REAGENTS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gas</Title>
+      <Text>Questi sono gas chimici di determinati tipi. 
+
+{HEADER:Lista dei Gas}
+{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Risorse</Title>
+      <Text>Questi sono oggetti che sono consumati durante la {LINK:ConstructionPage;costruzione} e altre attività.
+      
+{HEADER:Lista delle Risorse}
+{LIST_OF_RESOURCES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Kit</Title>
+      <Text>Questi sono oggetti che sono consumati durante la {LINK:ConstructionPage;costruzione} e altre attività.
+      
+{HEADER:Lista dei Kit}
+{LIST_OF_KITS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Cibo</Title>
+      <Text>Questi sono oggetti che vengono consumati per fornire nutrimento.
+      
+{HEADER:Lista di cibi}
+{LIST_OF_FOOD}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Vestiario</Title>
+      <Text>Questi sono oggetti che possono essere indossati in vari slot.
+      
+{HEADER:Lista Vestiario}
+{LIST_OF_CLOTHING}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Apparecchi</Title>
+      <Text>Questi sono oggetti che possono essere piazzati su un Piano di lavoro. Devi piazzarli sul piano di lavoro, posizionandoli sopra e poi utilizzando una chiave. 
+      
+{HEADER:Lista di Apparecchi}
+{LIST_OF_APPLIANCES}</Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+Dipingibile {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Limiti termici}
+{LIST}Frantumazione {POS:300}{0}
+Punto di infiammabilità{POS:300}{1}
+Autoaccensione{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Slots}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {POS:100}{1} {POS:300}Tipo {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Dimensioni pila {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Connetti a {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Massimo nutrimento {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Temperatura di fusione {POS:300}{1}
+Pressione di fusione {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Creato da}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Constructed From}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Can Manufacture}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Can Construct}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>{HEADER:Constructed From}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Logic}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modes}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>
+NEXTPREVIOUS
+{HEADER:Gas}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reagenti}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Un {LINK:ReagentPage;reagente}, spesso utilizzabile in forma di {LINK:IngotPage;lingotto}.
+
+{HEADER:Generale}
+{LIST}Unit {POS:300}{1}{/LIST}
+
+{HEADER:Trovato in}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Un {LINK:GasPage;gas}, spesso prodotti durante la {LINK:SmeltingPage;fusione} di minerali.
+
+{HEADER:Generale}
+{LIST}Calore specifico {POS:300}{1}{2}{/LIST}
+
+{HEADER:Trovato in}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Limite di infiammabilità {POS:300}{0} a {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

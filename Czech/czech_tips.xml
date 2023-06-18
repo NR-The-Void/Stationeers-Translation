@@ -1,0 +1,39 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <GameTip>
+    <String>Stisknutím {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} nebo {KEY:ToolBeltSlot} můžete přepínat mezi interakcemi a sloty u všech položek slotů, které máte na sobě. Stisknutím a podržením přepnete mezi tímto slotem a aktivníma rukama.</String>
+    <String>Stisknutím {KEY:ToggleLight} rychle zapnete nebo vypnete světla {THING:ItemSpaceHelmet}.</String>
+    <String>Stisknutím {KEY:EmoteWave} vaše postava zamává na jiné stationeery.</String>
+    <String>Stisknutím {KEY:ToggleUI} zapnete nebo vypnete uživatelské rozhraní a získáte úžasné snímky obrazovky nebo video.</String>
+    <String>Stisknutím {KEY:SwapHands} zaměníte aktivní ruku. Stisknutím {KEY:ActiveHandSlot} budete procházet možnostmi interakce na čemkoli, co držíte v aktivní ruce.</String>
+    <String>Stisknutím {KEY:Internals} rychle přepnete otevřenou nebo zavřenou {THING:ItemSpaceHelmet}.</String>
+    <String>V jedné ruce držte zapnutou {THING:ItemWeldingTorch} a v druhé stoh {THING:ItemIronSheets} pro vylepšení pevnostního stavu {THING:StructureFrameIron}.</String>
+    <String>Vložte stohu {THING:ItemIronOre} do napájené {THING:StructureArcFurnace}, abyste je stavily do {THING:ItemIronIngot}.</String>
+    <String>Umístěte {THING:MotherboardLogic} do {THING:StructureComputer} a povolte logiku s IC čipem. Budete moci přidat podmínky a akce, které řídí stavy zařízení ve stejné datové síti.</String>
+    <String>Když změníte hodnotu pomocí ovládacích prvků ve hře, můžete podržením {KEY:QuantityModifier} použít přesnější hodnoty.</String>
+    <String>Pomocí {THING:ItemKitLogicInputOutput} vytvořte {THING:StructureLogicReader} nebo {THING:StructureLogicWriter}. Čtečky umožňují číst hodnoty z jiných zařízení, zapisovače umožňují měnit hodnoty na zařízeních. V kombinaci s matematickými jednotkami můžete vytvořit extrémně složité automatizované systémy.</String>
+    <String>Pomocí {THING:ItemKitLogicInputOutput} vytvořte {THING:StructureLogicBatchReader} nebo {THING:StructureLogicBatchWriter}. Čtečky umožňují číst hodnoty z celé skupiny jiných zařízení, zapisovače umožňují měnit hodnoty na celých skupinách jiných zařízení.</String>
+    <String>Pomocí {THING:StructureRecycler} převeďte věci, které již nechcete, na použitelná činidla. Předejte vydanou {THING:ItemReagentMix} do {THING:StructureCentrifuge} a převeďte ji zpět na rudu, připravenou k {THING:StructureFurnace}.</String>
+    <String>Použijte {THING:StructureHydraulicPipeBender} k výrobě atmosférických předmětů, jako je například {THING:ItemKitAtmospherics}, která umožňuje vytvářet užitečné stroje, jako je {THING:StructureAirConditioner} nebo {THING:StructureFiltration}.</String>
+    <String>Čím více bude váš oblek poškozen, tím méně efektivně bude fungovat. Lepicí páska ho může opravit.</String>
+    <String>Čím více je váš oblek poškozený, tím méně efektivně bude fungovat.</String>
+    <String>Poté, co se původní příručka Stationeerů zhroutila do singularity, ji nahradila Stationpedie. Stisknutím klávesy {KEY:Help} ji otevřete, abyste získali pokyny ve hře.</String>
+    <String>Váš začínající {THING:ItemEvaSuit} a {THING:ItemSpaceHelmet} se zapálí v horkých teplotách. Použijte {THING:ItemHardSuit} v nebezpečných prostředích.</String>
+    <String>Program Stationeer byl založen Offworld Development Agency na podporu průzkumu sluneční soustavy i mimo ni.</String>
+    <String>{THING:ItemHardBackpack} může nést více položek, ale nemůže nést vás!</String>
+    <String>Čím více je váš oblek poškozený, tím méně efektivně bude fungovat.</String>
+    <String>{THING:StructureHarvie} vám umožňuje plně automatizovat výsadbu, pěstování a sklizeň rostlin.</String>
+    <String>Rozšířené popisky nástrojů lze zapnout/vypnout v nabídce nastavení.</String>
+    <String>Všechna otevřená okna na obrazovce můžete vymazat najednou stisknutím {KEY:HideAllWindows}.</String>
+    <String>{THING:ItemCrowbar} lze použít k otevření nenapájených dveří a regulátorů napětí.</String>
+    <String>{THING:ItemMiningDrill} lze změnit na &apos;zploštělý&apos; režim, který vám pomůže vytvořit plochý terén při těžbě.</String>
+    <String>{THING:ItemWearLamp} lze použít pro osvětlení bez nošení přilby.</String>
+    <String>Podržením {KEY:MouseControl} můžete aktivovat kurzor myši a přetahovat položky dovnitř a ven z inventáře nebo mezi sloty.</String>
+    <String>Základní vesmírná přilba izoluje Stationeery proti všemu, od nelítostného vakua po podivné pachy z vaření.</String>
+    <String>Fyzika je tvůj přítel. Dokud nebude.</String>
+    <String>Seřizovač s vylepšeným povrchem je dvousměrný model s vroubkovanou rukojetí. Není to jen šroubovák</String>
+    <String>Nelegální na Zemi od události v Čcheng-tu, jaderné články Norsec našly nové a výrazně méně bezpečnostně uvědomělé trhy mimo zemi.</String>
+    <String>Hladový? Cereální tyčinky jsou kompaktní, výživné a osvěžující s nízkou radiací.</String>
+    <String>Nemocní z výměny běžných filtrů? Střední a těžké filtry vydrží 5x a 20x déle, ale jsou dražší.</String>
+  </GameTip>
+</Language>

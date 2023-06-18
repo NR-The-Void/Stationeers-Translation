@@ -1,0 +1,156 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>FR</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+      <Key>Home</Key>
+      <Title>Accueil</Title>
+      <Text/>
+    </StationpediaPage>
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>Search</Key>
+      <Title>Rechercher</Title>
+      <Text/>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Machines</Title>
+      <Text>Ce sont des structures motorisées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Ils utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;reactifs} dont ils ont besoin pour fabriquer des objets.
+      {LIST_OF_FABRICATORS}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Dispositifs</Title>
+      <Text>Il s’agit de structures, généralement électriquement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.
+      {LIST_OF_DEVICES}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Fonte</Title>
+      <Text>Une fois que vous avez {LINK: OrePage;ore}, vous devez le convertir en {LINK: IngotPage;lingots} pour pouvoir utiliser leur {LINK: ReagentPage;réactifs}. La fusion produit souvent {LINK: GasPage;gas}. Cela se produit soit dans le {THING: StructureArcFurnace} (pour des recettes simples) et dans le {THING: StructureFurnace} pour un {LINK: AlloyPage;Alliages} plus compliqué, et enfin un {THING:StructureAdvancedFurnace} pour un {LINK: SuperAlloyPage;Super alliages}. Pour les alliages complexes, vous devrez réaliser des mélanges avec des rapports parfaits, {LINK: TemperaturePage;Temperature} et {LINK: PressurePage;Pression}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Minage</Title>
+      <Text>Vous pouvez exploiter un {LINK:OrePage;minerai} avec un {THING:ItemMiningDrill}. Si vous portez un {THING:ItemMiningBelt}, le {LINK:OrePage;minerai} y sera automatiquement placé.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Réactifs</Title>
+      <Text>Ce sont des quantités chimiques de certains types.
+    {LIST_OF_REAGENTS} 
+    
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gaz</Title>
+      <Text>Ce sont des gaz chimiques de certains types.{LIST_OF_GASES}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Ressources</Title>
+      <Text>Il s’agit d’éléments utilisés lors de {LINK:ConstructionPage;construction} et par d’autres tâches.
+
+{LIST_OF_RESOURCES}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Aliments</Title>
+      <Text>Ce sont des éléments qui sont utilisés pour produire de la nourriture.
+
+{LIST_OF_FOOD}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Vêtements</Title>
+      <Text>Ce sont des pièces de tissu que les Stationeers peuvent porter.
+
+{LIST_OF_CLOTHING}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Appareils électroménagers</Title>
+      <Text>Ces objets peuvent être placés sur des plans de travail. Vous les posez sur un plan de travail et vous les fixez en utilisant une clé à molette.
+
+{LIST_OF_APPLIANCES}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Capsule de fusée</Title>
+      <Text>Ce sont les modules de navette, utilisés pour voyager entre les mondes. {THING:StructureLaunchPad} est requis.</Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+A peindre {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Limites thermique}
+{LIST}Deterioration {POS:300}{0}
+Point de rupture{POS:300}{1}
+Auto-allumage{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} type {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Se connecte à {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Température de fusion {1}
+Pression de fusion {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>A {LINK:ReagentPage;réactif}, souvent utilisable sous forme de {LINK:IngotPage;lingots}.
+
+{LIST}Unit {1}{/LIST}
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Du {LINK:GasPage;gas}, est généralement produit lors de la fusion d&apos;{LINK:SmeltingPage;alliage}.
+
+
+{LIST}Specific Heat {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Limite d&apos;embrassement {0} à {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

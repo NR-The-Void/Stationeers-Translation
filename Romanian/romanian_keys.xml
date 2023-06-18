@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>RO</Code>
+  <Keys>
+    <Record>
+      <Key>None</Key>
+      <Value>Nici una</Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>Ștergeți</Value>
+    </Record>
+    <Record>
+      <Key>Return</Key>
+      <Value>Enter</Value>
+    </Record>
+    <Record>
+      <Key>Escape</Key>
+      <Value>Esc</Value>
+    </Record>
+    <Record>
+      <Key>Space</Key>
+      <Value>Tasta spațiu</Value>
+    </Record>
+    <Record>
+      <Key>Exclaim</Key>
+      <Value>Semnul exclamării !</Value>
+    </Record>
+    <Record>
+      <Key>DoubleQuote</Key>
+      <Value>Ghilimele duble &quot;&quot;</Value>
+    </Record>
+    <Record>
+      <Key>Hash</Key>
+      <Value>Tasta#</Value>
+    </Record>
+    <Record>
+      <Key>Dollar</Key>
+      <Value>Tasta $</Value>
+    </Record>
+    <Record>
+      <Key>Ampersand</Key>
+      <Value>&amp;</Value>
+    </Record>
+    <Record>
+      <Key>Quote</Key>
+      <Value>Tasta &apos;</Value>
+    </Record>
+    <Record>
+      <Key>LeftParen</Key>
+      <Value> Tasta (</Value>
+    </Record>
+    <Record>
+      <Key>RightParen</Key>
+      <Value>Tasta )</Value>
+    </Record>
+    <Record>
+      <Key>Asterisk</Key>
+      <Value>Tasta *</Value>
+    </Record>
+    <Record>
+      <Key>Plus</Key>
+      <Value>Tasta +</Value>
+    </Record>
+    <Record>
+      <Key>Comma</Key>
+      <Value>Virgulă</Value>
+    </Record>
+    <Record>
+      <Key>Period</Key>
+      <Value>.</Value>
+    </Record>
+    <Record>
+      <Key>Slash</Key>
+      <Value>/</Value>
+    </Record>
+    <Record>
+      <Key>Alpha0</Key>
+      <Value>0</Value>
+    </Record>
+    <Record>
+      <Key>Alpha1</Key>
+      <Value>1</Value>
+    </Record>
+    <Record>
+      <Key>Alpha2</Key>
+      <Value>2</Value>
+    </Record>
+    <Record>
+      <Key>Alpha3</Key>
+      <Value>3</Value>
+    </Record>
+    <Record>
+      <Key>Alpha4</Key>
+      <Value>4</Value>
+    </Record>
+    <Record>
+      <Key>Alpha5</Key>
+      <Value>5</Value>
+    </Record>
+    <Record>
+      <Key>Alpha6</Key>
+      <Value>6</Value>
+    </Record>
+    <Record>
+      <Key>Alpha7</Key>
+      <Value>7</Value>
+    </Record>
+    <Record>
+      <Key>Alpha8</Key>
+      <Value>8</Value>
+    </Record>
+    <Record>
+      <Key>Alpha9</Key>
+      <Value>9</Value>
+    </Record>
+    <Record>
+      <Key>Colon</Key>
+      <Value>Două puncte (:)</Value>
+    </Record>
+    <Record>
+      <Key>Semicolon</Key>
+      <Value>Punct și virgulă (;)</Value>
+    </Record>
+    <Record>
+      <Key>Less</Key>
+      <Value>&lt;</Value>
+    </Record>
+    <Record>
+      <Key>Equals</Key>
+      <Value>=</Value>
+    </Record>
+    <Record>
+      <Key>Greater</Key>
+      <Value>&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Question</Key>
+      <Value>?</Value>
+    </Record>
+    <Record>
+      <Key>At</Key>
+      <Value>@</Value>
+    </Record>
+    <Record>
+      <Key>LeftBracket</Key>
+      <Value>[</Value>
+    </Record>
+    <Record>
+      <Key>Backslash</Key>
+      <Value>\</Value>
+    </Record>
+    <Record>
+      <Key>RightBracket</Key>
+      <Value>]</Value>
+    </Record>
+    <Record>
+      <Key>Caret</Key>
+      <Value>^</Value>
+    </Record>
+    <Record>
+      <Key>Underscore</Key>
+      <Value>_</Value>
+    </Record>
+    <Record>
+      <Key>BackQuote</Key>
+      <Value>`</Value>
+    </Record>
+    <Record>
+      <Key>KeypadPeriod</Key>
+      <Value> Keypad .</Value>
+    </Record>
+    <Record>
+      <Key>KeypadDivide</Key>
+      <Value> Keypad /</Value>
+    </Record>
+    <Record>
+      <Key>KeypadMultiply</Key>
+      <Value> Keypad *</Value>
+    </Record>
+    <Record>
+      <Key>KeypadMinus</Key>
+      <Value>Keypad Minus</Value>
+    </Record>
+    <Record>
+      <Key>KeypadPlus</Key>
+      <Value>Keypad Plus</Value>
+    </Record>
+    <Record>
+      <Key>KeypadEnter</Key>
+      <Value>Keypad Enter</Value>
+    </Record>
+    <Record>
+      <Key>KeypadEquals</Key>
+      <Value>Keypad  =</Value>
+    </Record>
+    <Record>
+      <Key>UpArrow</Key>
+      <Value>Săgeată sus</Value>
+    </Record>
+    <Record>
+      <Key>DownArrow</Key>
+      <Value>Săgeată jos</Value>
+    </Record>
+    <Record>
+      <Key>PageUp</Key>
+      <Value>Page Up</Value>
+    </Record>
+    <Record>
+      <Key>PageDown</Key>
+      <Value>Page Down</Value>
+    </Record>
+    <Record>
+      <Key>CapsLock</Key>
+      <Value>Caps Lock</Value>
+    </Record>
+    <Record>
+      <Key>ScrollLock</Key>
+      <Value>Scroll Lock</Value>
+    </Record>
+    <Record>
+      <Key>RightShift</Key>
+      <Value>Dreapta Shift</Value>
+    </Record>
+    <Record>
+      <Key>LeftShift</Key>
+      <Value>Stânga Shift</Value>
+    </Record>
+    <Record>
+      <Key>RightControl</Key>
+      <Value>DreaptaControl</Value>
+    </Record>
+    <Record>
+      <Key>LeftControl</Key>
+      <Value>Stânga Control</Value>
+    </Record>
+    <Record>
+      <Key>AltGr</Key>
+      <Value>Alt Gr</Value>
+    </Record>
+    <Record>
+      <Key>SysReq</Key>
+      <Value>Sys Req</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton0</Key>
+      <Value>Joystick-Buton0</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton1</Key>
+      <Value>Joystick-Buton1</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton2</Key>
+      <Value>Joystick-Buton2</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton3</Key>
+      <Value>Joystick-Buton3</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton4</Key>
+      <Value>Joystick-Buton4</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton5</Key>
+      <Value>Joystick-Buton5</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton6</Key>
+      <Value>Joystick-Buton6</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton7</Key>
+      <Value>Joystick-Buton7</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton8</Key>
+      <Value>Joystick-Buton8</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton9</Key>
+      <Value>Joystick-Buton9</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton10</Key>
+      <Value>Joystick-Buton10</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton11</Key>
+      <Value>Joystick-Buton11</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton12</Key>
+      <Value>Joystick-Buton12</Value>
+    </Record>
+  </Keys>
+</Language>

@@ -1,0 +1,21 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>KO</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>녹는 온도 {1}
+녹는 압력 {0}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

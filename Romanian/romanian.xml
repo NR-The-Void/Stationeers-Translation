@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Romanian</Name>
+  <Code>RO</Code>
+  <Font>font_extended</Font>
+  <Reagents>
+    <RecordReagent>
+      <Key>Flour</Key>
+      <Value>Făină</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Milk</Key>
+      <Value>Lapte</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Egg</Key>
+      <Value>Ou</Value>
+      <Unit>Bucăți</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Iron</Key>
+      <Value>Fier</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Gold</Key>
+      <Value>Aur</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Uranium</Key>
+      <Value>Uraniu</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Copper</Key>
+      <Value>Cupru</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Steel</Key>
+      <Value>Oțel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hydrocarbon</Key>
+      <Value>Hidrocarburi</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silver</Key>
+      <Value>Argint</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Nickel</Key>
+      <Value>Nichel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Lead</Key>
+      <Value>Plumb</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Solder</Key>
+      <Value>Fludor</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silicon</Key>
+      <Value>Siliciu</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>SalicylicAcid</Key>
+      <Value>Acid salicilic</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Alcohol</Key>
+      <Value>Alcool</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Oil</Key>
+      <Value>Ulei</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Potato</Key>
+      <Value>Cartofi</Value>
+      <Unit>Cartofi. unitate</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>Roșie</Value>
+      <Unit>Tomate. unitate</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Fenoxitone</Key>
+      <Value>Fenoxiton</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorRed</Key>
+      <Value>Colorare roșie</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorGreen</Key>
+      <Value>Colorare verde</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorBlue</Key>
+      <Value>Colorare Albastru</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorYellow</Key>
+      <Value>Colorare Galben</Value>
+      <Unit>Culoare Galben. Unit</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorOrange</Key>
+      <Value>Colorare Portocaliu</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Pumpkin</Key>
+      <Value>Dovleac</Value>
+      <Unit>Dovleac.Bucati</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Rice</Key>
+      <Value>Orez</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+  </Reagents>
+  <Gases>
+    <Record>
+      <Key>Oxygen</Key>
+      <Value>Oxigen</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxide</Key>
+      <Value>Dioxid de carbon</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>Gaz inflamabil</Value>
+    </Record>
+    <Record>
+      <Key>Pollutant</Key>
+      <Value>Poluant</Value>
+    </Record>
+    <Record>
+      <Key>Water</Key>
+      <Value>Apă</Value>
+    </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Oxid de azot</Value>
+    </Record>
+  </Gases>
+  <Actions>
+    <Record>
+      <Key>Reload</Key>
+      <Value>Reîncărca</Value>
+    </Record>
+    <Record>
+      <Key>Paint</Key>
+      <Value>Vopsește</Value>
+    </Record>
+    <Record>
+      <Key>Mine</Key>
+      <Value>Extrage</Value>
+    </Record>
+    <Record>
+      <Key>Swap</Key>
+      <Value>Schimbă</Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>Anulează</Value>
+    </Record>
+    <Record>
+      <Key>Collect</Key>
+      <Value>Colectează</Value>
+    </Record>
+    <Record>
+      <Key>Add</Key>
+      <Value>Adună</Value>
+    </Record>
+    <Record>
+      <Key>Insert</Key>
+      <Value>Introduce</Value>
+    </Record>
+    <Record>
+      <Key>Remove</Key>
+      <Value>Îndepărtează</Value>
+    </Record>
+    <Record>
+      <Key>Pickup</Key>
+      <Value>Ridică</Value>
+    </Record>
+    <Record>
+      <Key>Take</Key>
+      <Value>Ial</Value>
+    </Record>
+    <Record>
+      <Key>Build</Key>
+      <Value>Construiește</Value>
+    </Record>
+    <Record>
+      <Key>Consume</Key>
+      <Value>Consumă</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>Plantează</Value>
+    </Record>
+    <Record>
+      <Key>Harvest</Key>
+      <Value>Recoltează</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Deschide</Value>
+    </Record>
+    <Record>
+      <Key>Close</Key>
+      <Value>Închide</Value>
+    </Record>
+    <Record>
+      <Key>Opened</Key>
+      <Value>Deschis</Value>
+    </Record>
+    <Record>
+      <Key>Closed</Key>
+      <Value>Închis</Value>
+    </Record>
+    <Record>
+      <Key>Off</Key>
+      <Value>Oprit</Value>
+    </Record>
+    <Record>
+      <Key>On</Key>
+      <Value>Pornit</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Alimentat</Value>
+    </Record>
+    <Record>
+      <Key>Unpowered</Key>
+      <Value>Nealimentat</Value>
+    </Record>
+    <Record>
+      <Key>False</Key>
+      <Value>Fals</Value>
+    </Record>
+    <Record>
+      <Key>True</Key>
+      <Value>Adevărat</Value>
+    </Record>
+    <Record>
+      <Key>Construct</Key>
+      <Value>Construiește</Value>
+    </Record>
+    <Record>
+      <Key>Deconstruct</Key>
+      <Value>Deconstruiește</Value>
+    </Record>
+    <Record>
+      <Key>Disconnect</Key>
+      <Value>Deconectat</Value>
+    </Record>
+    <Record>
+      <Key>Connect</Key>
+      <Value>Conectat</Value>
+    </Record>
+    <Record>
+      <Key>Load</Key>
+      <Value>Încărcat</Value>
+    </Record>
+    <Record>
+      <Key>Unload</Key>
+      <Value>Descărcat</Value>
+    </Record>
+    <Record>
+      <Key>GetIn</Key>
+      <Value>Intră</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Eroare</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Încuiat</Value>
+    </Record>
+    <Record>
+      <Key>Unlock</Key>
+      <Value>Descuiat</Value>
+    </Record>
+    <Record>
+      <Key>Rename</Key>
+      <Value>Redenumire</Value>
+    </Record>
+    <Record>
+      <Key>Up</Key>
+      <Value>Sus</Value>
+    </Record>
+    <Record>
+      <Key>Down</Key>
+      <Value>Jos</Value>
+    </Record>
+    <Record>
+      <Key>CallElevator</Key>
+      <Value>Chemă</Value>
+    </Record>
+    <Record>
+      <Key>Set</Key>
+      <Value>Setare</Value>
+    </Record>
+    <Record>
+      <Key>Cycle</Key>
+      <Value>Repetă</Value>
+    </Record>
+    <Record>
+      <Key>ForceClose</Key>
+      <Value>Închide forțat</Value>
+    </Record>
+    <Record>
+      <Key>ForceOpen</Key>
+      <Value>Deschide forțat</Value>
+    </Record>
+    <Record>
+      <Key>Vend</Key>
+      <Value>Vinde</Value>
+    </Record>
+    <Record>
+      <Key>ForceFeed</Key>
+      <Value>Deschide forțat</Value>
+    </Record>
+  </Actions>
+  <Things>
+    <RecordThing>
+      <Key>ItemLiquidPipeValve</Key>
+      <Value>Kit (motor mare)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTankConnectorLiquid</Key>
+      <Value>Kit (rezervor portabil)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCornerHBurnt</Key>
+      <Value>Cablu ars (5-căi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolidGenerator</Key>
+      <Value>Kit (generator cu combustibil solid)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngineSmall</Key>
+      <Value>Kit (motor mici)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngineLarge</Key>
+      <Value>Kit (motor mare)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicSwitch</Key>
+      <Value>Manetă</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicDisplay5</Key>
+      <Value>Afișaj cu LED (mic)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED5</Key>
+      <Value>Afișaj cu LED (mic)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED8Large</Key>
+      <Value>Afișaj cu LED (mare)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED5Large</Key>
+      <Value>Afișaj cu LED (mediu)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelDual</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicButton</Key>
+      <Value>Buton</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicSwitch2</Key>
+      <Value>Comutator</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>NpcChick</Key>
+      <Value>Pui de găină</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>NpcChicken</Key>
+      <Value>Găină</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBig</Key>
+      <Value>Rezervor mare</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPotato</Key>
+      <Value>Cartof</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTomato</Key>
+      <Value>Roșie</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGasGenerator</Key>
+      <Value>Kit (generator cu combustibil gazos)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPotatoBaked</Key>
+      <Value>Cartof la copt</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Supă de roșii</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction5Burnt</Key>
+      <Value>Cablu ars (5-căi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionH5</Key>
+      <Value>Cablu gros (5-căi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlagSmall</Key>
+      <Value>Steag mic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLadder</Key>
+      <Value>Kit (scara)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallSimple</Key>
+      <Value>Perete (simplu)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWallArch</Key>
+      <Value>Kit (perete arcuit)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWallFlat</Key>
+      <Value>Kit (perete plat)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWallPadded</Key>
+      <Value>Kit (perete căptușit)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLadder</Key>
+      <Value>Scară </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeCrossJunction4</Key>
+      <Value>Țeavă (colț cu 4 căi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketEngineDestroyed</Key>
+      <Value>Motor rachetă (distrus)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardBlack</Key>
+      <Value>Card de acces (negru)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardBlue</Key>
+      <Value>Card de acces (albastru)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardBrown</Key>
+      <Value>Card de acces (maro)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardGray</Key>
+      <Value>Cartelă de acces (gri)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardGreen</Key>
+      <Value>Card de acces (verde)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardKhaki</Key>
+      <Value>Card de acces (kaki)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardOrange</Key>
+      <Value>Card de acces (Portocaliu)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardPink</Key>
+      <Value>Card de acces (roz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardPurple</Key>
+      <Value>Card de acces (Mov)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardRed</Key>
+      <Value>Card de acces (roșu)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardWhite</Key>
+      <Value>Card de acces (alb)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>AccessCardYellow</Key>
+      <Value>Card de acces (galben)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Handgun</Key>
+      <Value>Pistol</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ReagentGold</Key>
+      <Value>Pulbere de aur</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLockerSmall</Key>
+      <Value>Dulăpior</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicCanister</Key>
+      <Value>Kit (rezervor portabil)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>Kit (rezervor portabil)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOxygenM</Key>
+      <Value>Filtru mediu (oxigen)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Kit (rezervor portabil)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (perete arcuit)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ReagentCobalt</Key>
+      <Value>Pulbere de aur</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAutoMinerSmall</Key>
+      <Value>Kit (motor mici)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAdvancedTablet</Key>
+      <Value>Kit (perete arcuit)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPipeOrgan</Key>
+      <Value>Kit (motor mare)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Kit (scara)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Kit (scara)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Kit (rezervor portabil)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Kit (scara)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBeds</Key>
+      <Value>Kit (scara)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanel1</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanel2</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanel3</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator1</Key>
+      <Value>Kit (generator cu combustibil gazos)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator2</Key>
+      <Value>Kit (generator cu combustibil gazos)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo1</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo2</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo3</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo4</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad1</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad2</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad3</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad4</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad5</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirlock2</Key>
+      <Value>Panou fotovoltaic</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketModuleMiningJunk</Key>
+    </RecordThing>
+  </Things>
+  <Slots>
+    <Record>
+      <Key>Output</Key>
+      <Value>Ieșire</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Intrare</Value>
+    </Record>
+    <Record>
+      <Key>LeftHand</Key>
+      <Value>Mâna stângă</Value>
+    </Record>
+    <Record>
+      <Key>RightHand</Key>
+      <Value>Mâna Dreapta</Value>
+    </Record>
+    <Record>
+      <Key>Helmet</Key>
+      <Value>Cască</Value>
+    </Record>
+    <Record>
+      <Key>Suit</Key>
+      <Value>Costum</Value>
+    </Record>
+    <Record>
+      <Key>Back</Key>
+      <Value>În spate</Value>
+    </Record>
+    <Record>
+      <Key>Brain</Key>
+      <Value>Creier</Value>
+    </Record>
+    <Record>
+      <Key>Uniform</Key>
+      <Value>Uniformă</Value>
+    </Record>
+    <Record>
+      <Key>Lungs</Key>
+      <Value>Plămâni</Value>
+    </Record>
+    <Record>
+      <Key>Glasses</Key>
+      <Value>Ochelari</Value>
+    </Record>
+    <Record>
+      <Key>Belt</Key>
+      <Value>Centura</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>Baterie</Value>
+    </Record>
+    <Record>
+      <Key>GasCanister</Key>
+      <Value>Canistră pentru gaze</Value>
+    </Record>
+    <Record>
+      <Key>GasFilter</Key>
+      <Value>Filtru de gaz</Value>
+    </Record>
+    <Record>
+      <Key>AirTank</Key>
+      <Value>Rezervor de aer</Value>
+    </Record>
+    <Record>
+      <Key>WasteTank</Key>
+      <Value>Rezervor de deșeuri</Value>
+    </Record>
+    <Record>
+      <Key>LifeSupport</Key>
+      <Value>Susține viața</Value>
+    </Record>
+    <Record>
+      <Key>Filter</Key>
+      <Value>Filtru</Value>
+    </Record>
+    <Record>
+      <Key>Tool</Key>
+      <Value>Sculă</Value>
+    </Record>
+    <Record>
+      <Key>Ore</Key>
+      <Value>Minereu</Value>
+    </Record>
+    <Record>
+      <Key>DirtCanister</Key>
+      <Value>Canistră pentru gaze</Value>
+    </Record>
+    <Record>
+      <Key>Propellent</Key>
+      <Value>Propulsor</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsSeat</Key>
+      <Value>Scaunul căpitanului</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatLeft</Key>
+      <Value>Scaun pasager stânga</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatRight</Key>
+      <Value>Scaunul pasagerului dreapta</Value>
+    </Record>
+    <Record>
+      <Key>DataDisk</Key>
+      <Value>Dischetă cu date</Value>
+    </Record>
+    <Record>
+      <Key>Appliance1</Key>
+      <Value>Aparat de lucru 1</Value>
+    </Record>
+    <Record>
+      <Key>Appliance2</Key>
+      <Value>Aparat 2</Value>
+    </Record>
+    <Record>
+      <Key>Seat</Key>
+      <Value>Scaun</Value>
+    </Record>
+    <Record>
+      <Key>TransportSlot</Key>
+      <Value>Slot de transport</Value>
+    </Record>
+    <Record>
+      <Key>Motherboard</Key>
+      <Value>Placă de bază</Value>
+    </Record>
+    <Record>
+      <Key>Entity</Key>
+      <Value>Entitate</Value>
+    </Record>
+    <Record>
+      <Key>Occupant</Key>
+      <Value>Ocupant</Value>
+    </Record>
+    <Record>
+      <Key>PortableSlot</Key>
+      <Value>Slot portabil</Value>
+    </Record>
+    <Record>
+      <Key>Bed</Key>
+      <Value>Pat</Value>
+    </Record>
+    <Record>
+      <Key>Processing</Key>
+      <Value>Se procesează</Value>
+    </Record>
+    <Record>
+      <Key>Torpedo</Key>
+      <Value>Torpila</Value>
+    </Record>
+    <Record>
+      <Key>LoadingRail</Key>
+      <Value>Feroviar de încărcare</Value>
+    </Record>
+    <Record>
+      <Key>AccessCard</Key>
+      <Value>Cartelă de acces</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>Încărcător</Value>
+    </Record>
+    <Record>
+      <Key>ContainerSlot</Key>
+      <Value>Slot pentru containere</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>Plantează</Value>
+    </Record>
+    <Record>
+      <Key>Storage</Key>
+      <Value>Stocare</Value>
+    </Record>
+    <Record>
+      <Key>CircuitBoard</Key>
+      <Value>Circuit</Value>
+    </Record>
+    <Record>
+      <Key>CreditCard</Key>
+      <Value>Card de credit</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge2</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge0</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge1</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Se procesează</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Canistră pentru gaze</Value>
+    </Record>
+    <Record>
+      <Key>HandSlot</Key>
+      <Value>Mâna stângă</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Slot portabil</Value>
+    </Record>
+  </Slots>
+  <Interactables>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Activat</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Deschis</Value>
+    </Record>
+    <Record>
+      <Key>OnOff</Key>
+      <Value>Pornit/oprit</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Blocat</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Alimentat cu energie electrică</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Eroare</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftHand</Key>
+      <Value>Prinde mâna stângă</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightHand</Key>
+      <Value>Prinde mâna dreaptă</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftFoot</Key>
+      <Value>Prinde piciorul stâng</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightFoot</Key>
+      <Value>Prinde piciorul drept</Value>
+    </Record>
+    <Record>
+      <Key>GrabHead</Key>
+      <Value>Prinde mâna stângă</Value>
+    </Record>
+    <Record>
+      <Key>GrabUpperArmL</Key>
+      <Value>Prinde piciorul stâng</Value>
+    </Record>
+    <Record>
+      <Key>GrabUpperArmR</Key>
+      <Value>Prinde piciorul drept</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Prinde piciorul stâng</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
+      <Value>Prinde piciorul drept</Value>
+    </Record>
+    <Record>
+      <Key>GrabThighR</Key>
+      <Value>Prinde piciorul drept</Value>
+    </Record>
+    <Record>
+      <Key>GrabThighL</Key>
+      <Value>Prinde piciorul stâng</Value>
+    </Record>
+    <Record>
+      <Key>GrabCalfR</Key>
+      <Value>Prinde mâna dreaptă</Value>
+    </Record>
+    <Record>
+      <Key>GrabCalfL</Key>
+      <Value>Prinde mâna stângă</Value>
+    </Record>
+    <Record>
+      <Key>Drag</Key>
+      <Value>Trage</Value>
+    </Record>
+    <Record>
+      <Key>Mode</Key>
+      <Value>Mod</Value>
+    </Record>
+    <Record>
+      <Key>Button1</Key>
+      <Value>Buton1</Value>
+    </Record>
+    <Record>
+      <Key>Button2</Key>
+      <Value>Buton2</Value>
+    </Record>
+    <Record>
+      <Key>SplitOne</Key>
+      <Value>Scoate una</Value>
+    </Record>
+    <Record>
+      <Key>SplitHalf</Key>
+      <Value>Dă-l pe jumatate</Value>
+    </Record>
+    <Record>
+      <Key>NextPage</Key>
+      <Value>Pagina Următoare</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPage</Key>
+      <Value>Pagina anterioară</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Folosește</Value>
+    </Record>
+    <Record>
+      <Key>PressureUp</Key>
+      <Value>Crește Presiunea</Value>
+    </Record>
+    <Record>
+      <Key>PressureDown</Key>
+      <Value>Scade Presiunea</Value>
+    </Record>
+    <Record>
+      <Key>Flush</Key>
+      <Value>Lanternă</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>Baterie</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsChair</Key>
+      <Value>Scaunul Căpitanului</Value>
+    </Record>
+    <Record>
+      <Key>PassengersChair</Key>
+      <Value>Scaunul Pasagerilor</Value>
+    </Record>
+    <Record>
+      <Key>Button3</Key>
+      <Value>Buton3</Value>
+    </Record>
+    <Record>
+      <Key>Slot19</Key>
+      <Value>Slot19</Value>
+    </Record>
+    <Record>
+      <Key>Slot20</Key>
+      <Value>Slot20</Value>
+    </Record>
+    <Record>
+      <Key>Slot21</Key>
+      <Value>Slot21</Value>
+    </Record>
+    <Record>
+      <Key>Slot25</Key>
+      <Value>Slot25</Value>
+    </Record>
+    <Record>
+      <Key>Slot26</Key>
+      <Value>Slot26</Value>
+    </Record>
+    <Record>
+      <Key>Slot27</Key>
+      <Value>Slot27</Value>
+    </Record>
+    <Record>
+      <Key>TiltUpwards</Key>
+      <Value>Înclină în sus</Value>
+    </Record>
+    <Record>
+      <Key>Rotate</Key>
+      <Value>Rotește</Value>
+    </Record>
+    <Record>
+      <Key>RotateLeft</Key>
+      <Value>Rotește spre stânga</Value>
+    </Record>
+    <Record>
+      <Key>RotateRight</Key>
+      <Value>Rotește spre dreapta</Value>
+    </Record>
+    <Record>
+      <Key>TiltDownwards</Key>
+      <Value>Înclină în jos</Value>
+    </Record>
+    <Record>
+      <Key>Launch</Key>
+      <Value>Lansează</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPlan</Key>
+      <Value>Planul anterior</Value>
+    </Record>
+    <Record>
+      <Key>NextPlan</Key>
+      <Value>Planul următor</Value>
+    </Record>
+    <Record>
+      <Key>CreatePlan</Key>
+      <Value>Creiază un plan</Value>
+    </Record>
+    <Record>
+      <Key>Search</Key>
+      <Value>Caută</Value>
+    </Record>
+    <Record>
+      <Key>Button4</Key>
+      <Value>Buton4</Value>
+    </Record>
+    <Record>
+      <Key>Output</Key>
+      <Value>Producție</Value>
+    </Record>
+    <Record>
+      <Key>Hatch</Key>
+      <Value>Trapă</Value>
+    </Record>
+    <Record>
+      <Key>Grow</Key>
+      <Value>Crește</Value>
+    </Record>
+    <Record>
+      <Key>LayEgg</Key>
+      <Value>Pune ou</Value>
+    </Record>
+    <Record>
+      <Key>Eat</Key>
+      <Value>Mănâncă</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Introduce</Value>
+    </Record>
+    <Record>
+      <Key>Setting</Key>
+      <Value>Setări</Value>
+    </Record>
+    <Record>
+      <Key>Increase</Key>
+      <Value>Crește</Value>
+    </Record>
+    <Record>
+      <Key>Decrease</Key>
+      <Value>Descreştere</Value>
+    </Record>
+    <Record>
+      <Key>Color</Key>
+      <Value>Culoare</Value>
+    </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>Acces</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>Încărcător</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>Crește temperatura</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>Scade temperatura</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>Ridică</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>Coboară</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Buton5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Buton6</Value>
+    </Record>
+    <Record>
+      <Key>UnpackAll</Key>
+      <Value>Despachetază toate</Value>
+    </Record>
+    <Record>
+      <Key>Unpack</Key>
+      <Value>Despachetează</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge2</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge1</Key>
+      <Value>Cartuş</Value>
+    </Record>
+    <Record>
+      <Key>Next</Key>
+      <Value>Pagina Următoare</Value>
+    </Record>
+    <Record>
+      <Key>Previous</Key>
+      <Value>Pagina anterioară</Value>
+    </Record>
+  </Interactables>
+  <Interface>
+    <Record>
+      <Key>PersonalSuits</Key>
+      <Value>Costum</Value>
+    </Record>
+    <Record>
+      <Key>PersonalBackpacks</Key>
+      <Value>Înapoi</Value>
+    </Record>
+    <Record>
+      <Key>PersonalHelmets</Key>
+      <Value>Cască</Value>
+    </Record>
+    <Record>
+      <Key>ControlSystemAtmos</Key>
+      <Value>Taste de control</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuJoinWorld</Key>
+      <Value>Alăturați-vă unei lumi</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoMapName</Key>
+      <Value>Hartă:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextAsteroids</Key>
+      <Value>Asteroizi:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextVersion</Key>
+      <Value>Versiune:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDelete</Key>
+      <Value>Șterge</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonPublish</Key>
+      <Value>Publică</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDebugLoad</Key>
+      <Value>Încărcare curățată</Value>
+    </Record>
+    <Record>
+      <Key>LoadWorldButtonLoad</Key>
+      <Value>Încarcă lumea</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuTitle</Key>
+      <Value>Alăturați-vă unei lumi</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonRefresh</Key>
+      <Value>Reîmprospătare listă</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonJoin</Key>
+      <Value>Alăturați-vă unei lumi</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListName</Key>
+      <Value>Numele Servărului</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListVersion</Key>
+      <Value>Versiune</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListRefreshing</Key>
+      <Value>Reîmprospătare listă de servere</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInputAddressTitle</Key>
+      <Value>Adresa</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTitle</Key>
+      <Value>O lume nouă</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonBack</Key>
+      <Value>Înapoi</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonCreate</Key>
+      <Value>Creare lume</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaTitle</Key>
+      <Value>Zonă de pornire</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaSpace</Key>
+      <Value>Spaţiu gol</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMars</Key>
+      <Value>Marte</Value>
+    </Record>
+    <Record>
+      <Key>Mars</Key>
+      <Value>Marte</Value>
+    </Record>
+    <Record>
+      <Key>Moon</Key>
+      <Value>Luna</Value>
+    </Record>
+    <Record>
+      <Key>Space</Key>
+      <Value>Spaţiu gol</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>Pământ</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldEnableAwayMissions</Key>
+      <Value>Activare misiuni de deplasare</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBelt</Key>
+      <Value>Centura</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>Ochelari</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotUniform</Key>
+      <Value>Uniformă</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBackpack</Key>
+      <Value>Înapoi</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotSuit</Key>
+      <Value>Costum</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHelmet</Key>
+      <Value>Cască</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandLeft</Key>
+      <Value>Mâna stângă</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandRight</Key>
+      <Value>Mâna Dreapta</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowExternal</Key>
+      <Value>Extern</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowDamage</Key>
+      <Value>Avarii</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowInternal</Key>
+      <Value>Intern</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonReturn</Key>
+      <Value>Revenire la joc</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSave</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonChangeCharacter</Key>
+      <Value>Modificare aspect</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSettings</Key>
+      <Value>Setări</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonLeave</Key>
+      <Value>Părăsește sesiunea</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExitDesktop</Key>
+      <Value>Ieșire la desktop</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuTitle</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuListTitle</Key>
+      <Value>Lumi salvate</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBack</Key>
+      <Value>Înapoi</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDelete</Key>
+      <Value>Șterge</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUploadProgress</Key>
+      <Value>Procesarea datelor de configurare</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirmWarning</Key>
+      <Value>Avertizare</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExit</Key>
+      <Value>Ieșire joc</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuTitle</Key>
+      <Value>Setări</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAudio</Key>
+      <Value>Sunet</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuControls</Key>
+      <Value>Taste de control</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMisc</Key>
+      <Value>Altele</Value>
+    </Record>
+    <Record>
+      <Key>SettingsGameplayAutosave</Key>
+      <Value>Activează salvarea automată</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAutosaveInterval</Key>
+      <Value>Interval de timp (secunde)</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHUDScale</Key>
+      <Value>Scala HUD</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayLatency</Key>
+      <Value>Afișare latență</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayFPS</Key>
+      <Value>Afișare FPS -uri</Value>
+    </Record>
+    <Record>
+      <Key>ButtonResetDefaults</Key>
+      <Value>Implicite</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairStyle</Key>
+      <Value>Păr</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>ajutor</Value>
+    </Record>
+    <Record>
+      <Key>InvalidDegrees</Key>
+      <Value>Nul</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGameMode</Key>
+      <Value>Mod de joc</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGravity</Key>
+      <Value>Gravitație</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTemperature</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldPressure</Key>
+      <Value>Presiune</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarEnergy</Key>
+      <Value>Energie solară</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Părăsește sesiunea</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuTitle</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuListTitle</Key>
+      <Value>Lumi salvate</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravel</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonTravel</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuNamePlaceholder</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>PromptTravelConfirm</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravelNew</Key>
+      <Value>O lume nouă</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravelLoad</Key>
+      <Value>Încarcă lumea</Value>
+    </Record>
+    <Record>
+      <Key>Gravity</Key>
+      <Value>Gravitație</Value>
+    </Record>
+    <Record>
+      <Key>SolarScaleField</Key>
+      <Value>Energie solară</Value>
+    </Record>
+    <Record>
+      <Key>DawnTemperatureField</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>NoonTemperatureField</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>DuskTemperatureField</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>MidnightTemperatureField</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>HasCustomTemperatureField</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCustomWorld</Key>
+      <Value>Creare lume</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderOil</Key>
+      <Value>Nul</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderEnergy</Key>
+      <Value>Energie solară</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderTemperature</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderPressure</Key>
+      <Value>Presiune</Value>
+    </Record>
+    <Record>
+      <Key>CustomWorld</Key>
+      <Value>Creare lume</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Presiune</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>Afișare FPS -uri</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>Taste de control</Value>
+    </Record>
+    <Record>
+      <Key>ControlPrimaryClickDisc</Key>
+      <Value>Intern</Value>
+    </Record>
+    <Record>
+      <Key>ControlSecondaryEatDisc</Key>
+      <Value>Pământ</Value>
+    </Record>
+    <Record>
+      <Key>HelmetString</Key>
+      <Value>Cască</Value>
+    </Record>
+    <Record>
+      <Key>TravelCategoryKey</Key>
+      <Value>Salvează lumea</Value>
+    </Record>
+    <Record>
+      <Key>PressureKeySPDA</Key>
+      <Value>Presiune</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMachineVersion</Key>
+      <Value>Versiune</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaModeHeader</Key>
+      <Value>Mod de joc</Value>
+    </Record>
+  </Interface>
+  <Colors>
+    <Record>
+      <Key>ColorBlue</Key>
+      <Value>Albastru</Value>
+    </Record>
+    <Record>
+      <Key>ColorGray</Key>
+      <Value>Gri</Value>
+    </Record>
+    <Record>
+      <Key>ColorGreen</Key>
+      <Value>Verde</Value>
+    </Record>
+    <Record>
+      <Key>ColorOrange</Key>
+      <Value>Portocaliu</Value>
+    </Record>
+    <Record>
+      <Key>ColorRed</Key>
+      <Value>Roșu</Value>
+    </Record>
+    <Record>
+      <Key>ColorYellow</Key>
+      <Value>Galben</Value>
+    </Record>
+    <Record>
+      <Key>ColorWhite</Key>
+      <Value>Alb</Value>
+    </Record>
+    <Record>
+      <Key>ColorBlack</Key>
+      <Value>Negru</Value>
+    </Record>
+    <Record>
+      <Key>ColorBrown</Key>
+      <Value>Maro</Value>
+    </Record>
+    <Record>
+      <Key>ColorKhaki</Key>
+      <Value>Kaki</Value>
+    </Record>
+    <Record>
+      <Key>ColorPink</Key>
+      <Value>Roz</Value>
+    </Record>
+    <Record>
+      <Key>ColorPurple</Key>
+      <Value>Violet</Value>
+    </Record>
+  </Colors>
+  <Keys>
+    <Record>
+      <Key>None</Key>
+      <Value>Nici una</Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>Ștergeți</Value>
+    </Record>
+    <Record>
+      <Key>Return</Key>
+      <Value>Enter</Value>
+    </Record>
+    <Record>
+      <Key>Escape</Key>
+      <Value>Esc</Value>
+    </Record>
+    <Record>
+      <Key>Space</Key>
+      <Value>Tasta spațiu</Value>
+    </Record>
+    <Record>
+      <Key>Exclaim</Key>
+      <Value>Semnul exclamării !</Value>
+    </Record>
+    <Record>
+      <Key>DoubleQuote</Key>
+      <Value>Ghilimele duble &quot;&quot;</Value>
+    </Record>
+    <Record>
+      <Key>Hash</Key>
+      <Value>Tasta#</Value>
+    </Record>
+    <Record>
+      <Key>Dollar</Key>
+      <Value>Tasta $</Value>
+    </Record>
+    <Record>
+      <Key>Percent</Key>
+      <Value>%</Value>
+    </Record>
+    <Record>
+      <Key>Ampersand</Key>
+      <Value>&amp;</Value>
+    </Record>
+    <Record>
+      <Key>Quote</Key>
+      <Value>Tasta &apos;</Value>
+    </Record>
+    <Record>
+      <Key>LeftParen</Key>
+      <Value> Tasta (</Value>
+    </Record>
+    <Record>
+      <Key>RightParen</Key>
+      <Value>Tasta )</Value>
+    </Record>
+    <Record>
+      <Key>Asterisk</Key>
+      <Value>Tasta *</Value>
+    </Record>
+    <Record>
+      <Key>Plus</Key>
+      <Value>Tasta +</Value>
+    </Record>
+    <Record>
+      <Key>Comma</Key>
+      <Value>Virgulă</Value>
+    </Record>
+    <Record>
+      <Key>Period</Key>
+      <Value>.</Value>
+    </Record>
+    <Record>
+      <Key>Slash</Key>
+      <Value>/</Value>
+    </Record>
+    <Record>
+      <Key>Alpha0</Key>
+      <Value>0</Value>
+    </Record>
+    <Record>
+      <Key>Alpha1</Key>
+      <Value>1</Value>
+    </Record>
+    <Record>
+      <Key>Alpha2</Key>
+      <Value>2</Value>
+    </Record>
+    <Record>
+      <Key>Alpha3</Key>
+      <Value>3</Value>
+    </Record>
+    <Record>
+      <Key>Alpha4</Key>
+      <Value>4</Value>
+    </Record>
+    <Record>
+      <Key>Alpha5</Key>
+      <Value>5</Value>
+    </Record>
+    <Record>
+      <Key>Alpha6</Key>
+      <Value>6</Value>
+    </Record>
+    <Record>
+      <Key>Alpha7</Key>
+      <Value>7</Value>
+    </Record>
+    <Record>
+      <Key>Alpha8</Key>
+      <Value>8</Value>
+    </Record>
+    <Record>
+      <Key>Alpha9</Key>
+      <Value>9</Value>
+    </Record>
+    <Record>
+      <Key>Colon</Key>
+      <Value>Două puncte (:)</Value>
+    </Record>
+    <Record>
+      <Key>Semicolon</Key>
+      <Value>Punct și virgulă (;)</Value>
+    </Record>
+    <Record>
+      <Key>Less</Key>
+      <Value>&lt;</Value>
+    </Record>
+    <Record>
+      <Key>Equals</Key>
+      <Value>=</Value>
+    </Record>
+    <Record>
+      <Key>Greater</Key>
+      <Value>&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Question</Key>
+      <Value>?</Value>
+    </Record>
+    <Record>
+      <Key>At</Key>
+      <Value>@</Value>
+    </Record>
+    <Record>
+      <Key>LeftBracket</Key>
+      <Value>[</Value>
+    </Record>
+    <Record>
+      <Key>Backslash</Key>
+      <Value>\</Value>
+    </Record>
+    <Record>
+      <Key>RightBracket</Key>
+      <Value>]</Value>
+    </Record>
+    <Record>
+      <Key>Caret</Key>
+      <Value>^</Value>
+    </Record>
+    <Record>
+      <Key>Underscore</Key>
+      <Value>_</Value>
+    </Record>
+    <Record>
+      <Key>BackQuote</Key>
+      <Value>`</Value>
+    </Record>
+    <Record>
+      <Key>LeftCurlyBracket</Key>
+      <Value>{</Value>
+    </Record>
+    <Record>
+      <Key>Pipe</Key>
+      <Value>|</Value>
+    </Record>
+    <Record>
+      <Key>RightCurlyBracket</Key>
+      <Value>}</Value>
+    </Record>
+    <Record>
+      <Key>Tilde</Key>
+      <Value>~</Value>
+    </Record>
+    <Record>
+      <Key>KeypadPeriod</Key>
+      <Value> Keypad .</Value>
+    </Record>
+    <Record>
+      <Key>KeypadDivide</Key>
+      <Value> Keypad /</Value>
+    </Record>
+    <Record>
+      <Key>KeypadMultiply</Key>
+      <Value> Keypad *</Value>
+    </Record>
+    <Record>
+      <Key>KeypadMinus</Key>
+      <Value>Keypad Minus</Value>
+    </Record>
+    <Record>
+      <Key>KeypadPlus</Key>
+      <Value>Keypad Plus</Value>
+    </Record>
+    <Record>
+      <Key>KeypadEnter</Key>
+      <Value>Keypad Enter</Value>
+    </Record>
+    <Record>
+      <Key>KeypadEquals</Key>
+      <Value>Keypad  =</Value>
+    </Record>
+    <Record>
+      <Key>UpArrow</Key>
+      <Value>Săgeată sus</Value>
+    </Record>
+    <Record>
+      <Key>DownArrow</Key>
+      <Value>Săgeată jos</Value>
+    </Record>
+    <Record>
+      <Key>PageUp</Key>
+      <Value>Page Up</Value>
+    </Record>
+    <Record>
+      <Key>PageDown</Key>
+      <Value>Page Down</Value>
+    </Record>
+    <Record>
+      <Key>CapsLock</Key>
+      <Value>Caps Lock</Value>
+    </Record>
+    <Record>
+      <Key>ScrollLock</Key>
+      <Value>Scroll Lock</Value>
+    </Record>
+    <Record>
+      <Key>RightShift</Key>
+      <Value>Dreapta Shift</Value>
+    </Record>
+    <Record>
+      <Key>LeftShift</Key>
+      <Value>Stânga Shift</Value>
+    </Record>
+    <Record>
+      <Key>RightControl</Key>
+      <Value>DreaptaControl</Value>
+    </Record>
+    <Record>
+      <Key>LeftControl</Key>
+      <Value>Stânga Control</Value>
+    </Record>
+    <Record>
+      <Key>AltGr</Key>
+      <Value>Alt Gr</Value>
+    </Record>
+    <Record>
+      <Key>SysReq</Key>
+      <Value>Sys Req</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton0</Key>
+      <Value>Joystick-Buton0</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton1</Key>
+      <Value>Joystick-Buton1</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton2</Key>
+      <Value>Joystick-Buton2</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton3</Key>
+      <Value>Joystick-Buton3</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton4</Key>
+      <Value>Joystick-Buton4</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton5</Key>
+      <Value>Joystick-Buton5</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton6</Key>
+      <Value>Joystick-Buton6</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton7</Key>
+      <Value>Joystick-Buton7</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton8</Key>
+      <Value>Joystick-Buton8</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton9</Key>
+      <Value>Joystick-Buton9</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton10</Key>
+      <Value>Joystick-Buton10</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton11</Key>
+      <Value>Joystick-Buton11</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton12</Key>
+      <Value>Joystick-Buton12</Value>
+    </Record>
+  </Keys>
+  <Mineables>
+    <Record>
+      <Key>Iron</Key>
+      <Value>Fier</Value>
+    </Record>
+    <Record>
+      <Key>Ice</Key>
+      <Value>Gheață</Value>
+    </Record>
+    <Record>
+      <Key>Oxite</Key>
+      <Value>Oxid</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>Gaz inflamabil</Value>
+    </Record>
+    <Record>
+      <Key>Gold</Key>
+      <Value>Aur</Value>
+    </Record>
+    <Record>
+      <Key>Coal</Key>
+      <Value>Cărbune</Value>
+    </Record>
+    <Record>
+      <Key>Copper</Key>
+      <Value>Cupru</Value>
+    </Record>
+    <Record>
+      <Key>Uranium</Key>
+      <Value>Uraniu</Value>
+    </Record>
+    <Record>
+      <Key>Silver</Key>
+      <Value>Argint</Value>
+    </Record>
+    <Record>
+      <Key>Nickel</Key>
+      <Value>Nichel</Value>
+    </Record>
+    <Record>
+      <Key>Lead</Key>
+      <Value>Plumb</Value>
+    </Record>
+  </Mineables>
+  <ScreenSpaceToolTips/>
+  <HelpPage/>
+  <ThingPageOverride/>
+  <HomePageButtonsOverride/>
+  <GameTip/>
+</Language>

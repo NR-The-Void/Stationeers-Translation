@@ -1,0 +1,39 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>HU</Code>
+  <GameTip>
+    <String>A(z) {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} és {KEY:ToolBeltSlot} billentyűk megnyomásával megnyithatod az általad hordott dolgok tárhelyét. A gombok hosszú lenyomásval kicserélheted őket a kezedben levő tárgyakra.</String>
+    <String>Nyomd meg a(z) {KEY:ToggleLight} billentyűt a {THING:ItemSpaceHelmet} lámpájának ki- és bekapcsolásához.</String>
+    <String>Az integetéshez nyomd meg a(z) {KEY:EmoteWave} billentyűt!</String>
+    <String>A(z) {KEY:ToggleUI} billentyűvel ki- és bekapcsolhatod a felhasználói felületet, így csodaszép képeket és videókat készíthetsz.</String>
+    <String>A kezeid között a(z) {KEY:SwapHands} lenyomásával válthatsz. A(z) {KEY:ActiveHandSlot} lenyomásával aktiválódik a kézben lévő tárgy menüje.</String>
+    <String>A(z) {KEY:Internals} megnyomásával állíthatod a {THING:ItemSpaceHelmet} ablakának állását.</String>
+    <String>A {THING:StructureFrameIron} építéséhez vagy továbbépítéséhez legyen az egyik kezedben egy bekapcsolt {THING:ItemWeldingTorch}, a másikban egy adag {THING:ItemIronSheets} és már kezdheted is a munkát!</String>
+    <String>Egy árammal ellátott {THING:StructureArcFurnace}ba helyezz egy adag {THING:ItemIronOre}-t, hogy {THING:ItemIronIngot} készülhessen belőle.</String>
+    <String>A logikák integált áramkörrel való vezérléséhez helyezz egy {THING:MotherboardLogic}-t a {THING:StructureComputer}be. Ezzel feltételeket és műveleteket adhatsz meg, amelyekkel vezérelheted az adott hálózaton levő eszközöket.</String>
+    <String>Ha éppen módosítod valaminek a mennyiségét, a(z) {KEY:QuantityModifier} lenyomásával kisebb mértékben tudsz lépkedni.</String>
+    <String>{THING:ItemKitLogicInputOutput} használatával készíthető {THING:StructureLogicReader} vagy {THING:StructureLogicWriter}. Az olvasók értékeket nyernek ki az eszközökből, az írók pedig az értékeket meg tudják változtatni. Ezeket számoló egységekkel kombinálva komplex automatikákat lehet létrehozni.</String>
+    <String>{THING:ItemKitLogicInputOutput} használatával készíthető {THING:StructureLogicBatchReader} vagy {THING:StructureLogicBatchWriter}. Az olvasók képesek értékeket kinyerni egy eszközökből álló csoportból, az írók pedig ezeknek a csoportoknak az értékeit írják.</String>
+    <String>Használj egy {THING:StructureRecycler}t a nem használt dolgok reagensekké alakításához! Az ebből készült {THING:ItemReagentMix}et a {THING:StructureCentrifuge} használatával visszaalakíthatod érccé, amit egyből be is olvaszthatsz a {THING:StructureFurnace}ban.</String>
+    <String>A {THING:StructureHydraulicPipeBender} segítségével atmoszferikai eszközöket gyárthatsz, mint például a {THING:ItemKitAtmospherics}, amivel olyan hasznos gépeket készíthetsz, mint például a {THING:StructureAirConditioner} vagy a {THING:StructureFiltration}.</String>
+    <String>Minél sérültebb a ruhád, annál kevésbé hatékonyabban fog működni. Szigszalaggal javíthatod.</String>
+    <String>Minél sérültebb a ruhád, annál kevésbé hatékonyabban fog működni.</String>
+    <String>Miután az eredeti Stationeers Kézikönyv egy szingularitásba omlott össze, a Stationpedia lépett a helyébe. A(z) {KEY:Help} lenyomásával bármikor előhívhatod a segédletet.</String>
+    <String>A kezdő {THING:ItemEVASuit} és az {THING:ItemSpaceHelmet} nem bírja a magas hőmérsékletet. Veszélyes környezetben a {THING:ItemHardSuit} használata ajánlott.</String>
+    <String>A Stationeers-program a Földönkívüli Fejlesztési Ügynökség által jött létre azért, hogy támogassák a Naprendszerben levő és azon túli égítestek felfedezését</String>
+    <String>{THING:ItemHardBackpack}kal több mindent cipelhetsz, de téged nem fog cipelni!</String>
+    <String>Minél sérültebb a ruhád, annál kevésbé hatékonyabban fog működni.</String>
+    <String>{THING:StructureHarvie} segítségével teljesen automatizálhatod a növények ültetését, növesztését és aratását.</String>
+    <String>A Bővített eszköztippek be- és kikapcsolhatók a Beállítások menüpontban.</String>
+    <String>A {KEY:HideAllWindows} lenyomásával egyszerre eltüntetheted az összes nyitott ablakot.</String>
+    <String>A {THING:ItemCrowbar} alkalmas az áramtalanított ajtók és az áramszabályozók fedelének felfeszítésére.</String>
+    <String>A {THING:ItemMiningDrill} átállítható &quot;Lapítás&quot; üzemmódra, mellyel egyszerűbben csinálhatsz vízszintes padlót.</String>
+    <String>A {THING:ItemWearLamp} segítségével a sisakod nélkül is világíthatsz.</String>
+    <String>A(z) {KEY:MouseControl} gomb lenyomásával engedélyezheted a kurzort, mellyel áthúzhatsz dolgokat a slotok között.</String>
+    <String>Az alap űrsisak megvédi a stationeereket mindentől: az űr tátongó vákuumától kezdve a leégetett étel szagáig.</String>
+    <String>A fizika a barátod. Egészen addig, ameddig nem az.</String>
+    <String>Ez egy frikciós, tapadásos, birotációs eszköz, oszlopos és egykezes kialakítással. Nem egy egyszerű csavarhúzó!</String>
+    <String>A Csengdu óta illegális a Földön, viszont a Norsec atomenergia-cellák találtak egy új, de sokkal kevésbé biztonságtudatos, földöntúli piacot.</String>
+    <String>Kivagy, ha éhes vagy? Dobj be egy müzliszeletet, mely kicsi, tápláló és frissítően alacsony a sugárzása!</String>
+    <String>Megbolondulsz a folyamatos szűrőcserétől? Használj közepes és nagy szűrőket! 5-ször és 20-szor tovább bírják, de előállításuk jóval drágább.</String>
+  </GameTip>
+</Language>

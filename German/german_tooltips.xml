@@ -1,0 +1,161 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>DE</Code>
+  <ScreenSpaceToolTips>
+    <Record>
+      <Key>StatusIconToxinName</Key>
+      <Value>Toxine</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinDesc</Key>
+      <Value>Aktuelles Toxizitätslevel</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinWarning</Key>
+      <Value>Benötigt Aufmerksamkeit</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Die Hydratation ist niedrig</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationKey</Key>
+      <Value>Hydratation niedrig</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCaution</Key>
+      <Value>Hydratation Vorsicht</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCritical</Key>
+      <Value>Hydratation kritisch</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinCritical</Key>
+      <Value>In einem kritischen Zustand</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenName</Key>
+      <Value>Sauerstoffversorgung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenDesc</Key>
+      <Value>Die Atmosphäre, die du einatmest, schädigt deine Lunge.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenWarning</Key>
+      <Value>Der Tank des Anzugs ist fast leer und muss repariert werden</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxyegnCritical</Key>
+      <Value>Der Tank des Anzugs ist kritisch, ersetze deine Sauerstoffflasche</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureName</Key>
+      <Value>Innendruck</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureDesc</Key>
+      <Value>Aktuelles Drucklevel, überprüfe den Anzugdruck</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureWarning</Key>
+      <Value>Anzugdruck ist niedrig</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureCritical</Key>
+      <Value>Der Druck im Anzug ist kritisch niedrig</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureName</Key>
+      <Value>Innentemperatur</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureDesc</Key>
+      <Value>Aktuelle Temperatur im Inneren deines Anzugs</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureWarning</Key>
+      <Value>Anzeige des aktuellen Toxizitätslevels</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureCritical</Key>
+      <Value>Zeigt das aktuelle Toxizitätslevel an</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeakingName</Key>
+      <Value>Anzug ist undicht</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerName</Key>
+      <Value>Energieversorgung des Anzugs</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityName</Key>
+      <Value>Schwerelosigkeit</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackName</Key>
+      <Value>Jetpack aktiv</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconClimbingName</Key>
+      <Value>Klettern</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLightName</Key>
+      <Value>Scheinwerfer umschalten</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInternalsName</Key>
+      <Value>Helm öffnen/schließen</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHandPowerName</Key>
+      <Value>Gegenstand in der Hand ein-/ausschalten</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInSlotName</Key>
+      <Value>Du befindest dich in einem Slot</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerName</Key>
+      <Value>Aktueller Hunger</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunName</Key>
+      <Value>Betäubungsprozent</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTankName</Key>
+      <Value>Aktuelle Lufttank-Kapazität</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningName</Key>
+      <Value>Treibstoff-Kapazität</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconFilterName</Key>
+      <Value>Filter-Kapazität</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteName</Key>
+      <Value>Abfall-Kapazität</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthName</Key>
+      <Value>Aktuelle Gesundheit</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationName</Key>
+      <Value>Derzeitige Hydratation</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>Bewusstlos</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructCanisterFull</Key>
+      <Value>Kann nicht abgebaut werden. Der Kanister muss leer sein</Value>
+    </Record>
+  </ScreenSpaceToolTips>
+</Language>

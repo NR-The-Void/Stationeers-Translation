@@ -1,0 +1,161 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Konstruktéři</Title>
+      <Text>Jedná se o výrobní napájené struktury, které budete potřebovat k výrobě potřebných věcí. Obvykle vyžadují {LINK:IngotPage;ingoty} k přípravě {LINK:ReagentPage;činidel}, které potřebují k výrobě.
+        {LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Zařízení</Title>
+      <Text>Tohle jsou struktury, obvykle napájené, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Tavení</Title>
+      <Text>Jakmile budete mít {LINK:OrePage;rudy}, musíte je přeměnit na {LINK:IngotPage;ingoty}, aby jste mohli použít jejich {LINK:ReagentPage;činidla}. Tavením často vznikají {LINK:GasPage;plyny}. K tomu dochází buď v {THING:StructureArcFurnace} (pro jednoduché recepty) a v {THING:StructureFurnace} pro složitější {LINK:AlloyPage;slitiny}, a nakonec v {THING:StructureAdvancedFurnace} pro velmi složité {LINK:SuperAlloyPage;Superslitiny}. U složitých slitin budete muset dosáhnout směsí v perfektních poměrech, {LINK:TemperaturePage;teplota} a {LINK:PressurePage;tlak}.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Těžení</Title>
+      <Text>Můžete těžit {LINK:OrePage;rudy} pomocí {THING:ItemMiningDrill}. Pokud nosíte {THING:ItemMiningBelt}, budou {LINK:OrePage;rudy} automaticky umístěny do něj.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Činidla</Title>
+      <Text>Tohle jsou chemická množství určitých typů.
+      {LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Plyny</Title>
+      <Text>Tohle jsou chemické plyny určitých typů.{LIST_OF_GASES}
+      
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Zdroje</Title>
+      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Sady</Title>
+      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Jídlo</Title>
+      <Text>Jedná se o položky, které se konzumují k zajištění výživy.
+        {LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Oblečení</Title>
+      <Text>Jedná se o položky, které mohou být nošeny entitami ve slotech.
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Spotřebiče</Title>
+      <Text>Jedná se o předměty, které mohou být umístěny na pracovním stole pomocí hasáku.
+{LIST_OF_APPLIANCES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Raketoplán</Title>
+      <Text>Tyto raketové moduly se používají k cestování mezi světy a vyžadují {THING:StructureLaunchPad}.
+{HEADER:Seznam raketových modulů}
+{LIST_OF_ROCKET_SHUTTLE}</Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Všeobecné}
+{LIST}Prefabrikovaný hash {POS:300}{1}
+Malovatelné {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Tepelné limity}
+{LIST}Rozbití {POS:300}{0}
+Bod vzplanutí {POS:300}{1}
+Samovznícení {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Typ {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Připojí se k {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Teplota taveniny {1}
+Tlak taveniny {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>{LINK:ReagentPage;Činidlo}, často použitelné, když je ve formě {LINK:IngotPage;ingotů}.
+
+
+{LIST}Unit {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:GasPage;Plyn}, který se často vytváří při {LINK:SmeltingPage;tavení}.
+
+
+{LIST}Specifické teplo {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Limit hořlavosti {0} až {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

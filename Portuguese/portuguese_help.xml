@@ -1,0 +1,210 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>PT</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabricadores</Title>
+      <Text>Estes são Estruturas ligadas à energia que podem ser usadas para fabricar coisas que precisas no jogo. Eles usam {LINK:IngotPage;lingotes} para providenciar os {LINK:ReagentPage;reagentes} que eles precisam para fazem os itens.
+
+{HEADER:Lista de Fabricadores}
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Dispositivos</Title>
+      <Text>Estes são Estruturas, tipicamente ligados à energia, que tem funções especializadas incluindo Lógica, Atmosféricos e outros. São construídos do mesmo modo que outras estruturas.
+      
+{HEADER:Lista de Dispositivos}
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Fundição</Title>
+      <Text>Assim que obtenhas {LINK:OrePage;minério}, vais precisar de os transformar em {LINK:IngotPage;lingotes} de modo a poderes usar os seus {LINK:ReagentPage;reagentes}. A fundição irá produzir {LINK:GasPage;gases}. Isto ocorrerá quer seja na {THING:StructureArcFurnace} (para receitas simples) quer seja na {THING:StructureFurnace} para mais complicadas {LINK:AlloyPage;Ligas}, e finalmente na {THING:StructureAdvancedFurnace} para as super complexas {LINK:SuperAlloyPage;Super-Ligas}. Para as ligas mais complexas, vais precisar de alcançar misturas em quantidades perfeitas, {LINK:TemperaturePage;Temperatura}, e {LINK:PressurePage;Pressão}. 
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Minerando</Title>
+      <Text>Podes minerar {LINK:OrePage;minério} usando uma {THING:ItemMiningDrill}. Se estiveres a usar um {THING:ItemMiningBelt} o {LINK:OrePage;minério} será automaticamente armazenado nele.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagentes</Title>
+      <Text>Estes são quantidades químicas de certos tipos.
+      
+{HEADER:Lista de Reagentes}
+{LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Recursos</Title>
+      <Text>Estes são itens que são consumidos durante a {LINK:ConstructionPage;construção} e outras tarefas.
+      
+{HEADER:Lista de Recursos}
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Comida</Title>
+      <Text>Estes são itens que são consumidos para prover nutrição.
+      
+{HEADER:Lista de Comidas}
+{LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Vestuário</Title>
+      <Text>Estes são itens que podem colocados em compartimentos e vestidos por entidades.
+      
+{HEADER:Lista de Vestuário}
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Utensílios</Title>
+      <Text>Estes são itens que podem ser colocados em Bancadas. Tens de coloca-los numa bancada e posteriormente fixa-los com uma Chave Inglesa.
+      
+{HEADER:Lista de Utensílios}
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+Pintável {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Limite Térmico}
+{LIST}Estilhaçar {POS:300}{0}
+Ponto de Inflamação{POS:300}{1}
+Auto ignição{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Compartimentos}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {POS:100}{1} {POS:300}Tipo {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Tamanho do Lote {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Conecta a {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Nutrição Máxima {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Temperatura de Derretimento {POS:300}{1}
+Pressão de Derretimento {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Produzido por}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Construido por}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Pode Produzir}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Pode Construir}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:Conectado a}
+        {LIST}{0}{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Lógica}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeTemplate</Key>
+      <Text>{0}{POS:300}{1}{2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modos}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gases}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reagentes}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}{POS:100}{1}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Um {LINK:ReagentPage;reagente}, muitas vezes usados na forma de {LINK:IngotPage;lingotes}.
+
+{HEADER:Geral}
+{LIST}Unidade {POS:300}{1}{/LIST}
+
+{HEADER:Encontrado em}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Um {LINK:GasPage;gás}, normalmente produzido durante a {LINK:SmeltingPage;fundição}.
+
+{HEADER:Geral}
+{LIST}Calor Específico {POS:300}{1}{2}{/LIST}
+
+{HEADER:Encontrado em}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Limite Inflamável {POS:300}{0} para {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

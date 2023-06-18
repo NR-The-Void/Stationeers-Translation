@@ -1,0 +1,31 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>IT</Code>
+  <GameTip>
+    <String>Premi {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, o {KEY:ToolBeltSlot} per alternare le varie interazioni tra gli slot su ogni oggetto o con gli slot che stai indossando. Tieni premuto per scambiare lo slot con la mano attiva e viceversa.</String>
+    <String>Premi {KEY:ToggleLight} per accendere o spegnere la luce del {THING:ItemSpaceHelmet} .</String>
+    <String>Premi {KEY:EmoteWave} per salutare gli altri Giocatori.</String>
+    <String>Premi {KEY:ToggleUI} per attivare o disattivare l&apos;interfaccia HUD, ideale per gli screenshots o video.</String>
+    <String>Premendo {KEY:SwapHands} cambia quale mano è attiva. Premendo {KEY:ActiveHandSlot} puoi scorrere tra le varie opzioni interattive dell&apos;oggetto nella tua mano attiva.</String>
+    <String>Premi {KEY:Internals} per aprire o chiudere il tuo {THING:ItemSpaceHelmet} .</String>
+    <String>Mentre tieni la {THING:ItemWeldingTorch} accesa in una mano, e una quantità di {THING:ItemIronSheets} nell&apos;altra puoi aggiornare lo stato di costruzione di {THING:StructureFrameIron}.</String>
+    <String>Metti una quantità di {THING:ItemIronOre} in un {THING:StructureArcFurnace} acceso in modo da fonderlo in {THING:ItemIronIngot}.</String>
+    <String>Inserisci una {THING:MotherboardLogic} in un {THING:StructureComputer} per abilitare un controllo logico. Sarai in grado di aggiungere condizioni ed azioni che controllano lo stato dei dispositivi sulla stessa rete.</String>
+    <String>Per modificare la quantità di qualcosa tieni premuto {KEY:QuantityModifier} mentre clicchi per avere incrementi di minore entità.</String>
+    <String>Usa un {THING:ItemKitLogicInputOutput} per creare un {THING:StructureLogicReader} o {THING:StructureLogicWriter}. I lettori ti permettono di leggere valori/variabili di altri dispositivi, gli scrittori ti permettono di cambiare i valori sui dispotivi. Puoi creare sistemi automatici complessi quando combinati con un&apos;unità Matematica.</String>
+    <String>Usa un {THING:ItemKitLogicInputOutput} per creare un {THING:StructureLogicBatchReader} o {THING:StructureLogicBatchWriter}. I lettori batch ti permettono di leggere valori/variabili da un intero gruppo di dispositivi, gli scrittori batch ti permettono di cambiare valori ad un intero gruppo di dispositivi.</String>
+    <String>Usa un {THING:StructureRecycler} per reciclare cose che non vuoi più in reagenti riutilizzabili. Passa l&apos;output {THING:ItemReagentMix} in una {THING:StructureCentrifuge} per convertirli in minerali, pronti per la {THING:StructureFurnace}.</String>
+    <String>Usa un {THING:StructureHydraulicPipeBender} per produrre dispositivi atmosferici, come il {THING:ItemKitAtmospherics} che ti permette di costruire macchine utili come il {THING:StructureAirConditioner} o {THING:StructureFiltration}.</String>
+    <String>Più la tua tuta è danneggiata, meno efficiente sarà il suo funzionamento.</String>
+    <String>Più la tua tuta è danneggiata, meno efficiente sarà il suo funzionamento.</String>
+    <String>{THING:ItemHardBackpack} può portare più oggetti, ma non può portare te! </String>
+    <String>Più la tua tuta è danneggiata, meno efficiente sarà il suo funzionamento.</String>
+    <String>Puoi chiudere tutte le finestre in una volta premendo il tasto {KEY:HideAllWindows}.</String>
+    <String>La finestra di suggerimenti estesa può essere attivata/disattivata nel menù Opzioni. </String>
+    <String>Puoi chiudere tutte le finestre in una volta premendo il tasto {KEY:HideAllWindows}.</String>
+    <String>{THING:ItemCrowbar} può essere utilizzato per aprire porte non alimentate o controlli di alimentazione. </String>
+    <String>{THING:ItemMiningDrill} può essere settato in modalità &apos;Spiana&apos; per aiutarti a creare pavimenti piani mentre scavi. </String>
+    <String>La {THING:ItemWearLamp} può essere utilizzata per illuminare senza indossare un elmetto.</String>
+    <String>Tenendo premuto {KEY:MouseControl} puoi abilitare il cursore del mouse e trascinare oggetti dentro e fuori dal tuo inventario o tra i vari slot.</String>
+    <String>Stanco di rimpiazzare i normali filtri? Filtri medi e pesanti durano rispettivamente 5 e 20 volte di più, ma sono più costosi.</String>
+  </GameTip>
+</Language>

@@ -1,0 +1,150 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>RU</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Фабрикаторы</Title>
+      <Text>Эти электрические Конструкции могут быть использованы для Производства предметов необходимых в игре. Обычно им требуются {LINK:IngotPage;Слитки} в качестве {LINK:ReagentPage;Реагентов} для производства.
+        {LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Устройства</Title>
+      <Text>Эти конструкции, обычно энергопотребляющие, имеют специальные функции, такие как Логика, Атмосфера и другие. Они собираются таким же образом как и другие конструкции.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Выплавка</Title>
+      <Text>Когда у вас есть {LINK:OrePage;руда}, вам нужно превратить её в {LINK:IngotPage;слитки}, чтобы можно было использовать их как {LINK:ReagentPage;реагенты}. При плавке часто образуются побочные {LINK:GasPage;газы}. Это происходит в {THING:StructureArcFurnace} (для простых рецептов) и в {THING:StructureFurnace} для сложных {LINK:AlloyPage;сплавов}, и наконец {THING:StructureAdvancedFurnace} для {LINK:SuperAlloyPage;суперсплавов}. Для сложных сплавов вам нужно будет подготовить идеальные соотношения: {LINK:TemperaturePage;температуры} и {LINK:PressurePage;давления}.
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Горное дело</Title>
+      <Text>Вы можете добывать {LINK:OrePage;руду} используя {THING:ItemMiningDrill}. Если вы носите {THING:ItemMiningBelt}, то в него автоматически помещается выкопанная {LINK:OrePage;руда}.
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Реагенты</Title>
+      <Text>Это количество химических элементов определенных типов. 
+      {LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Газы</Title>
+      <Text>Это химические газы определённых типов.{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Ресурсы</Title>
+      <Text>Это предметы, которые расходуются во время {LINK:ConstructionPage;Строительства} и в других задачах.
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Наборы</Title>
+      <Text>Это предметы, которые расходуются во время {LINK:ConstructionPage;Строительства} и в других задачах.
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Еда</Title>
+      <Text>Это предметы, необходимые для поддержания сытости.
+        {LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Экипировка</Title>
+      <Text>Это предметы, которые можно носить в слотах экипировки.
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Бытовая техника</Title>
+      <Text>Это предметы, которые можно разместить на рабочем столе. Сперва вы должны поместить их на стол, затем закрепить при помощи гаечного ключа.
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Ракетный Шаттл</Title>
+      <Text>Это модули ракетного шаттла, используемые для путешествий между мирами. Требуется {THING:StructureLaunchPad}.
+{HEADER:Список Модулей Ракетного Шаттла}
+{LIST_OF_ROCKET_SHUTTLE}
+      </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Общая}
+{LIST}Хэш объекта {POS:300}{1}
+Можно покрасить {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Предел температур}
+{LIST}Разрушение {POS:300}{0}
+Точка возгорания{POS:300}{1}
+Самовоспламенения{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Тип {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Подключается к {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Температура плавления {1}
+Давление плавления {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>{LINK:ReagentPage;Реагенты}, часто используются в форме {LINK:IngotPage;слитков}.
+
+
+{LIST}Unit {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:GasPage;Газы}, часто вырабатываются в процессе {LINK:SmeltingPage;плавки}.
+
+
+{LIST}Specific Heat {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Огнеопасный Предел {0} до {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

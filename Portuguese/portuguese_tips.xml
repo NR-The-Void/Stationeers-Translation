@@ -1,0 +1,32 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>PT</Code>
+  <GameTip>
+    <String>Carrega nas teclas {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou {KEY:ToolBeltSlot} para alternar entre interações ou compartimentos em qualquer item que estiveres a usar. Carrega e mantém pressionada para alternar entre esse compartimento e as tuas mãos ativas.</String>
+    <String>Carrega na tecla {KEY:ToggleLight} para rapidamente ligares ou desligares as luzes do teu {THING:ItemSpaceHelmet}.</String>
+    <String>Carrega na tecla {KEY:EmoteWave} para a tua personagem acenar a outros stationeers.</String>
+    <String>Carrega na tecla {KEY:ToggleUI} para ativar ou desativar a Interface do Usuário de forma a obteres imagens ou vídeos incríveis.</String>
+    <String>Carregando a tecla {KEY:SwapHands} alterna a mão que está ativa. Pressionar {KEY:ActiveHandSlot} alternará entre as opções de interação do que estiver na tua mão ativa.</String>
+    <String>Carrega na tecla {KEY:Internals} para que o teu {THING:ItemSpaceHelmet} seja rapidamente aberto ou fechado.</String>
+    <String>Segura uma {THING:ItemWeldingTorch} numa mão enquanto está ligada e um lote de {THING:ItemIronSheets} na outra de modo a melhorar o estado de construção de uma {THING:StructureFrameIron}.</String>
+    <String>Coloca um lote de {THING:ItemIronOre} num {THING:StructureArcFurnace} ligado para os fundir em {THING:ItemIronIngot}.</String>
+    <String>Coloca uma {THING:MotherboardLogic} num {THING:StructureComputer} para habilitar o seu controle lógico. Isto vai permitir-te adicionar condições e ações que controlam os estados dos dispositivos na mesma rede de dados.</String>
+    <String>Quando alterares a quantidade de algo por meio de um botão no mundo, mantém pressionada a tecla {KEY:QuantityModifier} enquanto clicas, para usar incrementos ou reduções menores.</String>
+    <String>Usa um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicReader} ou um {THING:StructureLogicWriter}. Os Chips Lógicos de Leitura permitem ler valores de dispositivos, os Chips Lógicos de Escrita permitem alteração nos valores em dispositivos. Quando combinado com os Chips Lógicos de Unidade Matemática, podes criar sistemas automatizados extremamente complexos.</String>
+    <String>Usa um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicBatchReader} ou um {THING:StructureLogicBatchWriter}. Os Chips Leitores de Lotes permitem que sejam lidos valores de um grupo de outros dispositivos. Os Chips Escritores em Lotes permitem que você altere valores em grupos inteiros de dispositivos.</String>
+    <String>Usa um {THING:StructureRecycler} para converter as coisas que não desejas mais em reagentes usáveis. Passa o resultante {THING:ItemReagentMix} para uma {THING:StructureCentrifuge} para convertê-lo novamente em minério, pronto para ser fundido numa {THING:StructureFurnace}.</String>
+    <String>Usa um {THING:StructureHydraulicPipeBender} para fabricar itens atmosféricos, como o {THING:ItemKitAtmospherics}, que permite criar máquinas úteis como um {THING:StructureAirConditioner} ou um {THING:StructureFiltration}.</String>
+    <String>Quanto mais danificado o teu fato estiver, menos eficientemente ele trabalhará.</String>
+    <String>Quanto mais danificado o teu fato estiver, menos eficientemente ele trabalhará.</String>
+    <String>O {THING:ItemEVASuit} e o {THING:ItemSpaceHelmet} com que começaste o jogo, são facilmente inflamáveis se forem submetidos a altas temperaturas. Usa um {THING:ItemHardSuit} em ambientes perigosos.</String>
+    <String>{THING:ItemHardBackpack} tem maior capacidade, mas tu não cabes lá dentro!</String>
+    <String>Quanto mais danificado o teu fato estiver, menos eficientemente ele trabalhará.</String>
+    <String>Pode fechar todas as janelas abertas carregando na tecla {KEY:HideAllWindows}.</String>
+    <String>As Dicas Extendidas podem ser ligadas ou desligadas no Menu de Definições. </String>
+    <String>Pode fechar todas as janelas abertas carregando na tecla {KEY:HideAllWindows}.</String>
+    <String>{THING:ItemCrowbar} pode ser usada para abrir portas que não estejam ligadas à energia ou a Controladores de Energia.</String>
+    <String>{THING:ItemMiningDrill} pode ser mudado para o modo de &quot;Alisar&quot; para permitir que cries planos lisos enquanto minerares.</String>
+    <String>A {THING:ItemWearLamp} pode ser usada para iluminação se não estiveres a usar um capacete.</String>
+    <String>Ao pressionar a tecla {KEY:MouseControl} podes ativar o cursor do rato e arrastar os itens para dentro ou para fora do teu inventário ou entre compartimentos.</String>
+    <String>Estás farto de trocar filtros normais? Filtros médios ou Industriais duram 5x e 20x mais, mas são mais caros.</String>
+  </GameTip>
+</Language>

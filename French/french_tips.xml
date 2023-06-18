@@ -1,0 +1,39 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>FR</Code>
+  <GameTip>
+    <String>Appuyez sur {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou sur {KEY:ToolBeltSlot} pour basculer entre les fenêtres des emplacements des équipements que vous portez. Appuyez et maintenez enfoncé pour permuter l&apos;équipement dans votre main active.</String>
+    <String>Appuyez sur {KEY:ToggleLight} pour activer ou désactiver la lumière de votre {THING:ItemSpaceHelmet}.</String>
+    <String>Appuyez sur {KEY:EmoteWave} pour faire des signes à un autre joueur.</String>
+    <String>Appuyez sur {KEY:ToggleUI} pour activer ou désactiver l&apos;interface utilisateur afin de pouvoir faire des captures d&apos;écran ou des vidéos plus réussites.</String>
+    <String>Appuyer sur {KEY:SwapHands} pour permuter de main active. Appuyer sur {KEY:ActiveHandSlot} affichera des options d&apos;interaction de l&apos;objet qui se trouve dans votre main active.</String>
+    <String>Appuyez sur {KEY:Internals} pour ouvrir ou fermer rapidement votre {THING:ItemSpaceHelmet}.</String>
+    <String>Utilisez le {THING:ItemWeldingTorch} allumé dans une main et une pile de {THING:ItemIronSheets} dans l&apos;autre main pour souder un {THING:StructureFrameIron}.</String>
+    <String>Placez une pile de {THING:ItemIronOre} dans un {THING:StructureArcFurnace} afin de le transformer en {THING:ItemIronIngot}.</String>
+    <String>Placez une {THING:MotherboardLogic} dans un {THING:StructureComputer} pour activer le contrôle logique. Vous serez en mesure d&apos;ajouter des conditions et des actions qui contrôleront les états des équipements connectés.</String>
+    <String>Lorsque vous modifiez une valeur via un bouton, maintenez {KEY:QuantityModifier} enfoncée pour utiliser des incréments plus petits.</String>
+    <String>Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicReader} ou {THING:StructureLogicWriter}. Les unités logiques lecture vont vous permettre de lire les valeurs d&apos;autres appareils, les unités logiques écriture vont vous permettent de modifier les valeurs sur les appareils. Lorsqu&apos;il est combiné avec des unités mathématiques, vous pouvez créer des systèmes automatisés extrêmement complexes.</String>
+    <String>Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicBatchReader} ou {THING:StructureLogicBatchWriter}. Les unités logiques lecture vous permettent de lire les valeurs d&apos;un groupe entier d&apos;autres appareils, les unités logiques écriture groupée vous permettent de modifier les valeurs sur des groupes entiers d&apos;autres appareils.</String>
+    <String>Utilisez un {THING:StructureRecycler} pour transformer les objets que vous ne voulez plus en réactifs. Placez le {THING:ItemReagentMix} dans une {THING:StructureCentrifuge} pour en extraire les différents minerais qui seront utilisables dans un {THING:StructureFurnace}.</String>
+    <String>Utilisez un {THING:StructureHydraulicPipeBender} pour fabriquer des éléments atmosphériques, tels que le {THING:ItemKitAtmospherics} qui vous permet de construire des machines utiles telles que {THING:StructureAirConditioner} ou {THING:StructureFiltration}.</String>
+    <String>Plus votre combinaison est abîmée, moins elle fonctionnera efficacement. Utilisez du ruban adhésif pour colmater les fissures.</String>
+    <String>Plus votre combinaison est abîmée, moins elle fonctionnera efficacement.</String>
+    <String>Après que le Manuel de Stationeers original s’est effondré dans une singularité, il a été remplacé par le Stationpedia. Appuyez sur {KEY:Help} pour l’ouvrir pour obtenir des conseils dans le jeu.</String>
+    <String>Votre {THING:ItemEvaSuit} et {THING:ItemSpaceHelmet} du départ va prendre feu avec une température chaude. Utilisez une {THING:ItemHardSuit} dans des environnements dangereux.</String>
+    <String>Le programme Stationeers a été créé par l’Agence de développement Offworld pour soutenir l’exploration du système solaire, et au-delà.</String>
+    <String>Le {THING:ItemHardBackpack} permet de transporter plus d&apos;objets, mais il ne peut pas vous porter !</String>
+    <String>Plus votre combinaison est abîmée, moins elle fonctionnera efficacement.</String>
+    <String>{THING:StructureHarvie} permet d&apos;automatiser complétement la plantation, la croissance, et la récolte des plantes.</String>
+    <String>Les info-bulles étendues peuvent être activées/désactivées dans le menu paramètres.</String>
+    <String>Vous pouvez effacer toutes les fenêtres ouvertes sur votre écran à la fois en appuyant sur {KEY: HideAllWindows}.</String>
+    <String>Le {THING:ItemCrowbar} peut être utilisé pour ouvrir les portes et les contrôleurs d&apos;alimentation.</String>
+    <String>La {THING:ItemMiningDrill} peut être changé en mode &apos;aplanir&apos; pour vous aider à créer des planchers plats lors de l&apos;extraction.</String>
+    <String>La {THING:ItemWearLamp} peut être utilisé pour l&apos;illumination sans porter de casque.</String>
+    <String>En maintenant {KEY:MouseControl} vous pouvez activer votre curseur de la souris et faire glisser des éléments dans et hors de votre inventaire ou entre les emplacements.</String>
+    <String>Le casque spatial isole les Stationeers contre tout, de l’aspirateur fou aux odeurs de cuisine bizarres.</String>
+    <String>La physique est ton amie. Jusqu’à ce que ce ne soit plus le cas.</String>
+    <String>Le dispositif de réglage de l’adhérence par frottement est un modèle double rotation avec une poignée à colonne unique. Ce n’est pas un simple tournevis</String>
+    <String>Illégales sur Terre depuis l’événement de Chengdu, les batteries nucléaires de Norsec ont trouvé un nouveau marché hors-monde nettement moins soucieux de la sécurité.</String>
+    <String>Faim ? Les barres de céréales sont compactes, nutritives et rafraîchissantes et peu radioactive.</String>
+    <String>Marre de remplacer les filtres normaux ? Les filtres moyens et grands durent 5x et 20x aussi longtemps, mais sont plus chers.</String>
+  </GameTip>
+</Language>

@@ -1,0 +1,161 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <ScreenSpaceToolTips>
+    <Record>
+      <Key>StatusIconToxinName</Key>
+      <Value>Toxiny</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinDesc</Key>
+      <Value>Aktuální úroveň toxinů</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinWarning</Key>
+      <Value>Vyžaduje pozornost</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Hydratace je nízká</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationKey</Key>
+      <Value>Nízká hydratace</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCaution</Key>
+      <Value>Hydratační upozornění</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCritical</Key>
+      <Value>Kritická hydratace</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinCritical</Key>
+      <Value>V kritickém stavu</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenName</Key>
+      <Value>Přívod kyslíku</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenDesc</Key>
+      <Value>Atmosféra, kterou dýcháte, způsobuje poškození plic.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenWarning</Key>
+      <Value>Nádrž v obleku klesá a vyžaduje pozornost</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxyegnCritical</Key>
+      <Value>Nádrž v obleku je kritická, vyměňte kyslíkovou nádrž</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureName</Key>
+      <Value>Vnitřní tlak</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureDesc</Key>
+      <Value>Aktuální úroveň tlaku, zkontrolujte tlak v obleku</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureWarning</Key>
+      <Value>Tlak v obleku je nízký</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureCritical</Key>
+      <Value>Tlak v obleku je kriticky nízký</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureName</Key>
+      <Value>Vnitřní teplota</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureDesc</Key>
+      <Value>Aktuální teplota uvnitř obleku</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureWarning</Key>
+      <Value>Zobrazí aktuální úroveň toxinů</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureCritical</Key>
+      <Value>Zobrazí aktuální úroveň toxinů</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeakingName</Key>
+      <Value>Netěsnost obleku</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerName</Key>
+      <Value>Napájecí zdroj obleku</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityName</Key>
+      <Value>Nulová gravitace</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackName</Key>
+      <Value>Jetpack aktivní</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconClimbingName</Key>
+      <Value>Lezení</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLightName</Key>
+      <Value>Přepnout světlo</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInternalsName</Key>
+      <Value>Přepnout přilbu Otevřená/Zavřená</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHandPowerName</Key>
+      <Value>Přepnout položku v ruce Zapnou/Vypnout</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInSlotName</Key>
+      <Value>Jste uvnitř slotu</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerName</Key>
+      <Value>Aktuální hlad</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunName</Key>
+      <Value>Procento omráčení</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTankName</Key>
+      <Value>Aktuální kapacita vzduchové nádrže</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningName</Key>
+      <Value>Kapacita pohonné hmoty</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconFilterName</Key>
+      <Value>Kapacita filtru</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteName</Key>
+      <Value>Kapacita odpadu</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthName</Key>
+      <Value>Aktuální zdraví</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationName</Key>
+      <Value>Aktuální hydratace</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>Bezvědomí</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructCanisterFull</Key>
+      <Value>Nelze rozebrat. Kanystr musí být prázdný</Value>
+    </Record>
+  </ScreenSpaceToolTips>
+</Language>

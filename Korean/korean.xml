@@ -1,0 +1,6666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Korean</Name>
+  <Code>KO</Code>
+  <Font>font_hangul</Font>
+  <Reagents>
+    <RecordReagent>
+      <Key>Flour</Key>
+      <Value>밀가루</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Milk</Key>
+      <Value>우유</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Egg</Key>
+      <Value>달걀</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Iron</Key>
+      <Value>철</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Gold</Key>
+      <Value>금</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Carbon</Key>
+      <Value>탄소</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Uranium</Key>
+      <Value>우라늄</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Copper</Key>
+      <Value>구리</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Steel</Key>
+      <Value>강철</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hydrocarbon</Key>
+      <Value>탄화수소</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silver</Key>
+      <Value>은</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Nickel</Key>
+      <Value>니켈</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Lead</Key>
+      <Value>납</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Electrum</Key>
+      <Value>일렉트럼</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Invar</Key>
+      <Value>인바</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Constantan</Key>
+      <Value>콘스탄탄</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Solder</Key>
+      <Value>연납</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Plastic</Key>
+      <Value>플라스틱</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silicon</Key>
+      <Value>실리콘</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>SalicylicAcid</Key>
+      <Value>살리실산</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Alcohol</Key>
+      <Value>알코올</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Oil</Key>
+      <Value>석유</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Potato</Key>
+      <Value>감자</Value>
+      <Unit/>
+    </RecordReagent>
+  </Reagents>
+  <Gases>
+    <Record>
+      <Key>Oxygen</Key>
+      <Value>산소</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxide</Key>
+      <Value>이산화탄소</Value>
+    </Record>
+    <Record>
+      <Key>Nitrogen</Key>
+      <Value>질소</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>휘발물</Value>
+    </Record>
+    <Record>
+      <Key>Pollutant</Key>
+      <Value>오염 물질</Value>
+    </Record>
+    <Record>
+      <Key>Water</Key>
+      <Value>물</Value>
+    </Record>
+  </Gases>
+  <Actions>
+    <Record>
+      <Key>Reload</Key>
+      <Value>재장전</Value>
+    </Record>
+    <Record>
+      <Key>Paint</Key>
+      <Value>도색 </Value>
+    </Record>
+    <Record>
+      <Key>Mine</Key>
+      <Value>채광 </Value>
+    </Record>
+    <Record>
+      <Key>Swap</Key>
+      <Value>전환 </Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>취소</Value>
+    </Record>
+    <Record>
+      <Key>Collect</Key>
+      <Value>수집</Value>
+    </Record>
+    <Record>
+      <Key>Add</Key>
+      <Value>추가</Value>
+    </Record>
+    <Record>
+      <Key>Insert</Key>
+      <Value>삽입</Value>
+    </Record>
+    <Record>
+      <Key>Remove</Key>
+      <Value>제거</Value>
+    </Record>
+    <Record>
+      <Key>Pickup</Key>
+      <Value>줍기</Value>
+    </Record>
+    <Record>
+      <Key>Take</Key>
+      <Value>집기</Value>
+    </Record>
+    <Record>
+      <Key>Build</Key>
+      <Value>제작</Value>
+    </Record>
+    <Record>
+      <Key>Consume</Key>
+      <Value>먹기</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>심기</Value>
+    </Record>
+    <Record>
+      <Key>Harvest</Key>
+      <Value>수확</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>열기</Value>
+    </Record>
+    <Record>
+      <Key>Close</Key>
+      <Value>닫기</Value>
+    </Record>
+    <Record>
+      <Key>Opened</Key>
+      <Value>열린</Value>
+    </Record>
+    <Record>
+      <Key>Closed</Key>
+      <Value>닫힌</Value>
+    </Record>
+    <Record>
+      <Key>Off</Key>
+      <Value>끄기</Value>
+    </Record>
+    <Record>
+      <Key>On</Key>
+      <Value>켜기</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>전력 공급</Value>
+    </Record>
+    <Record>
+      <Key>Unpowered</Key>
+      <Value>전력 차단</Value>
+    </Record>
+    <Record>
+      <Key>Construct</Key>
+      <Value>건설</Value>
+    </Record>
+    <Record>
+      <Key>Deconstruct</Key>
+      <Value>해체</Value>
+    </Record>
+    <Record>
+      <Key>Disconnect</Key>
+      <Value>연결해제</Value>
+    </Record>
+    <Record>
+      <Key>Connect</Key>
+      <Value>연결</Value>
+    </Record>
+    <Record>
+      <Key>Load</Key>
+      <Value>장전</Value>
+    </Record>
+    <Record>
+      <Key>Unload</Key>
+      <Value>제거</Value>
+    </Record>
+    <Record>
+      <Key>GetIn</Key>
+      <Value>집어넣기</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>에러</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>잠금</Value>
+    </Record>
+    <Record>
+      <Key>Unlock</Key>
+      <Value>잠금해제</Value>
+    </Record>
+    <Record>
+      <Key>Rename</Key>
+      <Value>이름 변경</Value>
+    </Record>
+    <Record>
+      <Key>Set</Key>
+      <Value>설정</Value>
+    </Record>
+    <Record>
+      <Key>Cycle</Key>
+      <Value>순환</Value>
+    </Record>
+    <Record>
+      <Key>ForceClose</Key>
+      <Value>강제 닫기</Value>
+    </Record>
+    <Record>
+      <Key>ForceOpen</Key>
+      <Value>강제 열기</Value>
+    </Record>
+    <Record>
+      <Key>Link</Key>
+      <Value>링크</Value>
+    </Record>
+    <Record>
+      <Key>UnLink</Key>
+      <Value>링크 끊기</Value>
+    </Record>
+    <Record>
+      <Key>ForceFeed</Key>
+      <Value>강제 열기</Value>
+    </Record>
+  </Actions>
+  <Things>
+    <RecordThing>
+      <Key>ApplianceMicrowave</Key>
+      <Value>전자레인지</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ApplianceReagentProcessor</Key>
+      <Value>시약 제조기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleArmL</Key>
+      <Value>여성 우주 비행사의 왼팔</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleArmR</Key>
+      <Value>여성 우주 비행사의 오른팔</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleHead</Key>
+      <Value>여성 우주 비행사의 머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleLegL</Key>
+      <Value>여성 우주 비행사의 왼발</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleLegR</Key>
+      <Value>여성 우주 비행사의 오른발</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleTorso</Key>
+      <Value>여성 우주 비행사의 상체</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleArmL</Key>
+      <Value>남성 우주 비행사의  왼팔</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleArmR</Key>
+      <Value>남성 우주 비행사의  오른팔</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleHead</Key>
+      <Value>남성 우주 비행사의  머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleLegL</Key>
+      <Value>남성 우주 비행사의 왼발</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleLegR</Key>
+      <Value>남성 우주 비행사의 오른발</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautTorso</Key>
+      <Value>남성 우주 비행사의 상체</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickBody</Key>
+      <Value>병아리 몸통</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownBody</Key>
+      <Value>갈색닭 몸통</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownHead</Key>
+      <Value>갈색닭 머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownLegL</Key>
+      <Value>갈색닭 다리(좌)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownLegR</Key>
+      <Value>갈색닭 다리(우)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownTail</Key>
+      <Value>갈색닭 꼬리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownWingL</Key>
+      <Value>갈색닭 왼날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenBrownWingR</Key>
+      <Value>갈색닭 오른날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteBody</Key>
+      <Value>흰닭 몸통</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteHead</Key>
+      <Value>흰닭 머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteLegL</Key>
+      <Value>흰닭 다리(좌)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteLegR</Key>
+      <Value>흰닭 다리(우)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteTail</Key>
+      <Value>흰닭 꼬리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteWingL</Key>
+      <Value>흰닭 왼날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickenWhiteWingR</Key>
+      <Value>흰닭 오른날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickHead</Key>
+      <Value>병아리 머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickLegL</Key>
+      <Value>병아리 다리(좌)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickLegR</Key>
+      <Value>병아리 다리(우)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickTail</Key>
+      <Value>병아리 꼬리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickWingL</Key>
+      <Value>병아리 왼날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartChickWingR</Key>
+      <Value>병아리 오른날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienArmL</Key>
+      <Value>회색외계인 왼팔 </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienArmR</Key>
+      <Value>회색외계인 오른팔 </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienBody</Key>
+      <Value>회색외계인 몸통 </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienHead</Key>
+      <Value>회색외계인 머리 </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienLegL</Key>
+      <Value>회색외계인 다리(좌) </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienLegR</Key>
+      <Value>회색외계인 다리(우) </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartGraylienPelvis</Key>
+      <Value>회색외계인 골반 </Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackBody</Key>
+      <Value>검은수탉 몸통</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackHead</Key>
+      <Value>검은수탉 머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackLegL</Key>
+      <Value>검은수탉 다리(좌)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackLegR</Key>
+      <Value>검은수탉 다리(우)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackTail</Key>
+      <Value>검은수탉 꼬리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackWingL</Key>
+      <Value>검은수탉 왼날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBlackWingR</Key>
+      <Value>검은수탉 오른날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownBody</Key>
+      <Value>갈색수탉 몸통</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownHead</Key>
+      <Value>갈색수탉 머리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownLegL</Key>
+      <Value>갈색수탉 다리(좌)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownLegR</Key>
+      <Value>갈색수탉 다리(우)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownTail</Key>
+      <Value>갈색수탉 꼬리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownWingL</Key>
+      <Value>갈색수탉 왼날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartRoosterBrownWingR</Key>
+      <Value>갈색수탉 오른날개</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeAtmosAnalyser</Key>
+      <Value>카트리지 (대기 분석기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeMedicalAnalyser</Key>
+      <Value>카트리지 (의료 분석기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeNetworkAnalyser</Key>
+      <Value>카트리지 (네트워크 분석기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Character</Key>
+      <Value>캐릭터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardAirControl</Key>
+      <Value>회로판 (공기 제어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardAirlockControl</Key>
+      <Value>회로판 (에어락 제어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardCameraDisplay</Key>
+      <Value>회로판 (카메라 디스플레이)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardDoorControl</Key>
+      <Value>회로판 (문 제어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardModeControl</Key>
+      <Value>회로판 (모드 제어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardPowerControl</Key>
+      <Value>회로판 (파워 제어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardShipDisplay</Key>
+      <Value>회로판 (함선 디스플레이)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardSolarControl</Key>
+      <Value>회로판 (태양광 제어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAirConditioner</Key>
+      <Value>휴대용 에어컨</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicCrate</Key>
+      <Value>휴대용 상자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicCrateBuildingSupplies</Key>
+      <Value>상자 (건설 보급품)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicCrateCableSupplies</Key>
+      <Value>상자 (전선 보급품)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicCrateConveyorSupplies</Key>
+      <Value>상자 (컨베이어 보급품)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicCratePipeSupplies</Key>
+      <Value>상자 (배관 보급품)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterAir</Key>
+      <Value>운반용 탱크 (공기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterCarbonDioxide</Key>
+      <Value>운반용 탱크 (CO2)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterEmpty</Key>
+      <Value>운반용 탱크</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterFuel</Key>
+      <Value>운반용 탱크 (연료)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterNitrogen</Key>
+      <Value>운반용 탱크 (N)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterOxygen</Key>
+      <Value>운반용 탱크 (O2)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterVolatiles</Key>
+      <Value>운반용 탱크 (휘발물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterWater</Key>
+      <Value>운반용 탱크 (물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGenerator</Key>
+      <Value>휴대용 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicLight</Key>
+      <Value>휴대용 조명</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicScrubber</Key>
+      <Value>휴대용 공기여과장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EffectSplatEgg</Key>
+      <Value>달걀 깨지는 효과</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityAlien</Key>
+      <Value>외계인</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityChick</Key>
+      <Value>병아리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityChickenBrown</Key>
+      <Value>갈색 닭</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityChickenWhite</Key>
+      <Value>흰색 닭</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityGraylien</Key>
+      <Value>회색외계인</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityRoosterBlack</Key>
+      <Value>검은 수탉</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityRoosterBrown</Key>
+      <Value>갈색 수탉</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>GasTankAir</Key>
+      <Value>가스 탱크 (공기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemActiveVent</Key>
+      <Value>기계식 환풍기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAreaPowerControl</Key>
+      <Value>전력 조절기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCell</Key>
+      <Value>배터리 셀 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCellLarge</Key>
+      <Value>배터리 셀 (대형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCellNuclear</Key>
+      <Value>배터리 셀 (핵)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCharger</Key>
+      <Value>배터리 셀  충전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBook</Key>
+      <Value>책</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoil</Key>
+      <Value>전선</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightBlue</Key>
+      <Value>야광봉 (청)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightGreen</Key>
+      <Value>야광봉 (녹)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightRed</Key>
+      <Value>야광봉 (적)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightWhite</Key>
+      <Value>야광봉 (백)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightYellow</Key>
+      <Value>야광봉 (황)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCoalOre</Key>
+      <Value>광물 (석탄)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCompositeFloorGrating</Key>
+      <Value>합성 그레이팅 바닥</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCopperIngot</Key>
+      <Value>주괴 (구리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCopperOre</Key>
+      <Value>광물 (구리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCorn</Key>
+      <Value>옥수수</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCrowbar</Key>
+      <Value>쇠지렛대</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDataDisk</Key>
+      <Value>데이터 디스크</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDrill</Key>
+      <Value>휴대용 드릴</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDuctTape</Key>
+      <Value>공업용 테이프</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDynamite</Key>
+      <Value>다이나마이트</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEgg</Key>
+      <Value>달걀</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEggBottom</Key>
+      <Value>달걀 아랫껍질</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEggCarton</Key>
+      <Value>달걀 상자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEggTop</Key>
+      <Value>달걀 윗껍질</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEvaSuit</Key>
+      <Value>EVA 슈트</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFertilizedEgg</Key>
+      <Value>유정란</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFireExtinguisher</Key>
+      <Value>소화기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFlashingLight</Key>
+      <Value>섬광등</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFlour</Key>
+      <Value>밀가루</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterCarbonDioxide</Key>
+      <Value>케니스터 (CO2)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterPollutants</Key>
+      <Value>케니스터 (오염물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterEmpty</Key>
+      <Value>케니스터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterFuel</Key>
+      <Value>케니스터 (연료)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterVolatiles</Key>
+      <Value>케니스터 (휘발물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterNitrogen</Key>
+      <Value>케니스터 (질소)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterOxygen</Key>
+      <Value>케니스터 (산소)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterWater</Key>
+      <Value>케니스터 (물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutants</Key>
+      <Value>필터 (오염물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterNitrogen</Key>
+      <Value>필터 (질소)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOxygen</Key>
+      <Value>필터 (산소)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterVolatiles</Key>
+      <Value>필터 (Volatiles)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterWater</Key>
+      <Value>필터 (물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasTankStorage</Key>
+      <Value>케니스터 가스 주입기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGlassSheets</Key>
+      <Value>유리판</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGoldIngot</Key>
+      <Value>주괴 (금)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGoldOre</Key>
+      <Value>광물 (금)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGrenade</Key>
+      <Value>수류탄</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHat</Key>
+      <Value>모자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHealPill</Key>
+      <Value>회복약</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHydroponicTray</Key>
+      <Value>수경재배기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIce</Key>
+      <Value>얼음 (물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIgniter</Key>
+      <Value>점화기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulation</Key>
+      <Value>단열제</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIronIngot</Key>
+      <Value>주괴 (철)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIronOre</Key>
+      <Value>광물 (철)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAirlock</Key>
+      <Value>조립킷 (에어록)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAtmospherics</Key>
+      <Value>조립킷 (대기조절장치)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBattery</Key>
+      <Value>조립킷 (배터리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCentrifuge</Key>
+      <Value>조립킷 (원심분리기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChute</Key>
+      <Value>건축물 조립킷 (물류관)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitComputer</Key>
+      <Value>조립킷 (컴퓨터)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitConsole</Key>
+      <Value>건축물 조립킷 (단말기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitConveyor</Key>
+      <Value>건축물 조립킷 (컨베이어)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCryoTube</Key>
+      <Value>건축물 조립킷 (동면 튜브)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngine</Key>
+      <Value>건축물 조립킷 (엔진)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFabricator</Key>
+      <Value>조립킷 (제작기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurnace</Key>
+      <Value>조립킷 (용광로)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurniture</Key>
+      <Value>조립킷 (가구)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGyroscope</Key>
+      <Value>조립킷 (자이로스코프)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRegulator</Key>
+      <Value>건축물 조립킷 (배관 압력조절기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSensor</Key>
+      <Value>건축물 조립킷 (감지기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSign</Key>
+      <Value>건축물 조립킷 (표지)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSleeper</Key>
+      <Value>조립킷 (수면장치)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanel</Key>
+      <Value>조립킷 (태양광 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStairs</Key>
+      <Value>조립킷 (계단)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStellarAnchor</Key>
+      <Value>건축물 조립킷 (공간 닻)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStorage</Key>
+      <Value>건축물 조립킷 (저장고)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTank</Key>
+      <Value>조립킷 (소형 탱크)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTorpedoTube</Key>
+      <Value>건축물 조립킷 (어뢰 발사기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTurret</Key>
+      <Value>조립킷 (포탑)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWall</Key>
+      <Value>건축물 조립킷 (벽)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLabeller</Key>
+      <Value>라벨기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLightSword</Key>
+      <Value>광선검</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMilk</Key>
+      <Value>우유</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningBelt</Key>
+      <Value>채광 벨트</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningDrill</Key>
+      <Value>채광 드릴</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMuffin</Key>
+      <Value>머핀</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPassiveVent</Key>
+      <Value>자연식 환풍기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPickaxe</Key>
+      <Value>곡괭이</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPillHeal</Key>
+      <Value>알약 (의학)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPillStun</Key>
+      <Value>알약 (마비)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeAnalyizer</Key>
+      <Value>배관 분석기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeCorner</Key>
+      <Value>배관 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeCrossJunction</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeCrossJunction3</Key>
+      <Value>배관 (십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeCrossJunction5</Key>
+      <Value>배관 (5방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeCrossJunction6</Key>
+      <Value>배관 (6방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeDigitalValve</Key>
+      <Value>배관 디지털 밸브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeGasMixer</Key>
+      <Value>배관 가스 혼합기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeLabel</Key>
+      <Value>배관 이름표</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeMeter</Key>
+      <Value>배관 계량기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeRadiator</Key>
+      <Value>배관 방열기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeStraight</Key>
+      <Value>배관 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeTJunction</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeValve</Key>
+      <Value>배관 밸브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeVolumePump</Key>
+      <Value>배관 압력 펌프</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeValve</Key>
+      <Value>배관 밸브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPowerConnector</Key>
+      <Value>전원 연결장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemReagentMix</Key>
+      <Value>혼합물</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRoadFlare</Key>
+      <Value>플레어</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRTG</Key>
+      <Value>R T G</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRTGSurvival</Key>
+      <Value>R T G</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemScanner</Key>
+      <Value>휴대용 스캐너</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemScrewdriver</Key>
+      <Value>스크류 드라이버</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSecurityCamera</Key>
+      <Value>보안 카메라</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSpaceCleaner</Key>
+      <Value>우주 청소기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSpaceHelmet</Key>
+      <Value>우주 헬맷</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSpacepack</Key>
+      <Value>스페이스팩</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanBlack</Key>
+      <Value>도색 스프레이 (검정)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanBlue</Key>
+      <Value>도색 스프레이 (파랑)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanBrown</Key>
+      <Value>도색 스프레이 (갈색)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanGreen</Key>
+      <Value>도색 스프레이 (녹색)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanGrey</Key>
+      <Value>도색 스프레이 (회색)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanKhaki</Key>
+      <Value>도색 스프레이 (카키색)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanOrange</Key>
+      <Value>도색 스프레이 (주황)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanPink</Key>
+      <Value>도색 스프레이 (분홍)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanPurple</Key>
+      <Value>도색 스프레이 (보라)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanRed</Key>
+      <Value>도색 스프레이 (빨간)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanWhite</Key>
+      <Value>도색 스프레이 (흰색)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanYellow</Key>
+      <Value>도색 스프레이 (노랑)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSteelFrames</Key>
+      <Value>강철 구조물</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSteelIngot</Key>
+      <Value>주괴 (강철)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSteelSheets</Key>
+      <Value>강철 판</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSuitStorage</Key>
+      <Value>슈트 거치대</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTablet</Key>
+      <Value>휴대용 태블릿</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTankConnector</Key>
+      <Value>운반용 탱크 연결장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTankConnectorLiquid</Key>
+      <Value>운반용 탱크 연결장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemToolBelt</Key>
+      <Value>도구 벨트</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemUraniumOre</Key>
+      <Value>광물 (우라늄)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWallCooler</Key>
+      <Value>벽면 냉방기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWallHeater</Key>
+      <Value>벽면 난방기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWallLight</Key>
+      <Value>조립킷 (조명)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWeldingTorch</Key>
+      <Value>용접 토치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWheat</Key>
+      <Value>밀</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWireCutters</Key>
+      <Value>전선 절단기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWrench</Key>
+      <Value>렌치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardLogic</Key>
+      <Value>마더보드 (논리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardManufacturing</Key>
+      <Value>마더보드 (제조)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardSorter</Key>
+      <Value>마더보드 (분류)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MothershipCore</Key>
+      <Value>모선 코어</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>NPCDummyCharacter</Key>
+      <Value>NPC 케릭터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>NpcGrounder</Key>
+      <Value>Npc 생명체</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganBrain</Key>
+      <Value>인간 뇌</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganLungs</Key>
+      <Value>인간 폐</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>SpaceShuttle</Key>
+      <Value>우주선</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureActiveVent</Key>
+      <Value>기계식 환풍기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirConditioner</Key>
+      <Value>에어컨</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirlock</Key>
+      <Value>에어록</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAreaPowerControl</Key>
+      <Value>전력 제어기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAreaPowerControlReversed</Key>
+      <Value>전력 제어기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBackPressureRegulator</Key>
+      <Value>배관 압력조절기(역방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryCharger</Key>
+      <Value>배터리 셀 충전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBlastDoor</Key>
+      <Value>방폭문</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner</Key>
+      <Value>전선 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner3</Key>
+      <Value>전선 (모서리 3방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction</Key>
+      <Value>전선 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction4</Key>
+      <Value>전선 (십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction6</Key>
+      <Value>전선 (6방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight</Key>
+      <Value>전선 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCamera</Key>
+      <Value>카메라</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCentrifuge</Key>
+      <Value>원심분리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChair</Key>
+      <Value>의자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteBin</Key>
+      <Value>물류관 투입기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteCorner</Key>
+      <Value>물류관 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteInlet</Key>
+      <Value>물류관 흡입구</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteJunction</Key>
+      <Value>물류관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteOutlet</Key>
+      <Value>물류관 배출구</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight</Key>
+      <Value>물류관 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeDoor</Key>
+      <Value>합성 문</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeFloorGrating</Key>
+      <Value>합성 그레이팅 바닥</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWall</Key>
+      <Value>합성 벽</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallRound</Key>
+      <Value>합성 벽 곡면</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallType1</Key>
+      <Value>합성 벽 모양1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallType2</Key>
+      <Value>합성 벽 모양2</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallType3</Key>
+      <Value>합성 벽 모양3</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallType4</Key>
+      <Value>합성 벽 모양4</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWindow</Key>
+      <Value>합성 창문</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureComputer</Key>
+      <Value>컴퓨터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsole</Key>
+      <Value>단말기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleDual</Key>
+      <Value>단말기 (전원,데이터 분리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleMonitor</Key>
+      <Value>단말기 모니터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureControlChair</Key>
+      <Value>조종석</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConveyorCorner</Key>
+      <Value>컨베이어 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConveyorRiser</Key>
+      <Value>컨베이어 (수직)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConveyorStraight</Key>
+      <Value>컨베이어 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConveyorStraightLong</Key>
+      <Value>컨베이어 (긴 직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConveyorStraightShort</Key>
+      <Value>컨베이어 (짧은 직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCryoTube</Key>
+      <Value>동면 튜브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDaylightSensor</Key>
+      <Value>태양광 감지기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDigitalValve</Key>
+      <Value>디지털 밸브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFabricator</Key>
+      <Value>제작기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFiltration</Key>
+      <Value>필터 여과장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlashingLight</Key>
+      <Value>섬광등</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFrame</Key>
+      <Value>구조물</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFrameCorner</Key>
+      <Value>구조물 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFrameSide</Key>
+      <Value>구조물 (모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFurnace</Key>
+      <Value>용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGasMixer</Key>
+      <Value>가스 혼합기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGasSensor</Key>
+      <Value>가스 감지기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGasTankStorage</Key>
+      <Value>가스 주입기 저장고</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankStorage</Key>
+      <Value>가스 주입기 저장고</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGlassDoor</Key>
+      <Value>유리문</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGunTurret</Key>
+      <Value>터렛</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGyroscope</Key>
+      <Value>자이로스코프</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHydroponicsTray</Key>
+      <Value>수경재배기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIgniter</Key>
+      <Value>점화기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLocker</Key>
+      <Value>사물함</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureMotionSensor</Key>
+      <Value>동작 감지기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveVent</Key>
+      <Value>자연식 환풍기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeAnalysizer</Key>
+      <Value>배관 분석기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeCorner</Key>
+      <Value>배관 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeCrossJunction</Key>
+      <Value>배관 (십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeCrossJunction3</Key>
+      <Value>배관 (모서리 3방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeCrossJunction5</Key>
+      <Value>배관 (5방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeCrossJunction6</Key>
+      <Value>배관 (6방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLabel</Key>
+      <Value>배관 이름표</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeMeter</Key>
+      <Value>배관 압력계</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeRadiator</Key>
+      <Value>배관 방열기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight</Key>
+      <Value>배관 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeTJunction</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerConnector</Key>
+      <Value>전원 연결장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureRegulator</Key>
+      <Value>배관 압력 조절기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketEngine</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketEngineSmall</Key>
+      <Value>로켓 엔진 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketEngineTiny</Key>
+      <Value>로켓 엔진 (초소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSleeper</Key>
+      <Value>수면장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSorter</Key>
+      <Value>분류장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStacker</Key>
+      <Value>묶음장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStackerReverse</Key>
+      <Value>묶음장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStairs4x2</Key>
+      <Value>계단</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStellarAnchor</Key>
+      <Value>고정 장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorage</Key>
+      <Value>슈트 거치대</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankConnector</Key>
+      <Value>운반용 탱크 연결장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankConnectorLiquid</Key>
+      <Value>운반용 탱크 연결장치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankSmall</Key>
+      <Value>소형 탱크</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankSmallAir</Key>
+      <Value>소형 탱크 (공기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankSmallFuel</Key>
+      <Value>소형 탱크 (연료)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTorpedoRack</Key>
+      <Value>어뢰 보관고</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTorpedoTube</Key>
+      <Value>어뢰 발사기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureValve</Key>
+      <Value>밸브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureVolumePump</Key>
+      <Value>압력 펌프</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidValve</Key>
+      <Value>케니스터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallCooler</Key>
+      <Value>벽면 냉각기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallHeater</Key>
+      <Value>벽면 가열기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallLight</Key>
+      <Value>벽면 조명</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>UniformCommander</Key>
+      <Value>지휘관 제복</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>UniformOrangeJumpSuit</Key>
+      <Value>점프 슈트 (오렌지색)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>WeaponEnergy</Key>
+      <Value>에너지 건</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>WeaponTorpedo</Key>
+      <Value>어뢰</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteIngot</Key>
+      <Value>주괴 (폐기물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightBurnt</Key>
+      <Value>타버린 전선 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner3Burnt</Key>
+      <Value>타버린 전선 (모서리 3방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCornerBurnt</Key>
+      <Value>타버린 전선 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction4Burnt</Key>
+      <Value>타버린 전선 (십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction6Burnt</Key>
+      <Value>타버린 전선 (6방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionBurnt</Key>
+      <Value>타버린 전선 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolidFuelGenerator</Key>
+      <Value>발전기 (고체 연료)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGenerator</Key>
+      <Value>건축물 조립킷 (발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableFuse</Key>
+      <Value>건축물 조립킷 (전선 퓨즈)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH</Key>
+      <Value>고압선 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionH6</Key>
+      <Value>고압선 (6방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionH4</Key>
+      <Value>고압선 (십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionH</Key>
+      <Value>고압선 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction6HBurnt</Key>
+      <Value>타버린 고압선 (6방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction4HBurnt</Key>
+      <Value>타버린 고압선 (십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightHBurnt</Key>
+      <Value>타버린 고압선 (직선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionHBurnt</Key>
+      <Value>타버린 고압선 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCornerHBurnt</Key>
+      <Value>타버린 전선 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCornerH</Key>
+      <Value>고압선 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse1k</Key>
+      <Value>퓨즈 (1kW)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse5k</Key>
+      <Value>퓨즈 (5kW)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse50k</Key>
+      <Value>퓨즈 (50kW)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse100k</Key>
+      <Value>퓨즈 (100kW)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformer</Key>
+      <Value>변압기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTransformer</Key>
+      <Value>조립킷 (변압기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformerSmall</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>WeaponPistolEnergy</Key>
+      <Value>피스톨 에너지 건</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteWindow</Key>
+      <Value>물류관 (유리창형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureArcFurnace</Key>
+      <Value>전기 용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAutolathe</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFabrication</Key>
+      <Value>건축물 조립킷 (구조물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPipe</Key>
+      <Value>건축물 조립킷 (배관)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeElectronicReader</Key>
+      <Value>카트리지 (전자책)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoilHeavy</Key>
+      <Value>전선 (고압)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFrameIron</Key>
+      <Value>철재 구조물</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIronFrames</Key>
+      <Value>철재 구조물</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIronSheets</Key>
+      <Value>철 판</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSilverOre</Key>
+      <Value>광물 (은)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemNickelOre</Key>
+      <Value>광물 (니켈)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLeadOre</Key>
+      <Value>광물 (납)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>WeaponRifleEnergy</Key>
+      <Value>에너지 소총</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemElectrumIngot</Key>
+      <Value>주괴 (일렉트럼)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSilverIngot</Key>
+      <Value>주괴 (은)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLeadIngot</Key>
+      <Value>주괴 (납)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemNickelIngot</Key>
+      <Value>주괴 (니켈)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInvarIngot</Key>
+      <Value>주괴 (인바)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemConstantanIngot</Key>
+      <Value>주괴 (콘스탄탄)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSolderIngot</Key>
+      <Value>주괴 (연납)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ApplianceChemistryStation</Key>
+      <Value>화학 실험기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoybean</Key>
+      <Value>콩</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAngleGrinder</Key>
+      <Value>그라인더</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSiliconOre</Key>
+      <Value>광물 (실리콘)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSiliconIngot</Key>
+      <Value>주괴 (실리콘)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFern</Key>
+      <Value>고사리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCerealBar</Key>
+      <Value>시리얼 바</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureElectronicsPrinter</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemVolatiles</Key>
+      <Value>얼음 (Volatiles)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemOxite</Key>
+      <Value>얼음 (Oxite)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallIron</Key>
+      <Value>철재 벽</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWallIron</Key>
+      <Value>조립킷 (철재 벽)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStorageLocker</Key>
+      <Value>사물함</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>SpawnPoint</Key>
+      <Value>부활 위치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCube</Key>
+      <Value>조립킷 (큐브)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Cube</Key>
+      <Value>큐브</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTransformerSmall</Key>
+      <Value>조립킷 (소형 변압기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSuitStorage</Key>
+      <Value>조립킷 (슈트 거치대)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolidGenerator</Key>
+      <Value>조립킷 (고체연료 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLocker</Key>
+      <Value>조립킷 (사물함)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngineSmall</Key>
+      <Value>조립킷 (소형 엔진)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngineMedium</Key>
+      <Value>조립킷 (중형 엔진)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngineLarge</Key>
+      <Value>조립킷 (대형 엔진)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitElectronicsPrinter</Key>
+      <Value>조립킷 (전자 프린터)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDoor</Key>
+      <Value>조립킷 (문)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAutolathe</Key>
+      <Value>조립킷 (자동선반)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBlastDoor</Key>
+      <Value>조립킷 (방폭문)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitArcFurnace</Key>
+      <Value>조립킷 (전기 용광로)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHydraulicPipeBender</Key>
+      <Value>유압식 배관 벤더</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHydraulicPipeBender</Key>
+      <Value>조립킷 (유압식 배관 벤더)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSorter</Key>
+      <Value>조립킷 (분류장치)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStacker</Key>
+      <Value>조립킷 (묶음장치)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeTracker</Key>
+      <Value>카트리지 (추적기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasSensor</Key>
+      <Value>가스 감지기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBeacon</Key>
+      <Value>신호기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureToolManufactory</Key>
+      <Value>공구 제작기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitToolManufactory</Key>
+      <Value>조립킷 (공구 제작기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformerSmallReversed</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicUnit</Key>
+      <Value>로직 유닛</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLogic</Key>
+      <Value>조립킷 (로직 유닛)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicReader</Key>
+      <Value>읽기 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicMemory</Key>
+      <Value>메모리 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicMath</Key>
+      <Value>수학 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicWriter</Key>
+      <Value>작성 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicSelect</Key>
+      <Value>선택 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicCompare</Key>
+      <Value>비교 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLogicProcessor</Key>
+      <Value>조립킷 (연산 로직)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLogicMemory</Key>
+      <Value>조립킷 (메모리 로직)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLogicInputOutput</Key>
+      <Value>조립킷 (입출력 로직)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLogicSwitch</Key>
+      <Value>조립킷 (스위치 로직)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicSwitch</Key>
+      <Value>레버</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicMinMax</Key>
+      <Value>최저/최대 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicDisplay5</Key>
+      <Value>LED 화면 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED5</Key>
+      <Value>LED 화면 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED8Large</Key>
+      <Value>LED 화면 (대형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSign1x1</Key>
+      <Value>표지 1x1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSign2x1</Key>
+      <Value>표지 2x1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED5Large</Key>
+      <Value>LED 화면 (중형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelDual</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicBatchWriter</Key>
+      <Value>일괄 작성 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicButton</Key>
+      <Value>버튼</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicSwitch2</Key>
+      <Value>스위치</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicMathUnary</Key>
+      <Value>단항 수학 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRecycler</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRecycler</Key>
+      <Value>조립킷 (재생처리기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableAnalyser</Key>
+      <Value>조립킷 (전선 분석기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableAnalysizer</Key>
+      <Value>전선 분석기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicDial</Key>
+      <Value>다이얼</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2</Key>
+      <Value>LED 화면 (중형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x3</Key>
+      <Value>LED 화면 (대형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>NpcChick</Key>
+      <Value>병아리</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>NpcChicken</Key>
+      <Value>닭</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicSkeleton</Key>
+      <Value>해골</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBeacon</Key>
+      <Value>신호기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBeacon</Key>
+      <Value>조립킷 (신호기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBig</Key>
+      <Value>대형 탱크</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPotato</Key>
+      <Value>감자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGasGenerator</Key>
+      <Value>가스 연료 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGasGenerator</Key>
+      <Value>조립킷 (가스 연료 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGPR</Key>
+      <Value>지표 투과 레이더 (GPR)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeOreScanner</Key>
+      <Value>카트리지 (광물 탐지기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPotatoBaked</Key>
+      <Value>구운 감자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoyOil</Key>
+      <Value>콩 기름</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCornerH3</Key>
+      <Value>고압선 (모서리 3방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCornerH4</Key>
+      <Value>고압선 (모서리 십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner4HBurnt</Key>
+      <Value>타버린 고압선 (모서리 십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>PortableSolarPanel</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction5</Key>
+      <Value>전선 (5방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner4</Key>
+      <Value>전선 (모서리 십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner4Burnt</Key>
+      <Value>타버린 전선 (모서리 십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunction5Burnt</Key>
+      <Value>타버린 전선 (5방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionH5</Key>
+      <Value>고압선 (5방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableJunctionH5Burnt</Key>
+      <Value>타버린 고압선 (5방향)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>WallFrameCornerCut</Key>
+      <Value>구조물 (모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlagSmall</Key>
+      <Value>작은 깃발</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFlagSmall</Key>
+      <Value>작은 깃발 조립킷</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngled</Key>
+      <Value>합성 판넬 (경사형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCorner</Key>
+      <Value>합성 판넬 (경사형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCornerLong</Key>
+      <Value>합성 판넬 (긴 경사형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledLong</Key>
+      <Value>합성 판넬 (긴 경사형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingCylindrical</Key>
+      <Value>합성 판넬 (원통형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingCylindricalPanel</Key>
+      <Value>합성 판넬 (원통형 패널)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingSphericalCorner</Key>
+      <Value>합성 판넬 (구형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingSphericalCap</Key>
+      <Value>합성 판넬 (구형 패널)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingSpherical</Key>
+      <Value>합성 판넬 (구형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingRoundedCorner</Key>
+      <Value>합성 판넬 (원형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingRounded</Key>
+      <Value>합성 판넬 (원형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingPanel</Key>
+      <Value>합성 판넬 (패널)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCompositeCladding</Key>
+      <Value>조립킷 합성 판넬</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCornerLongR</Key>
+      <Value>합성 판넬 (긴 경사형 모서리 대칭)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDockPortSide</Key>
+      <Value>구조물 도킹 포트 측면</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDockingPort</Key>
+      <Value>조립킷 도킹 포트</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDockShipSide</Key>
+      <Value>구조물 도킹 포트 측면</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightLong</Key>
+      <Value>조명 (긴형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightLongAngled</Key>
+      <Value>조명 (긴경사형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightLongWide</Key>
+      <Value>조명 (와이드형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardAdvancedAirlockControl</Key>
+      <Value>회로판 고급 에어락 제어</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrganicsPrinter</Key>
+      <Value>조립킷 (유기물 프린터)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOrganicsPrinter</Key>
+      <Value>유기물 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CompositeFloorGrating1</Key>
+      <Value>합성 그레이팅 바닥 1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CompositeFloorGrating2</Key>
+      <Value>합성 그레이팅 바닥 2</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeFloorGrating2</Key>
+      <Value>합성 그레이팅 바닥 2</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeFloorGrating3</Key>
+      <Value>합성 그레이팅 바닥 3</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeFloorGrating4</Key>
+      <Value>합성 그레이팅 바닥 4</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWallPanels</Key>
+      <Value>조립킷 벽 패널</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallPanelling1</Key>
+      <Value>합성 벽 판넬 1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCompositeFloorGrating</Key>
+      <Value>조립킷 합성 그레이팅 바닥</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeAccessController</Key>
+      <Value>Cartridge {Access Controller}</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSecurityPrinter</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardHashDisplay</Key>
+      <Value>Circuitboard (Hash Display)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHydroponicStation</Key>
+      <Value>Kit (Hydroponics Station)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardGraphDisplay</Key>
+      <Value>Circuitboard (Graph Display)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>운반용 탱크</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGlasses</Key>
+      <Value>유리판</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicHashGen</Key>
+      <Value>조립킷 (가스 연료 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPad</Key>
+      <Value>조립킷 합성 판넬</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSatelliteDish</Key>
+      <Value>건축물 조립킷 (공간 닻)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlasticSheets</Key>
+      <Value>유리판</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardComms</Key>
+      <Value>마더보드 (논리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMarineHelmet</Key>
+      <Value>우주 헬맷</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallLightBattery</Key>
+      <Value>조립킷 (배터리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicPortal</Key>
+      <Value>휴대용 상자</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningDrillHeavy</Key>
+      <Value>채광 드릴</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRover</Key>
+      <Value>철재 구조물</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRoverFrame</Key>
+      <Value>조립킷 (전기 용광로)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>운반용 탱크 (N)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>운반용 탱크 (휘발물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>작성 로직</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>조립킷 (로직 유닛)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>전기 용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>조립킷 (전기 용광로)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemStelliteIngot</Key>
+      <Value>주괴 (강철)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>주괴 (폐기물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>주괴 (폐기물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInconelIngot</Key>
+      <Value>주괴 (철)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>주괴 (철)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCobaltOre</Key>
+      <Value>광물 (석탄)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCobaltIngot</Key>
+      <Value>주괴 (금)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingRoundedCornerInner</Key>
+      <Value>합성 판넬 (원형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCornerInnerLongR</Key>
+      <Value>합성 판넬 (경사형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCornerInnerLongL</Key>
+      <Value>합성 판넬 (경사형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCornerInnerLong</Key>
+      <Value>합성 판넬 (경사형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeCladdingAngledCornerInner</Key>
+      <Value>합성 판넬 (경사형 모서리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ElectronicPrinterMod</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>PipeBenderMod</Key>
+      <Value>배관 압력계</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformerMediumReversed</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformerMedium(Reversed)</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEmergencyAngleGrinder</Key>
+      <Value>그라인더</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEmergencyWireCutters</Key>
+      <Value>전선 절단기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEmergencyEvaSuit</Key>
+      <Value>전선 절단기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEmergencySpaceHelmet</Key>
+      <Value>전선 절단기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEmergencyToolBelt</Key>
+      <Value>전선 절단기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemElectronicParts</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>HumanSkull</Key>
+      <Value>인간 폐</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAutoMinerSmall</Key>
+      <Value>조립킷 (소형 엔진)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDirtCanister</Key>
+      <Value>케니스터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketCommand01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicModularRocketCommand01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeCrossJunction</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeCrossJunction3</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeCrossJunction4</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeCrossJunction5</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeCrossJunction6</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeTJunction</Key>
+      <Value>배관 (T자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAdvancedTablet</Key>
+      <Value>휴대용 태블릿</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketEngine01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketFueltank01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStructureModularRocketCommand01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStructureModularRocketCargo01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStructureModularRocketEngine01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStructureModularRocketFueltank01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWall02</Key>
+      <Value>합성 벽</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWall03</Key>
+      <Value>합성 벽</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWall04</Key>
+      <Value>합성 벽</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>합성 창문</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRailing</Key>
+      <Value>조립킷 합성 판넬</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWallPaddedCorner</Key>
+      <Value>전선 (모서리 십자)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeOrgan</Key>
+      <Value>배관 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPipeOrgan</Key>
+      <Value>배관 (곡선)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ModularRocketCommand01Lander</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ModularRocketCargo01</Key>
+      <Value>로켓 엔진</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>카트리지 (광물 탐지기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>배터리 셀 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>배터리 셀 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>조립킷 (태양광 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>조립킷 (분류장치)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>건축물 조립킷 (표지)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>조립킷 (소형 탱크)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>조립킷 (문)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>건축물 조립킷 (전선 퓨즈)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>소형 탱크 (연료)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>조립킷 (계단)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBeds</Key>
+      <Value>조립킷 (신호기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine1</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine2</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine3</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine4</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageArcFurnace1</Key>
+      <Value>전기 용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageArcFurnace2</Key>
+      <Value>전기 용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageArcFurnace3</Key>
+      <Value>전기 용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControl1</Key>
+      <Value>전력 제어기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControl2</Key>
+      <Value>전력 제어기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControlReversed1</Key>
+      <Value>전력 제어기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControlReversed2</Key>
+      <Value>전력 제어기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanel1</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanel2</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanel3</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTransformer1</Key>
+      <Value>변압기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTransformer2</Key>
+      <Value>변압기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTransformerMedium1</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTransformerMedium2</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTransformerSmall1</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTransformerSmall2</Key>
+      <Value>변압기 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter1</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter2</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter3</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter4</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter5</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter6</Key>
+      <Value>Structure Security Printer</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe1</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe2</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe3</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe4</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe5</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe6</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe7</Key>
+      <Value>자동선반</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicsPrinter1</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicsPrinter2</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicsPrinter3</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicsPrinter4</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicsPrinter5</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicsPrinter6</Key>
+      <Value>전자 프린터</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge1</Key>
+      <Value>원심분리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge2</Key>
+      <Value>원심분리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge3</Key>
+      <Value>원심분리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge4</Key>
+      <Value>원심분리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge5</Key>
+      <Value>원심분리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator1</Key>
+      <Value>조립킷 (가스 연료 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator2</Key>
+      <Value>조립킷 (가스 연료 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVent1</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish1</Key>
+      <Value>건축물 조립킷 (공간 닻)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish2</Key>
+      <Value>건축물 조립킷 (공간 닻)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish3</Key>
+      <Value>건축물 조립킷 (공간 닻)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight1</Key>
+      <Value>벽면 조명</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight2</Key>
+      <Value>벽면 조명</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLightLongAngled1</Key>
+      <Value>조명 (긴경사형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLightLongAngled2</Key>
+      <Value>조명 (긴경사형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLightLongWide1</Key>
+      <Value>조명 (와이드형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLightLongWide2</Key>
+      <Value>조명 (와이드형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallLightBatteryPowered1</Key>
+      <Value>조립킷 (배터리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallLightBatteryPowered2</Key>
+      <Value>조립킷 (배터리)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler1</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler2</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler3</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler4</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler5</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler6</Key>
+      <Value>재생처리기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageFlashingLight1</Key>
+      <Value>섬광등</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageFlashingLight2</Key>
+      <Value>섬광등</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageActiveVent1</Key>
+      <Value>기계식 환풍기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePassiveVent1</Key>
+      <Value>자연식 환풍기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator1</Key>
+      <Value>가스 연료 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator2</Key>
+      <Value>가스 연료 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator3</Key>
+      <Value>가스 연료 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsAutomatic1</Key>
+      <Value>Hydroponics Station</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsAutomatic2</Key>
+      <Value>Hydroponics Station</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo1</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo2</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo3</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo4</Key>
+      <Value>휴대용 태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad1</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad2</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad3</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad4</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageShuttleLandingPad5</Key>
+      <Value>Vending Machine</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirlock2</Key>
+      <Value>전기 용광로</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoorGlass2</Key>
+      <Value>합성 문</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketModuleMiningJunk</Key>
+    </RecordThing>
+  </Things>
+  <Slots>
+    <Record>
+      <Key>Output</Key>
+      <Value>출력</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>입력</Value>
+    </Record>
+    <Record>
+      <Key>LeftHand</Key>
+      <Value>왼손</Value>
+    </Record>
+    <Record>
+      <Key>RightHand</Key>
+      <Value>오른손</Value>
+    </Record>
+    <Record>
+      <Key>Helmet</Key>
+      <Value>헬멧</Value>
+    </Record>
+    <Record>
+      <Key>Suit</Key>
+      <Value>슈트</Value>
+    </Record>
+    <Record>
+      <Key>Back</Key>
+      <Value>등</Value>
+    </Record>
+    <Record>
+      <Key>Brain</Key>
+      <Value>뇌</Value>
+    </Record>
+    <Record>
+      <Key>Uniform</Key>
+      <Value>제복</Value>
+    </Record>
+    <Record>
+      <Key>Lungs</Key>
+      <Value>폐</Value>
+    </Record>
+    <Record>
+      <Key>Belt</Key>
+      <Value>벨트</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>배터리</Value>
+    </Record>
+    <Record>
+      <Key>GasCanister</Key>
+      <Value>가스 케니스터</Value>
+    </Record>
+    <Record>
+      <Key>GasFilter</Key>
+      <Value>가스 필터</Value>
+    </Record>
+    <Record>
+      <Key>AirTank</Key>
+      <Value>공기 탱크</Value>
+    </Record>
+    <Record>
+      <Key>WasteTank</Key>
+      <Value>폐기물 탱크</Value>
+    </Record>
+    <Record>
+      <Key>LifeSupport</Key>
+      <Value>생명유지</Value>
+    </Record>
+    <Record>
+      <Key>Filter</Key>
+      <Value>필터</Value>
+    </Record>
+    <Record>
+      <Key>Tool</Key>
+      <Value>도구</Value>
+    </Record>
+    <Record>
+      <Key>Ore</Key>
+      <Value>광물</Value>
+    </Record>
+    <Record>
+      <Key>DirtCanister</Key>
+      <Value>가스 케니스터</Value>
+    </Record>
+    <Record>
+      <Key>Propellent</Key>
+      <Value>추진제</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsSeat</Key>
+      <Value>함장석</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatLeft</Key>
+      <Value>승객석 좌</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatRight</Key>
+      <Value>승객석 우</Value>
+    </Record>
+    <Record>
+      <Key>DataDisk</Key>
+      <Value>데이터 디스크</Value>
+    </Record>
+    <Record>
+      <Key>Appliance1</Key>
+      <Value>장치 1</Value>
+    </Record>
+    <Record>
+      <Key>Appliance2</Key>
+      <Value>장치 2</Value>
+    </Record>
+    <Record>
+      <Key>Import</Key>
+      <Value>투입</Value>
+    </Record>
+    <Record>
+      <Key>Export</Key>
+      <Value>배출</Value>
+    </Record>
+    <Record>
+      <Key>Seat</Key>
+      <Value>앉기</Value>
+    </Record>
+    <Record>
+      <Key>TransportSlot</Key>
+      <Value>슬롯 이동</Value>
+    </Record>
+    <Record>
+      <Key>Motherboard</Key>
+      <Value>마더보드</Value>
+    </Record>
+    <Record>
+      <Key>Entity</Key>
+      <Value>개체</Value>
+    </Record>
+    <Record>
+      <Key>Occupant</Key>
+      <Value>점유</Value>
+    </Record>
+    <Record>
+      <Key>PortableSlot</Key>
+      <Value>휴대 슬롯</Value>
+    </Record>
+    <Record>
+      <Key>Bed</Key>
+      <Value>침대</Value>
+    </Record>
+    <Record>
+      <Key>Processing</Key>
+      <Value>처리</Value>
+    </Record>
+    <Record>
+      <Key>Torpedo</Key>
+      <Value>어뢰</Value>
+    </Record>
+    <Record>
+      <Key>LoadingRail</Key>
+      <Value>장전 레일</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge2</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge0</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge1</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>처리</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>가스 케니스터</Value>
+    </Record>
+    <Record>
+      <Key>HandSlot</Key>
+      <Value>왼손</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>휴대 슬롯</Value>
+    </Record>
+  </Slots>
+  <Interactables>
+    <Record>
+      <Key>Activate</Key>
+      <Value>가동</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>열기</Value>
+    </Record>
+    <Record>
+      <Key>OnOff</Key>
+      <Value>켜기/끄기</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>잠금</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>전원</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>에러</Value>
+    </Record>
+    <Record>
+      <Key>Slot1</Key>
+      <Value>슬롯 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>슬롯 2</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftHand</Key>
+      <Value>왼손 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightHand</Key>
+      <Value>오른손 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftFoot</Key>
+      <Value>왼발 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightFoot</Key>
+      <Value>오른발 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabHead</Key>
+      <Value>머리 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabUpperArmL</Key>
+      <Value>왼팔 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabUpperArmR</Key>
+      <Value>오른팔 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>왼팔 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
+      <Value>오른팔 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabThighR</Key>
+      <Value>오른쪽 허벅지 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabThighL</Key>
+      <Value>왼쪽 허벅지 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabCalfR</Key>
+      <Value>오른쪽 무릎 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabCalfL</Key>
+      <Value>왼쪽 무릎 잡기</Value>
+    </Record>
+    <Record>
+      <Key>Drag</Key>
+      <Value>끌기</Value>
+    </Record>
+    <Record>
+      <Key>Mode</Key>
+      <Value>모드</Value>
+    </Record>
+    <Record>
+      <Key>Button1</Key>
+      <Value>버튼 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot3</Key>
+      <Value>슬롯3</Value>
+    </Record>
+    <Record>
+      <Key>Slot4</Key>
+      <Value>슬롯4</Value>
+    </Record>
+    <Record>
+      <Key>Slot5</Key>
+      <Value>슬롯5</Value>
+    </Record>
+    <Record>
+      <Key>Slot6</Key>
+      <Value>슬롯6</Value>
+    </Record>
+    <Record>
+      <Key>Slot7</Key>
+      <Value>슬롯7</Value>
+    </Record>
+    <Record>
+      <Key>Slot8</Key>
+      <Value>슬롯8</Value>
+    </Record>
+    <Record>
+      <Key>Slot9</Key>
+      <Value>슬롯9</Value>
+    </Record>
+    <Record>
+      <Key>Slot10</Key>
+      <Value>슬롯10</Value>
+    </Record>
+    <Record>
+      <Key>Button2</Key>
+      <Value>버튼 2</Value>
+    </Record>
+    <Record>
+      <Key>SplitOne</Key>
+      <Value>한 개 나누기</Value>
+    </Record>
+    <Record>
+      <Key>SplitHalf</Key>
+      <Value>반 나누기</Value>
+    </Record>
+    <Record>
+      <Key>NextPage</Key>
+      <Value>다음 페이지</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPage</Key>
+      <Value>이전 페이지</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>사용</Value>
+    </Record>
+    <Record>
+      <Key>Export</Key>
+      <Value>배출</Value>
+    </Record>
+    <Record>
+      <Key>Import</Key>
+      <Value>투입</Value>
+    </Record>
+    <Record>
+      <Key>PressureUp</Key>
+      <Value>압력 상승</Value>
+    </Record>
+    <Record>
+      <Key>PressureDown</Key>
+      <Value>압력 감소</Value>
+    </Record>
+    <Record>
+      <Key>Flush</Key>
+      <Value>배출</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>배터리</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsChair</Key>
+      <Value>함장석</Value>
+    </Record>
+    <Record>
+      <Key>PassengersChair</Key>
+      <Value>승무원석</Value>
+    </Record>
+    <Record>
+      <Key>Button3</Key>
+      <Value>버튼 3</Value>
+    </Record>
+    <Record>
+      <Key>Slot19</Key>
+      <Value>슬롯 19</Value>
+    </Record>
+    <Record>
+      <Key>Slot20</Key>
+      <Value>슬롯 20</Value>
+    </Record>
+    <Record>
+      <Key>Slot21</Key>
+      <Value>슬롯 21</Value>
+    </Record>
+    <Record>
+      <Key>Slot25</Key>
+      <Value>슬롯 25</Value>
+    </Record>
+    <Record>
+      <Key>Slot26</Key>
+      <Value>슬롯 26</Value>
+    </Record>
+    <Record>
+      <Key>Slot27</Key>
+      <Value>슬롯 27</Value>
+    </Record>
+    <Record>
+      <Key>TiltUpwards</Key>
+      <Value>위로 기울이기</Value>
+    </Record>
+    <Record>
+      <Key>Rotate</Key>
+      <Value>회전</Value>
+    </Record>
+    <Record>
+      <Key>RotateLeft</Key>
+      <Value>좌로 회전</Value>
+    </Record>
+    <Record>
+      <Key>RotateRight</Key>
+      <Value>우로 회전</Value>
+    </Record>
+    <Record>
+      <Key>TiltDownwards</Key>
+      <Value>아래로 기울이기</Value>
+    </Record>
+    <Record>
+      <Key>Export2</Key>
+      <Value>배출2</Value>
+    </Record>
+    <Record>
+      <Key>Launch</Key>
+      <Value>발사</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPlan</Key>
+      <Value>이전 계획</Value>
+    </Record>
+    <Record>
+      <Key>NextPlan</Key>
+      <Value>다음 계획</Value>
+    </Record>
+    <Record>
+      <Key>CreatePlan</Key>
+      <Value>계획 생성</Value>
+    </Record>
+    <Record>
+      <Key>Search</Key>
+      <Value>검색</Value>
+    </Record>
+    <Record>
+      <Key>Button4</Key>
+      <Value>버튼 4</Value>
+    </Record>
+    <Record>
+      <Key>Output</Key>
+      <Value>출력</Value>
+    </Record>
+    <Record>
+      <Key>Hatch</Key>
+      <Value>부화</Value>
+    </Record>
+    <Record>
+      <Key>Grow</Key>
+      <Value>성장</Value>
+    </Record>
+    <Record>
+      <Key>LayEgg</Key>
+      <Value>산란</Value>
+    </Record>
+    <Record>
+      <Key>Eat</Key>
+      <Value>먹기</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>입력</Value>
+    </Record>
+    <Record>
+      <Key>Setting</Key>
+      <Value>설정</Value>
+    </Record>
+    <Record>
+      <Key>Increase</Key>
+      <Value>증가</Value>
+    </Record>
+    <Record>
+      <Key>Decrease</Key>
+      <Value>감소</Value>
+    </Record>
+    <Record>
+      <Key>Color</Key>
+      <Value>색상</Value>
+    </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>접근</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>탄창</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>온도 상승</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>온도 하강</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>추진력 상승</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>추진력 감소</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>버튼 5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>버튼 6</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge2</Key>
+      <Value>카트리지 2</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge1</Key>
+      <Value>카트리지 1</Value>
+    </Record>
+    <Record>
+      <Key>Next</Key>
+      <Value>다음</Value>
+    </Record>
+    <Record>
+      <Key>Prev</Key>
+      <Value>이전</Value>
+    </Record>
+    <Record>
+      <Key>Previous</Key>
+      <Value>이전</Value>
+    </Record>
+  </Interactables>
+  <Interface>
+    <Record>
+      <Key>SlotKey</Key>
+      <Value>슬롯</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuContinue</Key>
+      <Value>이어하기</Value>
+    </Record>
+    <Record>
+      <Key>KitCategory</Key>
+      <Value>건설 키트</Value>
+    </Record>
+    <Record>
+      <Key>DoorCategory</Key>
+      <Value>문과 출입구</Value>
+    </Record>
+    <Record>
+      <Key>PersonalSuits</Key>
+      <Value>슈트</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCategory</Key>
+      <Value>전력 저장소</Value>
+    </Record>
+    <Record>
+      <Key>CableCategory</Key>
+      <Value>전선 및 분석기</Value>
+    </Record>
+    <Record>
+      <Key>LightCategory</Key>
+      <Value>조명</Value>
+    </Record>
+    <Record>
+      <Key>PersonalBackpacks</Key>
+      <Value>배낭</Value>
+    </Record>
+    <Record>
+      <Key>FoodCategory</Key>
+      <Value>소모품</Value>
+    </Record>
+    <Record>
+      <Key>WallFloorCategory</Key>
+      <Value>벽과 바닥</Value>
+    </Record>
+    <Record>
+      <Key>OrganicsCategory</Key>
+      <Value>식품</Value>
+    </Record>
+    <Record>
+      <Key>PersonalEyeWear</Key>
+      <Value>안경</Value>
+    </Record>
+    <Record>
+      <Key>PersonalClothing</Key>
+      <Value>옷</Value>
+    </Record>
+    <Record>
+      <Key>OreHeader</Key>
+      <Value>광석</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsHeader</Key>
+      <Value>재료</Value>
+    </Record>
+    <Record>
+      <Key>GasesHeader</Key>
+      <Value>기체</Value>
+    </Record>
+    <Record>
+      <Key>FrozenOreHeader</Key>
+      <Value>얼어붙은 광석</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeCategory</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>PersonalHelmets</Key>
+      <Value>헬멧</Value>
+    </Record>
+    <Record>
+      <Key>PersonalToolbelt</Key>
+      <Value>도구 벨트</Value>
+    </Record>
+    <Record>
+      <Key>Other</Key>
+      <Value>기타</Value>
+    </Record>
+    <Record>
+      <Key>PowerTool</Key>
+      <Value>전력 도구</Value>
+    </Record>
+    <Record>
+      <Key>SlotsTitle</Key>
+      <Value>모든 슬롯</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersCategory</Key>
+      <Value>논리 판독기</Value>
+    </Record>
+    <Record>
+      <Key>LogicWriterCategory</Key>
+      <Value>논리 작성기</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardCategory</Key>
+      <Value>마더보드</Value>
+    </Record>
+    <Record>
+      <Key>ControlSystemAtmos</Key>
+      <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceCategory</Key>
+      <Value>외관</Value>
+    </Record>
+    <Record>
+      <Key>Fabricators</Key>
+      <Value>제조기</Value>
+    </Record>
+    <Record>
+      <Key>AirContitioningAtmos</Key>
+      <Value>에어컨</Value>
+    </Record>
+    <Record>
+      <Key>AtmosDevices</Key>
+      <Value>대기 장치</Value>
+    </Record>
+    <Record>
+      <Key>FireArm</Key>
+      <Value>무기</Value>
+    </Record>
+    <Record>
+      <Key>ManualTools</Key>
+      <Value>수동 도구</Value>
+    </Record>
+    <Record>
+      <Key>PowerTools</Key>
+      <Value>전력 도구</Value>
+    </Record>
+    <Record>
+      <Key>Picture</Key>
+      <Value>사진</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuNewWorld</Key>
+      <Value>새로시작</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuLoadWorld</Key>
+      <Value>불러오기</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuJoinWorld</Key>
+      <Value>서버연결</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuWorkshop</Key>
+      <Value>창작마당</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuSettings</Key>
+      <Value>설정</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuTutorial</Key>
+      <Value>튜토리얼</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuExit</Key>
+      <Value>게임 종료</Value>
+    </Record>
+    <Record>
+      <Key>LoadMenuTitle</Key>
+      <Value>불러오기</Value>
+    </Record>
+    <Record>
+      <Key>LoadMenuFileListTitle</Key>
+      <Value>저장된 세계</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextDate</Key>
+      <Value>저장날짜:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextPlaytime</Key>
+      <Value>플레이시간:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoMapName</Key>
+      <Value>세계:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextAsteroids</Key>
+      <Value>소행성:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextVersion</Key>
+      <Value>버전:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDelete</Key>
+      <Value>삭제</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonPublish</Key>
+      <Value>창작마당 공유</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDebugLoad</Key>
+      <Value>디버그로 로딩</Value>
+    </Record>
+    <Record>
+      <Key>LoadWorldButtonLoad</Key>
+      <Value>불러오기</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuTitle</Key>
+      <Value>서버 연결</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonRefresh</Key>
+      <Value>새로고침</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonJoin</Key>
+      <Value>서버 연결</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListName</Key>
+      <Value>서버명</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListVersion</Key>
+      <Value>버전</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListRefreshing</Key>
+      <Value>새로고침</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInputAddressTitle</Key>
+      <Value>주소</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTitle</Key>
+      <Value>새로시작</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonBack</Key>
+      <Value>뒤로</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonCreate</Key>
+      <Value>생성</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaTitle</Key>
+      <Value>지역 선택</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaSpace</Key>
+      <Value>우주</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMars</Key>
+      <Value>화성</Value>
+    </Record>
+    <Record>
+      <Key>Mars</Key>
+      <Value>화성</Value>
+    </Record>
+    <Record>
+      <Key>Europa</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>EuropaBeta</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>Moon</Key>
+      <Value>달</Value>
+    </Record>
+    <Record>
+      <Key>Space</Key>
+      <Value>우주</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan2</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
+      <Key>Europa2</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>Mimas</Key>
+      <Value>마이마스</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>지구</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan2</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldEnableAwayMissions</Key>
+      <Value>Away 미션 사용</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBelt</Key>
+      <Value>벨트</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>유리</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotUniform</Key>
+      <Value>제복</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBackpack</Key>
+      <Value>백팩</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotSuit</Key>
+      <Value>슈트</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHelmet</Key>
+      <Value>헬멧</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandLeft</Key>
+      <Value>왼손</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandRight</Key>
+      <Value>오른손</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowExternal</Key>
+      <Value>외부</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowDamage</Key>
+      <Value>파손상태</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowInternal</Key>
+      <Value>내부</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonReturn</Key>
+      <Value>게임으로 복귀</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSave</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonChangeCharacter</Key>
+      <Value>캐릭터 변경</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSettings</Key>
+      <Value>설정</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonLeave</Key>
+      <Value>세션 나가기</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExitDesktop</Key>
+      <Value>게임 종료</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuTitle</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuListTitle</Key>
+      <Value>저장된 세계</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBack</Key>
+      <Value>뒤로</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDelete</Key>
+      <Value>삭제</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUploadProgress</Key>
+      <Value>구성 데이터 처리중</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirmWarning</Key>
+      <Value>경고</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExit</Key>
+      <Value>게임 종료</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuTitle</Key>
+      <Value>설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuGameplay</Key>
+      <Value>게임플레이</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuVideo</Key>
+      <Value>비디오</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAudio</Key>
+      <Value>오디오</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuControls</Key>
+      <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMisc</Key>
+      <Value>기타</Value>
+    </Record>
+    <Record>
+      <Key>SettingsGameplayAutosave</Key>
+      <Value>자동저장 사용</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAutosaveInterval</Key>
+      <Value>저장간격 (초)</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHUDScale</Key>
+      <Value>HUD 스케일</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayLatency</Key>
+      <Value>지연 속도 표시</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayFPS</Key>
+      <Value>FPS 표시</Value>
+    </Record>
+    <Record>
+      <Key>ButtonResetDefaults</Key>
+      <Value>기본값</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleDisplayTools</Key>
+      <Value>화면 표시 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAutosave</Key>
+      <Value>자동저장 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleScreen</Key>
+      <Value>윈도우 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleBasicScreen</Key>
+      <Value>기본 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAdvScreen</Key>
+      <Value>고급 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsResolution</Key>
+      <Value>해상도</Value>
+    </Record>
+    <Record>
+      <Key>SettingsScreenMode</Key>
+      <Value>스크린모드</Value>
+    </Record>
+    <Record>
+      <Key>SettingsButtonApply</Key>
+      <Value>적용하기</Value>
+    </Record>
+    <Record>
+      <Key>SettingsBrightness</Key>
+      <Value>밝기</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFOV</Key>
+      <Value>FOV</Value>
+    </Record>
+    <Record>
+      <Key>SettingsOverallQuality</Key>
+      <Value>전체 품질</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTextureQuality</Key>
+      <Value>텍스쳐 품질</Value>
+    </Record>
+    <Record>
+      <Key>SettingsParticleQuality</Key>
+      <Value>파티클 품질</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSoftParticles</Key>
+      <Value>부드러운 파티클</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVolumetricLighting</Key>
+      <Value>볼륨 라이팅</Value>
+    </Record>
+    <Record>
+      <Key>SettingsPixelLightCount</Key>
+      <Value>픽셀 라이트 개수</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadows</Key>
+      <Value>그림자</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadowResolution</Key>
+      <Value>그림자 해상도</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWeatherQuality</Key>
+      <Value>텍스쳐 품질</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadowDistamce</Key>
+      <Value>그림자 거리</Value>
+    </Record>
+    <Record>
+      <Key>SettingsEnvElements</Key>
+      <Value>환경 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsReflections</Key>
+      <Value>반사</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMasterVolume</Key>
+      <Value>마스터 볼륨</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMixer</Key>
+      <Value>믹서</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSound</Key>
+      <Value>사운드</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVoiceNotifications</Key>
+      <Value>음성 알림</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleKeybinds</Key>
+      <Value>키보드 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMisc</Key>
+      <Value>기타 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLanguage</Key>
+      <Value>언어</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVoiceControl</Key>
+      <Value>음성 인식</Value>
+    </Record>
+    <Record>
+      <Key>SettingsCameraSensitivity</Key>
+      <Value>카메라 민감도</Value>
+    </Record>
+    <Record>
+      <Key>NotificationTitle</Key>
+      <Value>저장 성공</Value>
+    </Record>
+    <Record>
+      <Key>AlertButtonClose</Key>
+      <Value>닫기</Value>
+    </Record>
+    <Record>
+      <Key>AlertButtonTitle</Key>
+      <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>ServerSettingsButtonReset</Key>
+      <Value>복구</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirm</Key>
+      <Value>확인</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCancel</Key>
+      <Value>취소</Value>
+    </Record>
+    <Record>
+      <Key>InputTextRename</Key>
+      <Value>이름변경</Value>
+    </Record>
+    <Record>
+      <Key>ButtonOk</Key>
+      <Value>예</Value>
+    </Record>
+    <Record>
+      <Key>InputPassword</Key>
+      <Value>암호</Value>
+    </Record>
+    <Record>
+      <Key>ButtonKick</Key>
+      <Value>강제 퇴장</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBan</Key>
+      <Value>접속 금지</Value>
+    </Record>
+    <Record>
+      <Key>ButtoConfirmExitAsServer</Key>
+      <Value>저장하지 않고 종료하시겠습니까? 작업한 세계를 잃을 수 있습니다.</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmNoticeUnsaved</Key>
+      <Value>저장하지 않고 나가시겠습니까? 작업한 세계를 잃을 수 있습니다.</Value>
+    </Record>
+    <Record>
+      <Key>ButtonExit</Key>
+      <Value>종료</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSave</Key>
+      <Value>저장</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmNoticeClientLeaving</Key>
+      <Value>게임을 중단하고 메인 메뉴로 이동하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>SettingsPopupChat</Key>
+      <Value>팝업채팅</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayPortrait</Key>
+      <Value>세로화면</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMoon</Key>
+      <Value>달</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAntialiasing</Key>
+      <Value>안티알리아싱</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMultiplayer</Key>
+      <Value>멀티플레이어</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAdvertiseServer</Key>
+      <Value>공개 서버</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerName</Key>
+      <Value>서버명</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerPassword</Key>
+      <Value>암호</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerMaxPlayers</Key>
+      <Value>최대 플레이어</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMultiplayer</Key>
+      <Value>멀티플레이어 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUpdatePort</Key>
+      <Value>업데이트 포트</Value>
+    </Record>
+    <Record>
+      <Key>SettingsGamePort</Key>
+      <Value>게임 포트</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMusic</Key>
+      <Value>음악</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFirstTimePlaying</Key>
+      <Value>이 게임을 처음 시작하십니까?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGetStarted</Key>
+      <Value>튜토리얼 시작하기</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSkipButton</Key>
+      <Value>넘김</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStartButton</Key>
+      <Value>훈련 시작</Value>
+    </Record>
+    <Record>
+      <Key>TutorialComplete</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteHeading</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteMessage</Key>
+      <Value>아직 배울게 많겠지만 일단은 
+우주로 여행할 준비가 되셨군요!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBackToMenu</Key>
+      <Value>메인 메뉴로 복귀</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMiscInvertMouse</Key>
+      <Value>마우스방향 반전</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInvertMouse</Key>
+      <Value>마우스방향 반전</Value>
+    </Record>
+    <Record>
+      <Key>MothershipConstruction</Key>
+      <Value>&lt;color=yellow&gt;모선 위에 건설하기&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>MulticonstructorItem</Key>
+      <Value>&lt;color=yellow&gt;건설 옵션  {0} / {1}&lt;/color&gt;
+&lt;color=red&gt;마우스 휠&lt;/color&gt;을 사용하여 옵션 선택이 가능합니다.</Value>
+    </Record>
+    <Record>
+      <Key>UnableToConstruct</Key>
+      <Value>&lt;color=red&gt;구성 할수 없습니다&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRotateLeftRight</Key>
+      <Value>{KEY:RotateLeft}와 {KEY:RotateRight}로 좌우로 회전하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRotateUpDown</Key>
+      <Value>{KEY:RotateUp}와 {KEY:RotateDown}로 상하로 회전하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRollLeftRight</Key>
+      <Value>{KEY:RotateRollLeft}와 {KEY:RotateRollRight}로 좌우로 돌리세요.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsExtendedTooltips</Key>
+      <Value>확장된 툴팁</Value>
+    </Record>
+    <Record>
+      <Key>TooltipUpgrade2</Key>
+      <Value>설치 후 {0}와 {1}을 사용하여 업그레이드하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipUpgrade</Key>
+      <Value>설치 후 {0}을 사용하여 업그레이드하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipAllowsMounting</Key>
+      <Value>구조물에 장치를 설치할 수 있습니다. 더 나은 설치 영역을 가지려면 {THING:StructureFrame}을 업그레이드하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapGrid</Key>
+      <Value>격자에 설치가 가능합니다.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFace</Key>
+      <Value>격자 표면에 설치가 가능합니다.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMount</Key>
+      <Value>{THING:StructureFrameIron} 또는 {THING:StructureFrame}에만 설치가 가능합니다.
+구조물을 업그레이드하면 더 나은 배치 영역을 가집니다.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
+      <Value>{THING:StructureFrameIron} 또는 {THING:StructureFrame}에만 설치가 가능합니다.
+구조물을 업그레이드하면 더 나은 배치 영역을 가집니다.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
+      <Value>격자에 설치가 가능합니다.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>설치 차단됨</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuClearDisconnectedPlayers</Key>
+      <Value>오프라인 플레이어 정리</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInvertMouseWheelInventory</Key>
+      <Value>인벤토리 스크롤 반전</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMultiplayerAdvanced</Key>
+      <Value>고급 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUPNPNote</Key>
+      <Value>사용자가 UPNP(Universal Plug and Play) 환경에 있는 경우 이 포트들로 자동으로 포워딩됩니다.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTooltipOpacity</Key>
+      <Value>툴팁 투명도</Value>
+    </Record>
+    <Record>
+      <Key>MenuDownloadDriverButton</Key>
+      <Value>드라이버 다운로드</Value>
+    </Record>
+    <Record>
+      <Key>MenuDownloadDriverWarning</Key>
+      <Value>많은 AMD칩 사용자들에게서 이 문제가 보고되었습니다. 우리는 &lt;b&gt;강력하게&lt;/b&gt; 드라이버를 업데이트 하시길 추천합니다.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsChatFadeTimer</Key>
+      <Value>채팅 페이드아웃 시간</Value>
+    </Record>
+    <Record>
+      <Key>PromptResetSettingsTitle</Key>
+      <Value>설정 복구</Value>
+    </Record>
+    <Record>
+      <Key>PromptResetSettingsBody</Key>
+      <Value>계속 진행하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>PromptResetSettingsConfirm</Key>
+      <Value>복구</Value>
+    </Record>
+    <Record>
+      <Key>SteamErrorButton</Key>
+      <Value>종료</Value>
+    </Record>
+    <Record>
+      <Key>WaitingTitle</Key>
+      <Value>경고</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitTitle</Key>
+      <Value>게임 종료</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitBody</Key>
+      <Value>게임을 종료하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitConfirm</Key>
+      <Value>종료</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteTitle</Key>
+      <Value>덮어쓰기</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteBody</Key>
+      <Value>기존 파일에 덮어 씌워집니다. 계속 진행하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteConfirm</Key>
+      <Value>덮어쓰기</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishTitle</Key>
+      <Value>창작마당 업로드</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishBody</Key>
+      <Value>이 세계를 창작마당으로 업로드 하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishConfirm</Key>
+      <Value>업로드</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteTitle</Key>
+      <Value>삭제하기</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteBody</Key>
+      <Value>계속 진행하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteConfirm</Key>
+      <Value>삭제</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadTitle</Key>
+      <Value>디버그로 로딩</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadBody</Key>
+      <Value>이 맵과 함께 한 개의 캐릭터만 로딩하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadConfirm</Key>
+      <Value>디버그 확인</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnTitle</Key>
+      <Value>부활하기</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnBody</Key>
+      <Value>당신은 사망했습니다.</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnConfirm</Key>
+      <Value>부활하기</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidIP</Key>
+      <Value>{0} 잘못된 주소입니다.\n아이피나 URL을 다시 확인해주세요.</Value>
+    </Record>
+    <Record>
+      <Key>AlertPlayerCountExceeded</Key>
+      <Value>서버 접속자가 꽉 찼습니다.</Value>
+    </Record>
+    <Record>
+      <Key>AlertVersionMismatch</Key>
+      <Value>게임 버전이 서버와 일치하지 않습니다.</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoResponse</Key>
+      <Value>서버로부터 응답이 없습니다. 
+나중에 다시 시도해주세요.</Value>
+    </Record>
+    <Record>
+      <Key>AlertKicked</Key>
+      <Value>호스트로부터 강제 퇴장 당했습니다.</Value>
+    </Record>
+    <Record>
+      <Key>AlertWrongPassword</Key>
+      <Value>암호가 일치하지 않습니다.</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidPort</Key>
+      <Value>포트값은 0-65535 사이여야 합니다.</Value>
+    </Record>
+    <Record>
+      <Key>AlertCannotUpdatePort</Key>
+      <Value>서버가 작동하고 있어 포트를 업데이트할 수 없습니다.</Value>
+    </Record>
+    <Record>
+      <Key>AlertBlankSaveName</Key>
+      <Value>저장하려면 파일명을 입력하세요.</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitleAttention</Key>
+      <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitlePleaseWait</Key>
+      <Value>잠시 기다려주세요...</Value>
+    </Record>
+    <Record>
+      <Key>TooltipNeedMoreKit</Key>
+      <Value>&lt;color=red&gt;{0}이(가) 부족 합니다. &lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuSearchPlaceholder</Key>
+      <Value>서버 이름으로 검색</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuAddressPlaceholder</Key>
+      <Value>아이피:포트 형식으로 입력...</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailConnectButton</Key>
+      <Value>서버 연결</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailInfoButton</Key>
+      <Value>서버 정보</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailUnFavoriteButton</Key>
+      <Value>즐겨찾기제거</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailFavoriteButton</Key>
+      <Value>즐겨찾기추가</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuSaveWorldButton</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuOverwriteButton</Key>
+      <Value>덮어쓰기</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuNamePlaceholder</Key>
+      <Value>저장할 파일명을 입력하세요...</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeCreative</Key>
+      <Value>자유롭게 건설</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeSurvival</Key>
+      <Value>서바이벌</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListMap</Key>
+      <Value>세계</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoIPAddress</Key>
+      <Value>IP주소:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoMap</Key>
+      <Value>세계:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoVersion</Key>
+      <Value>버전:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoLatency</Key>
+      <Value>지연:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoPlayers</Key>
+      <Value>플레이어:</Value>
+    </Record>
+    <Record>
+      <Key>ChangeAppearanceTitle</Key>
+      <Value>모양 변경</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleGender</Key>
+      <Value>성별</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleFace</Key>
+      <Value>얼굴</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairStyle</Key>
+      <Value>머리</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairColor</Key>
+      <Value>머리색</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleEyeColor</Key>
+      <Value>눈색</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleSkinColor</Key>
+      <Value>피부색</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleFacialHairStyle</Key>
+      <Value>수염</Value>
+    </Record>
+    <Record>
+      <Key>SettingsStartingCondition</Key>
+      <Value>시작 조건</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleGameSettings</Key>
+      <Value>게임 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHungerRate</Key>
+      <Value>배고픔 비율</Value>
+    </Record>
+    <Record>
+      <Key>JoinWorldSortBy</Key>
+      <Value>정렬 기준</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuFiltersTitle</Key>
+      <Value>필터</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonStopRefresh</Key>
+      <Value>새로고침 중지</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuIncompatibleVersions</Key>
+      <Value>호환되지 않는 버전 숨기기</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuPasswordProtected</Key>
+      <Value>비밀번호 보호 숨기기</Value>
+    </Record>
+    <Record>
+      <Key>JoinWorldEmptyServers</Key>
+      <Value>빈 서버 숨기기</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopSubscribedModsTitle</Key>
+      <Value>Mods 구독</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopPageButton</Key>
+      <Value>창작마당 검색</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUnsubscribeButton</Key>
+      <Value>구독 취소</Value>
+    </Record>
+    <Record>
+      <Key>OpenWorkshopButton</Key>
+      <Value>창작마당 열기</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonDesc</Key>
+      <Value>So you&apos;re stuck on the moon, but it&apos;s not all bad. 
+Sure, it&apos;s cold, harsh and pretty monotonous, but at least the sun&apos;s shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
+There&apos;s even a little food and oxygen in the other crates, though it&apos;s definitely not going to last forever. Neither&apos;s your battery. 
+You better start thinking about how you&apos;re going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
+Looks like you&apos;re gonna be here a while.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSpaceDesc</Key>
+      <Value>This is Stationeers Creative Mode!
+Spawn in any item, test ideas and build bonkers stuff real fast.
+&lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
+Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
+*bugs</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableParticlesOnMenu</Key>
+      <Value>메뉴에서 파티클 비활성화</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;{0}이(가) 부족 합니다. &lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;구성 할수 없습니다&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>No other readable devices on network</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>Change to {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
+      <Value>Change to {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToFor</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInterface</Key>
+      <Value>내부</Value>
+    </Record>
+    <Record>
+      <Key>SettingsEnableClouds</Key>
+      <Value>자동저장 사용</Value>
+    </Record>
+    <Record>
+      <Key>SettingsClouds</Key>
+      <Value>자동저장 사용</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSoundFX</Key>
+      <Value>사운드</Value>
+    </Record>
+    <Record>
+      <Key>WarningControlConflict</Key>
+      <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGameMode</Key>
+      <Value>게임 포트</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldPressure</Key>
+      <Value>Preset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAppearance</Key>
+      <Value>모양 변경</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUserSpeakerMode</Key>
+      <Value>스크린모드</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeNone</Key>
+      <Value>Description</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerRequired</Key>
+      <Value>No other readable devices on network</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeNone</Key>
+      <Value>Description</Value>
+    </Record>
+    <Record>
+      <Key>SettingsP2PHostEnabled</Key>
+      <Value>자동저장 사용</Value>
+    </Record>
+    <Record>
+      <Key>ContactsTrading</Key>
+      <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>ButtonContact</Key>
+      <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>BackupMenuFileListTitle</Key>
+      <Value>뒤로</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>World Settings</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>세션 나가기</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuTitle</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuListTitle</Key>
+      <Value>저장된 세계</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravel</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonTravel</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>PromptTravelBody</Key>
+      <Value>게임을 종료하시겠습니까?</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuNamePlaceholder</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>PromptTravelConfirm</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravelNew</Key>
+      <Value>새로시작</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravelLoad</Key>
+      <Value>불러오기</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDifficulty</Key>
+      <Value>기타 설정</Value>
+    </Record>
+    <Record>
+      <Key>WorldCustomTerrainLabel</Key>
+      <Value>Terrain</Value>
+    </Record>
+    <Record>
+      <Key>BrightnessField</Key>
+      <Value>밝기</Value>
+    </Record>
+    <Record>
+      <Key>Colour</Key>
+      <Value>눈색</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereScatteringField</Key>
+      <Value>Atmospheric Scattering</Value>
+    </Record>
+    <Record>
+      <Key>TerrainFeaturesField</Key>
+      <Value>Terrain</Value>
+    </Record>
+    <Record>
+      <Key>RespawnConditionsField</Key>
+      <Value>시작 조건</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyField</Key>
+      <Value>기타 설정</Value>
+    </Record>
+    <Record>
+      <Key>PreviewAtmosphereField</Key>
+      <Value>Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>SolidTerrainColourField</Key>
+      <Value>피부색</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeTrackerDistance</Key>
+      <Value>그림자 거리</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCustomWorld</Key>
+      <Value>생성</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonCancel</Key>
+      <Value>취소</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderAutoITitle</Key>
+      <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorRed</Key>
+      <Value>눈색</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorBlue</Key>
+      <Value>눈색</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorOrange</Key>
+      <Value>Terrain</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderFlour</Key>
+      <Value>눈색</Value>
+    </Record>
+    <Record>
+      <Key>SettingsThingRenderDistance</Key>
+      <Value>그림자 거리</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderKelvinSymbol</Key>
+      <Value>예</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderPressure</Key>
+      <Value>Preset</Value>
+    </Record>
+    <Record>
+      <Key>CustomWorld</Key>
+      <Value>생성</Value>
+    </Record>
+    <Record>
+      <Key>TutorialsTitle</Key>
+      <Value>튜토리얼&lt;color=green&gt; - 새로운&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainClutter</Key>
+      <Value>Terrain</Value>
+    </Record>
+    <Record>
+      <Key>ResetInventoryTitle</Key>
+      <Value>인벤토리 스크롤 반전</Value>
+    </Record>
+    <Record>
+      <Key>ConfirmReset</Key>
+      <Value>복구</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainClutterMultiplier</Key>
+      <Value>Terrain</Value>
+    </Record>
+    <Record>
+      <Key>ResearchFilter</Key>
+      <Value>필터</Value>
+    </Record>
+    <Record>
+      <Key>ResearchTitle</Key>
+      <Value>복구</Value>
+    </Record>
+    <Record>
+      <Key>ResearchConfirm</Key>
+      <Value>확인</Value>
+    </Record>
+    <Record>
+      <Key>ResearchCancel</Key>
+      <Value>취소</Value>
+    </Record>
+    <Record>
+      <Key>ResearchAutomation</Key>
+      <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Preset</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>You need a {THING:ItemScrewdriver} to change settings</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>FPS 표시</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>플레이어:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>Gas</Key>
+      <Value>기체</Value>
+    </Record>
+    <Record>
+      <Key>Power</Key>
+      <Value>전력</Value>
+    </Record>
+    <Record>
+      <Key>Data</Key>
+      <Value>데이터</Value>
+    </Record>
+    <Record>
+      <Key>Elevator</Key>
+      <Value>엘리베이터</Value>
+    </Record>
+    <Record>
+      <Key>PowerAndData</Key>
+      <Value>전력 그리고 데이터</Value>
+    </Record>
+    <Record>
+      <Key>All</Key>
+      <Value>전체</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructToolTipText</Key>
+      <Value>해체하는데 {0}가 필요합니다.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDoubleClickDelay</Key>
+      <Value>더블 클릭 딜레이</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>서버 관리자 비밀번호</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>플레이어:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>플레이시간:</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFirstPersonHelmet</Key>
+      <Value>1인칭 헬멧</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteNextTutorial</Key>
+      <Value>다음 훈련</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMineableRenderDistance</Key>
+      <Value>그림자 거리</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnMessage</Key>
+      <Value>스폰 지점을 설정하는데 사용</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnTitle</Key>
+      <Value>스폰 지점</Value>
+    </Record>
+    <Record>
+      <Key>ControlPrimaryClickDisc</Key>
+      <Value>상호작용</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClick</Key>
+      <Value>{KEY:PrimaryAction}키를 꾹 누르세요.</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickConstructDisc</Key>
+      <Value>건설</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
+      <Value>해체</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlaceDisc</Key>
+      <Value>설치</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlantDisc</Key>
+      <Value>심기</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickHarvestDisc</Key>
+      <Value>수확</Value>
+    </Record>
+    <Record>
+      <Key>ControlPlayerMovementDisc</Key>
+      <Value>이동</Value>
+    </Record>
+    <Record>
+      <Key>ControlSwapHandsDisc</Key>
+      <Value>손 변경</Value>
+    </Record>
+    <Record>
+      <Key>TK</Key>
+      <Value>TK 시스템</Value>
+    </Record>
+    <Record>
+      <Key>Stationeers</Key>
+      <Value>스테이셔니어</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseDragDisc</Key>
+      <Value>이동 선택</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotate</Key>
+      <Value>{KEY:QuantityModifier}키를 눌러 이전 오브젝트로 변경</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotateDisc</Key>
+      <Value>자동 회전</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScroll</Key>
+      <Value>마우스 스크롤</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScrollDisc</Key>
+      <Value>아이템 선택</Value>
+    </Record>
+    <Record>
+      <Key>ControlSecondaryEatDisc</Key>
+      <Value>지구</Value>
+    </Record>
+    <Record>
+      <Key>HelmetString</Key>
+      <Value>헬멧</Value>
+    </Record>
+    <Record>
+      <Key>LightString</Key>
+      <Value>조명</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedTutorialButton</Key>
+      <Value>고급 설정</Value>
+    </Record>
+    <Record>
+      <Key>TravelCategoryKey</Key>
+      <Value>저장하기</Value>
+    </Record>
+    <Record>
+      <Key>FurnitureCategoryKey</Key>
+      <Value>사진</Value>
+    </Record>
+    <Record>
+      <Key>CartidgeCategoryKey</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
+      <Key>WeatherCategoryKey</Key>
+      <Value>기타</Value>
+    </Record>
+    <Record>
+      <Key>HandToolsCategoryKey</Key>
+      <Value>수동 도구</Value>
+    </Record>
+    <Record>
+      <Key>OrganicsCategoryKey</Key>
+      <Value>식품</Value>
+    </Record>
+    <Record>
+      <Key>LogicCategoryKey</Key>
+      <Value>No Device</Value>
+    </Record>
+    <Record>
+      <Key>PowerCategoryKey</Key>
+      <Value>반사</Value>
+    </Record>
+    <Record>
+      <Key>AppliancesCategoryKey</Key>
+      <Value>외관</Value>
+    </Record>
+    <Record>
+      <Key>AtmopshericsCategoryKey</Key>
+      <Value>Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsCategoryKey</Key>
+      <Value>재료</Value>
+    </Record>
+    <Record>
+      <Key>GasesCategoryKey</Key>
+      <Value>기체</Value>
+    </Record>
+    <Record>
+      <Key>ConstructionKitsCategoryKey</Key>
+      <Value>건설 키트</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorCategoryKey</Key>
+      <Value>제조기</Value>
+    </Record>
+    <Record>
+      <Key>OreCategoryKey</Key>
+      <Value>광석</Value>
+    </Record>
+    <Record>
+      <Key>OreCategoryKey </Key>
+      <Value>광석</Value>
+    </Record>
+    <Record>
+      <Key>PressureKeySPDA</Key>
+      <Value>Preset</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaTitle</Key>
+      <Value>스테이셔니어</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaSearch</Key>
+      <Value>복구</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaConstructWith</Key>
+      <Value>건설 키트</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaReagentsHeader</Key>
+      <Value>재료</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaAutoIgniteHeader</Key>
+      <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaConstructedFrom</Key>
+      <Value>건설</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaSlotsHeader</Key>
+      <Value>슬롯</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBuildStates</Key>
+      <Value>게임 종료</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMachineVersion</Key>
+      <Value>버전</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaGasHeader</Key>
+      <Value>기체</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFoundIn</Key>
+      <Value>사운드</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaConstructionOptions</Key>
+      <Value>건설 키트</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaModeHeader</Key>
+      <Value>게임 포트</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaLogicSlotHeader</Key>
+      <Value>논리 작성기</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaTutorialListHeader</Key>
+      <Value>튜토리얼</Value>
+    </Record>
+    <Record>
+      <Key>NutritionSPDAKey</Key>
+      <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCaution</Key>
+      <Value>배고픔 비율</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLightShadowDistance</Key>
+      <Value>그림자 거리</Value>
+    </Record>
+  </Interface>
+  <Colors>
+    <Record>
+      <Key>ColorBlue</Key>
+      <Value>파랑색</Value>
+    </Record>
+    <Record>
+      <Key>ColorGray</Key>
+      <Value>회색</Value>
+    </Record>
+    <Record>
+      <Key>ColorGreen</Key>
+      <Value>녹색</Value>
+    </Record>
+    <Record>
+      <Key>ColorOrange</Key>
+      <Value>오렌지색</Value>
+    </Record>
+    <Record>
+      <Key>ColorRed</Key>
+      <Value>빨강색</Value>
+    </Record>
+    <Record>
+      <Key>ColorYellow</Key>
+      <Value>노랑색</Value>
+    </Record>
+    <Record>
+      <Key>ColorWhite</Key>
+      <Value>흰색</Value>
+    </Record>
+    <Record>
+      <Key>ColorBlack</Key>
+      <Value>검은색</Value>
+    </Record>
+    <Record>
+      <Key>ColorBrown</Key>
+      <Value>갈색</Value>
+    </Record>
+    <Record>
+      <Key>ColorKhaki</Key>
+      <Value>카키색</Value>
+    </Record>
+    <Record>
+      <Key>ColorPink</Key>
+      <Value>분홍색</Value>
+    </Record>
+    <Record>
+      <Key>ColorPurple</Key>
+      <Value>보라색</Value>
+    </Record>
+  </Colors>
+  <Keys>
+    <Record>
+      <Key>Exclaim</Key>
+      <Value>!</Value>
+    </Record>
+    <Record>
+      <Key>DoubleQuote</Key>
+      <Value>&quot;</Value>
+    </Record>
+    <Record>
+      <Key>Hash</Key>
+      <Value>#</Value>
+    </Record>
+    <Record>
+      <Key>Dollar</Key>
+      <Value>$</Value>
+    </Record>
+    <Record>
+      <Key>LeftParen</Key>
+      <Value>Left Paren</Value>
+    </Record>
+    <Record>
+      <Key>RightParen</Key>
+      <Value>Right Paren</Value>
+    </Record>
+    <Record>
+      <Key>Asterisk</Key>
+      <Value>*</Value>
+    </Record>
+    <Record>
+      <Key>Plus</Key>
+      <Value>+</Value>
+    </Record>
+    <Record>
+      <Key>Comma</Key>
+      <Value>,</Value>
+    </Record>
+    <Record>
+      <Key>Minus</Key>
+      <Value>-</Value>
+    </Record>
+    <Record>
+      <Key>Period</Key>
+      <Value>.</Value>
+    </Record>
+    <Record>
+      <Key>Slash</Key>
+      <Value>/</Value>
+    </Record>
+    <Record>
+      <Key>Alpha0</Key>
+      <Value>0</Value>
+    </Record>
+    <Record>
+      <Key>Alpha1</Key>
+      <Value>1</Value>
+    </Record>
+    <Record>
+      <Key>Alpha2</Key>
+      <Value>2</Value>
+    </Record>
+    <Record>
+      <Key>Alpha3</Key>
+      <Value>3</Value>
+    </Record>
+    <Record>
+      <Key>Alpha4</Key>
+      <Value>4</Value>
+    </Record>
+    <Record>
+      <Key>Alpha5</Key>
+      <Value>5</Value>
+    </Record>
+    <Record>
+      <Key>Alpha6</Key>
+      <Value>6</Value>
+    </Record>
+    <Record>
+      <Key>Alpha7</Key>
+      <Value>7</Value>
+    </Record>
+    <Record>
+      <Key>Alpha8</Key>
+      <Value>8</Value>
+    </Record>
+    <Record>
+      <Key>Alpha9</Key>
+      <Value>9</Value>
+    </Record>
+    <Record>
+      <Key>Colon</Key>
+      <Value>:</Value>
+    </Record>
+    <Record>
+      <Key>Semicolon</Key>
+      <Value>;</Value>
+    </Record>
+    <Record>
+      <Key>Equals</Key>
+      <Value>=</Value>
+    </Record>
+    <Record>
+      <Key>Question</Key>
+      <Value>?</Value>
+    </Record>
+    <Record>
+      <Key>At</Key>
+      <Value>@</Value>
+    </Record>
+    <Record>
+      <Key>LeftBracket</Key>
+      <Value>Left Bracket</Value>
+    </Record>
+    <Record>
+      <Key>Backslash</Key>
+      <Value>\</Value>
+    </Record>
+    <Record>
+      <Key>RightBracket</Key>
+      <Value>Right Bracket</Value>
+    </Record>
+    <Record>
+      <Key>Underscore</Key>
+      <Value>_</Value>
+    </Record>
+    <Record>
+      <Key>BackQuote</Key>
+      <Value>Back Quote</Value>
+    </Record>
+    <Record>
+      <Key>LeftCurlyBracket</Key>
+      <Value>Left Bracket</Value>
+    </Record>
+    <Record>
+      <Key>RightCurlyBracket</Key>
+      <Value>Right Bracket</Value>
+    </Record>
+    <Record>
+      <Key>Keypad0</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+0</Value>
+    </Record>
+    <Record>
+      <Key>Keypad1</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+1</Value>
+    </Record>
+    <Record>
+      <Key>Keypad2</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+2</Value>
+    </Record>
+    <Record>
+      <Key>Keypad3</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+3</Value>
+    </Record>
+    <Record>
+      <Key>Keypad4</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+4</Value>
+    </Record>
+    <Record>
+      <Key>Keypad5</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+5</Value>
+    </Record>
+    <Record>
+      <Key>Keypad6</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+6</Value>
+    </Record>
+    <Record>
+      <Key>Keypad7</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+7</Value>
+    </Record>
+    <Record>
+      <Key>Keypad8</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+8</Value>
+    </Record>
+    <Record>
+      <Key>Keypad9</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+9</Value>
+    </Record>
+    <Record>
+      <Key>KeypadPeriod</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ .</Value>
+    </Record>
+    <Record>
+      <Key>KeypadDivide</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ /</Value>
+    </Record>
+    <Record>
+      <Key>KeypadMultiply</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ *</Value>
+    </Record>
+    <Record>
+      <Key>KeypadMinus</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ -</Value>
+    </Record>
+    <Record>
+      <Key>KeypadPlus</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ +</Value>
+    </Record>
+    <Record>
+      <Key>KeypadEnter</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ Enter</Value>
+    </Record>
+    <Record>
+      <Key>KeypadEquals</Key>
+      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
+ =</Value>
+    </Record>
+    <Record>
+      <Key>UpArrow</Key>
+      <Value>Up Arrow</Value>
+    </Record>
+    <Record>
+      <Key>DownArrow</Key>
+      <Value>Down Arrow</Value>
+    </Record>
+    <Record>
+      <Key>RightArrow</Key>
+      <Value>Right Arrow</Value>
+    </Record>
+    <Record>
+      <Key>LeftArrow</Key>
+      <Value>Left Arrow</Value>
+    </Record>
+    <Record>
+      <Key>PageUp</Key>
+      <Value>Page Up</Value>
+    </Record>
+    <Record>
+      <Key>PageDown</Key>
+      <Value>Page Down</Value>
+    </Record>
+    <Record>
+      <Key>CapsLock</Key>
+      <Value>Caps Lock</Value>
+    </Record>
+    <Record>
+      <Key>ScrollLock</Key>
+      <Value>Scroll Lock</Value>
+    </Record>
+    <Record>
+      <Key>RightShift</Key>
+      <Value>Right Shift</Value>
+    </Record>
+    <Record>
+      <Key>LeftShift</Key>
+      <Value>Left Shift</Value>
+    </Record>
+    <Record>
+      <Key>RightControl</Key>
+      <Value>Right Control</Value>
+    </Record>
+    <Record>
+      <Key>LeftControl</Key>
+      <Value>Left Control</Value>
+    </Record>
+    <Record>
+      <Key>RightAlt</Key>
+      <Value>Right Alt</Value>
+    </Record>
+    <Record>
+      <Key>LeftAlt</Key>
+      <Value>Left Alt</Value>
+    </Record>
+    <Record>
+      <Key>RightApple</Key>
+      <Value>Right Apple</Value>
+    </Record>
+    <Record>
+      <Key>RightCommand</Key>
+      <Value>Right Command</Value>
+    </Record>
+    <Record>
+      <Key>LeftCommand</Key>
+      <Value>Left Command</Value>
+    </Record>
+    <Record>
+      <Key>LeftApple</Key>
+      <Value>Left Apple</Value>
+    </Record>
+    <Record>
+      <Key>LeftWindows</Key>
+      <Value>Left Windows</Value>
+    </Record>
+    <Record>
+      <Key>RightWindows</Key>
+      <Value>Right Windows</Value>
+    </Record>
+    <Record>
+      <Key>AltGr</Key>
+      <Value>Alt Gr</Value>
+    </Record>
+    <Record>
+      <Key>SysReq</Key>
+      <Value>Sys Req</Value>
+    </Record>
+    <Record>
+      <Key>Mouse0</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+0</Value>
+    </Record>
+    <Record>
+      <Key>Mouse1</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+1</Value>
+    </Record>
+    <Record>
+      <Key>Mouse2</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+2</Value>
+    </Record>
+    <Record>
+      <Key>Mouse3</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+3</Value>
+    </Record>
+    <Record>
+      <Key>Mouse4</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+4</Value>
+    </Record>
+    <Record>
+      <Key>Mouse5</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+5</Value>
+    </Record>
+    <Record>
+      <Key>Mouse6</Key>
+      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
+6</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton0</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+0</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton1</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+1</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton2</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+2</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton3</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+3</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton4</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+4</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton5</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+5</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton6</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+6</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton7</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+7</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton8</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+8</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton9</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+9</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton10</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+10</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton11</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+11</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton12</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+12</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton13</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+13</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton14</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+14</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton15</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+15</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton16</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+16</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton17</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+17</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton18</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+18</Value>
+    </Record>
+    <Record>
+      <Key>JoystickButton19</Key>
+      <Value>&lt;size=40%&gt;Joystick&lt;/size&gt;
+19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button0</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button1</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button2</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button3</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button4</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button5</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button6</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button7</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button8</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button9</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button10</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button11</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button12</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button13</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button14</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button15</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button16</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button17</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button18</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick1Button19</Key>
+      <Value>&lt;size=40%&gt;Joystick1&lt;/size&gt;
+19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button0</Key>
+      <Value>Joystick2 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button1</Key>
+      <Value>Joystick2 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button2</Key>
+      <Value>Joystick2 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button3</Key>
+      <Value>Joystick2 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button4</Key>
+      <Value>Joystick2 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button5</Key>
+      <Value>Joystick2 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button6</Key>
+      <Value>Joystick2 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button7</Key>
+      <Value>Joystick2 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button8</Key>
+      <Value>Joystick2 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button9</Key>
+      <Value>Joystick2 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button10</Key>
+      <Value>Joystick2 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button11</Key>
+      <Value>Joystick2 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button12</Key>
+      <Value>Joystick2 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button13</Key>
+      <Value>Joystick2 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button14</Key>
+      <Value>Joystick2 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button15</Key>
+      <Value>Joystick2 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button16</Key>
+      <Value>Joystick2 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button17</Key>
+      <Value>Joystick2 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button18</Key>
+      <Value>Joystick2 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick2Button19</Key>
+      <Value>Joystick2 Button19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button0</Key>
+      <Value>Joystick3 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button1</Key>
+      <Value>Joystick3 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button2</Key>
+      <Value>Joystick3 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button3</Key>
+      <Value>Joystick3 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button4</Key>
+      <Value>Joystick3 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button5</Key>
+      <Value>Joystick3 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button6</Key>
+      <Value>Joystick3 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button7</Key>
+      <Value>Joystick3 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button8</Key>
+      <Value>Joystick3 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button9</Key>
+      <Value>Joystick3 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button10</Key>
+      <Value>Joystick3 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button11</Key>
+      <Value>Joystick3 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button12</Key>
+      <Value>Joystick3 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button13</Key>
+      <Value>Joystick3 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button14</Key>
+      <Value>Joystick3 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button15</Key>
+      <Value>Joystick3 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button16</Key>
+      <Value>Joystick3 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button17</Key>
+      <Value>Joystick3 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button18</Key>
+      <Value>Joystick3 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick3Button19</Key>
+      <Value>Joystick3 Button19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button0</Key>
+      <Value>Joystick4 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button1</Key>
+      <Value>Joystick4 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button2</Key>
+      <Value>Joystick4 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button3</Key>
+      <Value>Joystick4 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button4</Key>
+      <Value>Joystick4 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button5</Key>
+      <Value>Joystick4 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button6</Key>
+      <Value>Joystick4 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button7</Key>
+      <Value>Joystick4 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button8</Key>
+      <Value>Joystick4 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button9</Key>
+      <Value>Joystick4 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button10</Key>
+      <Value>Joystick4 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button11</Key>
+      <Value>Joystick4 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button12</Key>
+      <Value>Joystick4 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button13</Key>
+      <Value>Joystick4 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button14</Key>
+      <Value>Joystick4 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button15</Key>
+      <Value>Joystick4 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button16</Key>
+      <Value>Joystick4 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button17</Key>
+      <Value>Joystick4 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button18</Key>
+      <Value>Joystick4 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick4Button19</Key>
+      <Value>Joystick4 Button19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button0</Key>
+      <Value>Joystick5 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button1</Key>
+      <Value>Joystick5 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button2</Key>
+      <Value>Joystick5 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button3</Key>
+      <Value>Joystick5 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button4</Key>
+      <Value>Joystick5 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button5</Key>
+      <Value>Joystick5 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button6</Key>
+      <Value>Joystick5 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button7</Key>
+      <Value>Joystick5 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button8</Key>
+      <Value>Joystick5 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button9</Key>
+      <Value>Joystick5 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button10</Key>
+      <Value>Joystick5 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button11</Key>
+      <Value>Joystick5 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button12</Key>
+      <Value>Joystick5 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button13</Key>
+      <Value>Joystick5 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button14</Key>
+      <Value>Joystick5 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button15</Key>
+      <Value>Joystick5 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button16</Key>
+      <Value>Joystick5 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button17</Key>
+      <Value>Joystick5 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button18</Key>
+      <Value>Joystick5 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick5Button19</Key>
+      <Value>Joystick5 Button19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button0</Key>
+      <Value>Joystick6 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button1</Key>
+      <Value>Joystick6 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button2</Key>
+      <Value>Joystick6 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button3</Key>
+      <Value>Joystick6 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button4</Key>
+      <Value>Joystick6 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button5</Key>
+      <Value>Joystick6 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button6</Key>
+      <Value>Joystick6 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button7</Key>
+      <Value>Joystick6 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button8</Key>
+      <Value>Joystick6 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button9</Key>
+      <Value>Joystick6 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button10</Key>
+      <Value>Joystick6 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button11</Key>
+      <Value>Joystick6 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button12</Key>
+      <Value>Joystick6 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button13</Key>
+      <Value>Joystick6 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button14</Key>
+      <Value>Joystick6 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button15</Key>
+      <Value>Joystick6 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button16</Key>
+      <Value>Joystick6 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button17</Key>
+      <Value>Joystick6 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button18</Key>
+      <Value>Joystick6 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick6Button19</Key>
+      <Value>Joystick6 Button19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button0</Key>
+      <Value>Joystick7 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button1</Key>
+      <Value>Joystick7 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button2</Key>
+      <Value>Joystick7 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button3</Key>
+      <Value>Joystick7 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button4</Key>
+      <Value>Joystick7 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button5</Key>
+      <Value>Joystick7 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button6</Key>
+      <Value>Joystick7 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button7</Key>
+      <Value>Joystick7 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button8</Key>
+      <Value>Joystick7 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button9</Key>
+      <Value>Joystick7 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button10</Key>
+      <Value>Joystick7 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button11</Key>
+      <Value>Joystick7 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button12</Key>
+      <Value>Joystick7 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button13</Key>
+      <Value>Joystick7 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button14</Key>
+      <Value>Joystick7 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button15</Key>
+      <Value>Joystick7 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button16</Key>
+      <Value>Joystick7 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button17</Key>
+      <Value>Joystick7 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button18</Key>
+      <Value>Joystick7 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick7Button19</Key>
+      <Value>Joystick7 Button19</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button0</Key>
+      <Value>Joystick8 Button0</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button1</Key>
+      <Value>Joystick8 Button1</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button2</Key>
+      <Value>Joystick8 Button2</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button3</Key>
+      <Value>Joystick8 Button3</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button4</Key>
+      <Value>Joystick8 Button4</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button5</Key>
+      <Value>Joystick8 Button5</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button6</Key>
+      <Value>Joystick8 Button6</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button7</Key>
+      <Value>Joystick8 Button7</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button8</Key>
+      <Value>Joystick8 Button8</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button9</Key>
+      <Value>Joystick8 Button9</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button10</Key>
+      <Value>Joystick8 Button10</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button11</Key>
+      <Value>Joystick8 Button11</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button12</Key>
+      <Value>Joystick8 Button12</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button13</Key>
+      <Value>Joystick8 Button13</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button14</Key>
+      <Value>Joystick8 Button14</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button15</Key>
+      <Value>Joystick8 Button15</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button16</Key>
+      <Value>Joystick8 Button16</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button17</Key>
+      <Value>Joystick8 Button17</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button18</Key>
+      <Value>Joystick8 Button18</Value>
+    </Record>
+    <Record>
+      <Key>Joystick8Button19</Key>
+      <Value>Joystick8 Button19</Value>
+    </Record>
+  </Keys>
+  <Mineables>
+    <Record>
+      <Key>Iron</Key>
+      <Value>철</Value>
+    </Record>
+    <Record>
+      <Key>Ice</Key>
+      <Value>얼음</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>휘발물</Value>
+    </Record>
+    <Record>
+      <Key>Gold</Key>
+      <Value>금</Value>
+    </Record>
+    <Record>
+      <Key>Coal</Key>
+      <Value>석탄</Value>
+    </Record>
+    <Record>
+      <Key>Copper</Key>
+      <Value>구리</Value>
+    </Record>
+    <Record>
+      <Key>Uranium</Key>
+      <Value>우라늄</Value>
+    </Record>
+    <Record>
+      <Key>Silver</Key>
+      <Value>은</Value>
+    </Record>
+    <Record>
+      <Key>Nickel</Key>
+      <Value>니켈</Value>
+    </Record>
+    <Record>
+      <Key>Lead</Key>
+      <Value>납</Value>
+    </Record>
+    <Record>
+      <Key>Silicon</Key>
+      <Value>실리콘</Value>
+    </Record>
+  </Mineables>
+  <ScreenSpaceToolTips/>
+  <HelpPage/>
+  <ThingPageOverride/>
+  <HomePageButtonsOverride/>
+  <GameTip/>
+</Language>
